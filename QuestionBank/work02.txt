@@ -1,0 +1,96 @@
+1、下面选项中，可以创建 ServletConfig对象的是（）
+
+    A、客户端
+    B、浏览器
+    C、Servlet
+    D、Web容器
+参考答案：D
+2、服务器使用如下哪条语句发送数据有可能有乱码（  ）（多选）
+
+    A、response.getOutputStream().write(“中国”.getBytes(“utf-8”));
+    B、response.getWriter().write(“中国”);
+    C、response.setCharacterEncoding(“utf-8”); response.setHeader(“Content-Type”,”text/html;charset=utf-8”); response.getWriter().write(“中国”);
+    D、response.setContentType(“text/html;charset=utf-8”); response.getWriter().write(“中国”);
+参考答案：A,B
+3、下列选项中，属于sendRedirect(java.lang.String url)方法所在接口的是（  ）
+
+    A、HttpSession
+    B、HttpServletRequest
+    C、HttpServletResponse
+    D、ServletResponse
+参考答案：C
+4、认真阅读下面代码，并按要求进行作答。txt1="What a very";txt2="nice day";txt3=txt1+txt2;根据上述代码，txt3的运算结果是（    ）
+
+    A、Whataveryniceday
+    B、Whataveryniceday
+    C、Whatavery
+    D、niceday
+参考答案：A
+5、下列关于JavaWeb应用目录结构说法正确的是 （） （多选）
+
+    A、WEB-INF下资源不能被浏览器直接访问
+    B、web.xml在classes目录下
+    C、jar包可以放到WEB-INF下lib或者classes目录
+    D、jsp文件可以放入WEB-INF下，浏览器可以间接访问到它们
+参考答案：A,D
+6、在XML文档中的<!DOCTYPE dlib SYSTEM “mydtd.dtd”>语句中,关于SYSTEM的作用说法，错误的是（  ）（多选）
+
+    A、指定运行的操作系统
+    B、打开文件系统
+    C、连接本地DTD
+    D、连接公共DTD
+参考答案：A,B,D
+7、关于链入式CSS样式表，下面说法正确的是（    ）。
+
+    A、链入式CSS才是真正实现结构与样式分离的CSS书写方式
+    B、链入式CSS代码必须也在一对style标签内部
+    C、链入式CSS必须将所有CSS属性写在以.css为扩展名的外部样式表文件中
+    D、一个HTML页面只能链接一个CSS文件
+参考答案：A,C
+8、下面选项中，用于获取Cookie值的方法是（）
+
+    A、Object getValue()
+    B、String getValue ()
+    C、String getValue (String str)
+    D、Object getValue (String str)
+参考答案：B
+9、下列关于JavaWeb应用的目录结构，说法正确的有（  ）（多选）
+
+    A、JavaWeb应用中的.class文件存放在WEB-INF\classes目录或其子目录下
+    B、web.xml文件存放在WEB-INF目录下
+    C、JavaWeb应用的目录结构完全有开发人员自行决定
+    D、JavaWeb应用中的JSP文件只能存放在Web应用的根目录下
+参考答案：A,B
+10、下列选项中，能够返回与当前HttpSession对象关联的会话标识号的方法是（）
+
+    A、request.getSession();
+    B、request.getId();
+    C、session.getId();
+    D、response.getId();
+参考答案：C
+11、安装JSTL时需导入jstl.jar和standard.jar这两个JAR包。
+
+    A、对   B、错
+    √
+    ×
+参考答案：对
+12、表单提交后的数据处理程序由action属性指定。
+
+    √
+    ×
+参考答案：对
+13、ServletRequest对象被销毁时，将调用ServletRequestListener接口中的requestDestroyed ()方法。
+
+    √
+    ×
+参考答案：对
+14、链入式最大的好处是同一个CSS样式表可以被不同的HTML页面链接使用。（  ）
+
+    √
+    ×
+参考答案：对
+15、CSS样式中的选择器严格区分大小写，属性和值可以不区分大小写。
+
+    √
+    ×
+参考答案：对

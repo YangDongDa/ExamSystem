@@ -1,0 +1,101 @@
+1、HttpServletRequest接口中的getDateHeader(String name)方法的返回值类型是（  ）
+
+    A、int
+    B、java.util.Date
+    C、long
+    D、double
+参考答案：C
+2、下列选择中，哪个响应头能够使客户端访问服务器资源时采用下载窗口打开？（）
+
+    A、Content-Disposition
+    B、Content-Type
+    C、Content-Encoding
+    D、Disposition
+参考答案：A
+3、下面关于Cookie的path属性有效性的说法中，正确的是（）
+
+    A、只对当前访问路径所属的目录有效
+    B、只对当前访问路径所属的目录及其子目录有效
+    C、只对当前访问路径所属的子目录有效
+    D、只对其它目录有效（当前访问路径所属的目录及其子目录无效）
+参考答案：B
+4、阅读下面Servlet1类中的代码片段：
+
+    Servlet1：
+         
+    response.getOutputStream().write("传智".getBytes("gbk"));
+    response.getWriter().write("播客");
+    request.getRequestDispatcher("/Servlet2").forward(request,response);
+    如果使用浏览器访问Servlet1时会有什么结果（  )
+    A、浏览器输出 传智播客
+    B、浏览器输出乱码
+    C、浏览器输出播客
+    D、服务器端报错
+参考答案：D
+5、下面关于XML Schema约束文档中命名空间标准的描述，正确的是（  ）（多选）
+
+    A、一个XML中可以引入多个名称空间
+    B、可以使用xmlns来声明引用名称空间的前缀
+    C、引入的名称空间可以不指定前缀，即声明默认名称空间
+    D、不同的命名空间可以区分同名的元素
+参考答案：A,B,C,D
+6、下面状态码中，哪个用于表示客户端缓存的版本是最新的？（）
+
+    A、100
+    B、200
+    C、304
+    D、404
+参考答案：C
+7、下列选项，用于设置Filter名称的元素是（  ）
+
+    A、<filter-mapping>
+    B、<url-pattern>
+    C、<filter>
+    D、<filter-name>
+参考答案：D
+8、下面选项中，当存在Session对象直接返回，否则返回null的方法是（）
+
+    A、request.getSession();
+    B、request.getSession(true);
+    C、request.getSession(false);
+    D、response.getSession();
+参考答案：C
+9、下列选项中，用来设置单元格横跨的列数的是（ ）。
+
+    A、width
+    B、bgcolor
+    C、rowspan
+    D、colspan
+参考答案：C
+10、HttpServletResponse接口中用于设置输出内容使用的字符编码的方法是（  ）
+
+    A、setEncodingCharacter(String charset)
+    B、setEncoding(String charset)
+    C、setCharacter (String charset)
+    D、setCharacterEncoding(String charset)
+参考答案：D
+11、不可以针对不同的浏览器设置不同的CSS样式。(    )
+
+    √
+    ×
+参考答案：错
+12、在超链接中，如果暂时没有确定链接目标，通常将<a>标记的href属性值定义为“*”。（   ）
+
+    √
+    ×
+参考答案：错
+13、在传智书城注册页面提交注册信息时会触发checkForm()方法，对整个表单中的数据进行校验，提交到后台不需要再次验证。（）
+
+    √
+    ×
+参考答案：错
+14、<filedset></filedset>标记用于为表单内容分组，其配套标记<legend></legend>，用于为各个表单组定义名称。
+
+    √
+    ×
+参考答案：对
+15、Servlet的多重映射指的是同一个Servlet可以被映射成多个虚拟路径。
+
+    √
+    ×
+参考答案：对

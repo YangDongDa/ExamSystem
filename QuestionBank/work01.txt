@@ -1,0 +1,95 @@
+1、关于<p>标记，下列说法正确的是（    ）。
+
+    A、<p>标记负责给文本添加“段落”语义
+    B、<p>标记里面可以放置<img/>标记
+    C、<p>标记里面可以放置<h3>标记
+    D、<p>标记可以嵌套使用，比如<p><p></p></p>
+参考答案：A,B
+2、下列选项中，用来设置单元格背景颜色的是（ ）。
+
+    A、width
+    B、bgcolor
+    C、rowspan
+    D、colspan
+参考答案：B
+3、下列选项中，关于会话的说法正确的是（） （多选）
+
+    A、浏览器开始访问一个网站时，会话就开始了，服务器立即就会创建代表当前会话的Session
+    B、如果服务器端执行了HttpSession对象的invalidate()方法，那么这个会话被销毁
+    C、当客户端关闭浏览器进程，服务器端会探测到客户端关闭浏览器进程的行为，从而立即销毁相应的HttpSession对象
+    D、当一个会话过期，服务器端会自动销毁这个会话
+参考答案：B,D
+4、下面选项中，用于监听ServletContext域对象创建及销毁的监听器接口是（ ）
+
+    A、ServletContextListener
+    B、ServletContextAttributeListener
+    C、ServletContextBindingListener
+    D、ServletContextActivationListener
+参考答案：A
+5、text-align属性用于设置文本内容的水平对齐，其可用属性值有（    ）
+
+    A、left
+    B、right
+    C、center
+    D、middle
+参考答案：A,B,C
+6、下面隐式对象中，用于获取请求头字段的某个值的是（）
+
+    A、header
+    B、headerValue
+    C、headerValues
+    D、headerScope
+参考答案：A
+7、在下列标记中，可以写在<div>与</div>之间的是（    ）
+
+    A、<strong>
+    B、<h>
+    C、<p>
+    D、<span>
+参考答案：A,B,C,D
+8、在HttpServletRequest接口中，用于获取请求行中的协议名和版本的方法是（）
+
+    A、getMethod()
+    B、getRequestURI()
+    C、getQueryString()
+    D、getProtocol()
+参考答案：D
+9、下列选项，用于设置Filter名称的元素是（  ）
+
+    A、<filter-mapping>
+    B、<url-pattern>
+    C、<filter>
+    D、<filter-name>
+参考答案：D
+10、下面选项中，能够用于监听域对象属性增加和删除的事件监听器的是（  ）(多选)
+
+    A、实现ServletContextAttributeListener接口的类
+    B、实现ServletRequestAttributeListener接口的类
+    C、实现HttpSessionBindingListener接口的类
+    D、实现HttpSessionAttributeListener接口的类
+参考答案：A,B,D
+11、超链接是指从一个网页指向一个目标的连接关系。（   ）
+
+    √
+    ×
+参考答案：对
+12、一个完整的Servlet事件监听器包括Listener类和<listener>配置。
+
+    √
+    ×
+参考答案：对
+13、EL的headerValues对象用于返回请求头字段的所有值组成的数组。
+
+    √
+    ×
+参考答案：对
+14、ServletContext接口中定义了用于查询、增加、删除、设置ServletContext域属性的方法。
+
+    √
+    ×
+参考答案：对
+15、HttpServletResponse接口的getContextPath()方法，用于获取请求URL中属于WEB应用程序的路径，这个路径以“/”开头。
+
+    √
+    ×
+参考答案：对

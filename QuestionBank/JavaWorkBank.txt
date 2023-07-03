@@ -1,0 +1,8288 @@
+单选题
+1、 在下列属性中，用来定义文本字体颜色的是（    ）。
+(3分)
+    A、color
+    B、face
+    C、size
+    D、align
+参考答案：A
+答案说明：在<font>标记中，color为文字颜色控制属性，size为字号控制属性，face为字体控制属性，而align不是<font>标记的属性。
+2、 下面标记中，用来显示段落的标记是（    ）。
+(3分)
+    A、<h1>
+    B、<br/>
+    C、<img/>
+    D、<p>
+参考答案：D
+答案说明：<h1>标记是标题标记，<br />是换行标记，<img />是图像标记，只有<p>是段落标记。
+3、 下列有关CSS样式，说法正确的是（    ）。
+(3分)
+    A、CSS样式必须写在一对<style></style>标签内部
+    B、CSS用于设置HTML页面中的文本内容、图片的外形以及版面的布局等外观显示样式
+    C、只有外部的CSS文件才是符合结构与表现分离的特点
+    D、目前流行的CSS版本为CSS3
+参考答案：B
+答案说明：CSS通常称为CSS样式或样式表，主要用于设置HTML页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局等外观显示样式。CSS采用内嵌方式，虽然与HTML在同一个文件中，但CSS集中写在HTML文档的头部，也是符合结构与表现相分离的。目前最新的版本是CSS3，但是各个浏览器对它的支持不统一，所以流行的版本仍然是CSS2。
+4、 下列属性中，用于设置鼠标悬停时图像的提示文字的是哪一项？（    ）
+(3分)
+    A、title
+    B、alt
+    C、width
+    D、height
+参考答案：A
+答案说明：用于设置鼠标悬停时图像的提示文字的属性是title属性。
+多选题
+5、
+在编写传智书城注册页面的时候，有如下一段代码：
+<tr>
+    <td style="text-align: right">性别：</td>
+    <td colspan="2">&nbsp;&nbsp;
+       <input type="radio" name="man" value="男" checked="true" /> 男
+       <input type="radio" name="woman" value="女" /> 女
+    </td>
+</tr>
+针对上述代码，说法错误的是（）（多选）
+(2分)
+    A、checked="true"使用错误，应该改为checked="checked"
+    B、checked="true"和checked="checked"都可以
+    C、上述代码部分可以正常将填写信息提交到后台
+    D、input标签中的value值可以为空，表单提交会传入input标签后的男和女值到后台去
+参考答案：A,C,D
+答案说明：
+两个input输入框的name属性值不一致，这样会导致注册的表单信息提交到后台后数据无法正常接收，所以type="radio"类型输入框的name属性值必须保持一样；另外使用checked="true"和checked="checked"都可以默认选中。
+6、 下列选项中，属于表单控件的是（ ）。
+(2分)
+    A、单行文本输入框
+    B、密码输入框
+    C、复选框
+    D、提交按钮
+参考答案：A,B,C,D
+答案说明：表单控件包含了具体的表单功能项，如单行文本输入框、密码输入框、复选框、提交按钮、重置按钮等。
+判断题
+7、 代码“<td rowspan="3">海淀区</td>”表示的意思是将三行合并为一行。
+(2分)
+    √
+    ×
+参考答案：对
+答案说明：rowspan用来设置单元格竖跨的行数（用于合并竖直方向的单元格）。
+8、 在input控件中，当type值为text时，表示的是单行文本输入框。
+(2分)
+    √
+    ×
+参考答案：对
+答案说明：单行文本输入框的语法格式为<input type="text" />。
+单选题
+1、
+下列选择中，哪个响应头能够使客户端访问服务器资源时采用下载窗口打开？（）
+(3分)
+    A、Content-Disposition
+    B、Content-Type
+    C、Content-Encoding
+    D、Disposition
+参考答案：A
+答案说明：
+2、
+阅读下面XML代码片段：
+<lastname lang="EN">Smith</lastname>
+下面选项中能匹配lang属性的Schema约束是（  ）
+(3分)
+    A、<xs:attribute name="lang" type="xs:string"/>
+    B、<xs:attri name="lang" type="xs:string"/>
+    C、<xs:attribute name="lang" type="EN"/>
+    D、<xs:element name="lang" type="xs:time"/>
+参考答案：A
+答案说明：
+3、
+在tomcat中发布web应用myweb，定义类cn.itcast.Hello.java，Hello.class会被编译到哪个目录（）
+(3分)
+    A、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/Hello.class
+    B、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/cn/itcast/Hello.class
+    C、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/cn.itcast.Hello.class
+    D、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/cn.itcast/Hello.class
+参考答案：B
+答案说明：
+4、
+一个格式良好的XML文件的根元素个数是（   ）
+(3分)
+    A、1
+    B、2
+    C、3
+    D、4
+参考答案：A
+答案说明：
+多选题
+5、
+下面关于HTML协议的说法中，正确的是（  ）(多选)
+(2分)
+    A、HTTP是Hyper Text Transfer Protocol的缩写，即超文本传输协议。
+    B、HTTP是一种请求/响应式的协议
+    C、客户端向服务器端发送一个请求，被称作HTTP请求
+    D、服务器端接收到请求后会做出响应，称为HTTP响应
+参考答案：A,B,C,D
+答案说明：
+6、
+下面关于Schema和DTD说法，正确的是（  ）
+(2分)
+    A、Schema是XML格式约束文件，扩展名为xsd
+    B、DTD支持命名空间
+    C、Schema相对于DTD的明显区别是Schema文档本身也是XML文档，而不是像DTD一样使用自成一体的语法
+    D、Schema相对于DTD来说，具有更丰富的数据类型
+参考答案：A,C,D
+答案说明：
+判断题
+7、
+配置JAVA_HOME环境变量的具体步骤为，打开环境变量，新建JAVA_HOME参数并配置值为JDK安装目录的bin目录下。
+(2分)
+    √
+    ×
+参考答案：错
+答案说明：
+8、
+JAVAEE规定了，一个web应用下子目录的命名不能随意的，其中WEB-INF目录是必须的。
+(2分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+下面选项中，与web应用具有相同的生命周期的对象是（）
+(3分)
+    A、Servlet
+    B、ServletConfig
+    C、GenericServlet
+    D、ServletContext
+参考答案：D
+答案说明：
+2、
+下面选项中，创建Servlet类后需要在哪个配置文件中进行配置（）
+(3分)
+    A、web-config.xml
+    B、application.xml
+    C、config.xml
+    D、web.xml
+参考答案：D
+答案说明：
+3、
+下面选项中, 可用于获取Web应用的初始化参数的所有参数名的方法是（）
+(3分)
+    A、getInitParameterNames()
+    B、getInitParameter(String name)
+    C、getInitParameter()
+    D、getParameter(String name)
+参考答案：A
+答案说明：ServletContext接口基本概念
+4、
+下列选项中，哪个是web.xml中配置初始化参数的标签？（）
+(3分)
+    A、<param-init>
+    B、<init-param>
+    C、<param>
+    D、<init>
+参考答案：B
+答案说明：
+多选题
+5、
+下面选项中，能够用于监听绑定到HttpSession域中对象状态的事件监听器的是（  ）(多选)
+(2分)
+    A、实现HttpSessionListener接口的类
+    B、实现HttpSessionActivationListener接口的类
+    C、实现HttpSessionBindingListener接口的类
+    D、实现HttpSessionAttributeListener接口的类
+参考答案：B,C
+答案说明：
+6、
+下列异常中，哪些是在Servlet中重写doGet(),doPost()方法时抛出的异常（  ） 
+(2分)
+    A、ServletException
+    B、HttpServletException
+    C、HttpException
+    D、IOException
+参考答案：A,D
+答案说明：
+判断题
+7、
+统计网站当前在线人数的计数器变量count变量，应该保存在HttpSession域对象中。
+(2分)
+    √
+    ×
+参考答案：错
+答案说明：
+8、
+在web.xml中，一个 <listener>元素中可以出现多个< listener-class>子元素。
+(2分)
+    √
+    ×
+参考答案：错
+答案说明：
+单选题
+1、 阅读下面代码片段：
+Servlet1：
+                   request.setAttribute("username", "张三");
+                   String username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+                
+                   request.setAttribute("username", "李四");
+                   username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+                
+                   request.removeAttribute("username");
+                   username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+当使用浏览器访问Servlet1时控制台会输出什么结果（  ）
+(3分)
+    A、张三 张三 null
+    B、李四 李四 null
+    C、null null null
+    D、李四 null null
+参考答案：A
+答案说明：
+2、
+如果请求消息中包含有多个该指定名称的参数，getParameter()方法的返回值是（  ）
+(3分)
+    A、这些参数的所有值形成一个数组
+    B、“”
+    C、第一个参数的值
+    D、最后一个参数的值
+参考答案：C
+答案说明：
+3、
+阅读下面代码片段：
+Servlet1：
+response.setHeader(“Content-Type”,“text/html;charset=utf-8”);
+response.getOutputStream().write(“传智”.getBytes(“utf-8”));
+request.getRequestDispatcher(“/Servlet2”).forward(request,response);
+Servlet2：
+         response.getOutputStream().write(“播客”.getBytes(“utf-8”));
+当使用浏览器访问Servlet1时会什么结果（  ）
+(3分)
+    A、浏览器输出 “传智播客”均正常无乱码
+    B、浏览器输出“传智”为乱码，输出“播客”正常
+    C、浏览器输出“传智”正常，输出“播客”乱码
+    D、浏览器输出“播客”正常
+参考答案：D
+答案说明：
+4、
+阅读下面代码片段（其中login.jsp页面在webroot目录下）：
+Servlet1：
+  request.setAttribute("company", "北京传智播客教育有限公司");
+  RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+  dispatcher.forward(request, response);
+login.jsp：
+<body>
+            hello ${company}
+</body>
+当使用浏览器访问Servlet1时会什么结果（  ）
+(3分)
+    A、页面跳转失败
+    B、页面结果显示为:hello ${company};
+    C、页面跳转错误，程序出现异常 ；
+    D、正常跳转，页面显示为:hello 北京传智播客教育有限公司。
+参考答案：D
+答案说明：
+5、
+阅读下面Servlet1类中的代码片段：
+Servlet1：
+     
+response.getOutputStream().write("传智".getBytes("gbk"));
+response.getWriter().write("播客");
+request.getRequestDispatcher("/Servlet2").forward(request,response);
+如果使用浏览器访问Servlet1时会有什么结果（  )
+(3分)
+    A、浏览器输出 传智播客
+    B、浏览器输出乱码
+    C、浏览器输出播客
+    D、服务器端报错
+参考答案：D
+答案说明：
+6、
+阅读下面代码片段：
+Servlet1：
+request.setAttribute("name", "zhangsan");
+       RequestDispatcher dispatcher = request.getRequestDispatcher("/ResultServlet");
+dispatcher.forward(request, response);
+response.getWriter().write("over");
+Servlet2：
+         response.setContentType("text/html;charset=utf-8");
+         String name = (String) request.getAttribute("name ");
+         response.getWriter().println("名称：" + name);
+先使用浏览器访问Servlet1，然后将Servlet1中的forward()方法更改为include()方法再次访问Servlet1，两者输出情况的描述正确的是（  ）
+(3分)
+    A、两种方法下页面输出结果相同，都是”名称：zhangsan”
+    B、forward()方法输出结果为”名称：zhangsan”;而用include方法输出结果为”名称：zhangsan over”
+    C、forward()方法输出结果为”名称：zhangsan over”;而用include方法输出结果为”名称：zhangsan”
+    D、将forward()方法改为include方法后，页面访问程序出现异常
+参考答案：B
+答案说明：
+理解 RequestDispatcher接口中forward和include两种方法的核心区别：使用 include的servlet执行完后，再返回到原来的servlet执行response的输出，而使用forward跳转则后面的response输出则不会执行。
+7、
+下面用于设置字符流输出文本采用UTF-8编码的选项中，正确的是（  ）
+(3分)
+    A、response.setEncoding("utf-8");
+    B、response.setCharacter ("utf-8");
+    C、response.setCharacterEncoding("utf-8");
+    D、request.setCharacterEncoding("utf-8");
+参考答案：C
+答案说明：
+8、
+访问如下的URL地址：
+http://www.itcast.cn/HelloServlet?name=youjun&name=itcast&age=30
+则在HelloServlet可以得到所有参数名的方法是（  ）
+(3分)
+    A、request. getParameterMap();
+    B、request. getParameterNames();
+    C、request. getParameter ();
+    D、request. getParameterValues();
+参考答案：B
+答案说明：
+多选题
+9、
+下列选项中，属于HttpServletResponse类中发送状态码的方法是（  ）（多选）
+(2分)
+    A、setStatus(int status)
+    B、setStatus(String status)
+    C、setError(String status)
+    D、setError(int status)
+参考答案：A,D
+答案说明：
+10、
+以下哪些方法可以获取RequestDispatcher对象（）（多选）
+(2分)
+    A、RequestDispatcher dispatcher = request.getRequestDispatcher("/ResultServlet");
+    B、RequestDispatcher dispatcher =this.getServletContext().getRequestDispatcher("/ResultServlet");
+    C、RequestDispatcher dispatcher =this.getServletContext().getNamedDispatcher("/ResultServlet");
+    D、RequestDispatcher dispatcher = request.getServletContext().getRequestDispatcher("/ResultServlet");
+参考答案：A,B,C
+答案说明：
+11、
+以下关于ServletRequest接口中操作属性的方法，说法正确的是（）（多选）
+(2分)
+    A、setAttribute()方法用于将一个对象与一个名称关联后存储ServletRequest对象中
+    B、getAttribute()方法用于从ServletRequest对象中返回指定名称的属性对象
+    C、removeAttribute()方法用于从ServletRequest对象中删除指定名称的属性
+    D、getAttributeNames()方法用于返回一个包含ServletRequest对象中的所有属性名的Eumeration对象，如果在请求中没有属性，这个方法将返回null
+参考答案：A,B,C
+答案说明：
+getAttributeNames()方法返回请求中所有可用的属性的名字。如果在请求中没有属性，这个方法将返回一个空的枚举集合
+12、
+HttpServletResponse接口中可以有效解决乱码问题的方法是（  ）（多选）
+(2分)
+    A、addHeader()
+    B、setContetType()
+    C、setLoacale()
+    D、setCharacterEncoding()
+参考答案：B,C,D
+答案说明：
+判断题
+13、
+HttpServletRequest接口中的setCharacterEncoding()方法用于设置request对象获取请求参数的解码方式，它对于get与post请求都有效。
+(2分)
+    √
+    ×
+参考答案：错
+答案说明：
+14、
+在HttpServletResponse接口中，发送状态码的方法只有一个。
+(2分)
+    √
+    ×
+参考答案：对
+答案说明：
+15、
+HttpServletResponse接口的getHeader(String name)方法，用于获取一个指定头字段的值，如果没有包含指定的头字段，则返回“”。
+(2分)
+    √
+    ×
+参考答案：错
+答案说明：
+16、
+如果没有设置Content-Type头字段，那么setCharacterEncoding()方法设置的字符集编码不会出现在HTTP消息的响应头中。
+(2分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+关于一个web.xml中可以配置的监听器的个数，正确的是（）
+(1分)
+    A、0个
+    B、1个
+    C、0个或1个
+    D、0个或多个
+参考答案：D
+答案说明：
+2、
+下列选项中，用于在配置Filter映射时设置Filter类完整名称的元素是（  ）
+(1分)
+    A、<filter-class>
+    B、<url-pattern>
+    C、<filter>
+    D、<filter-name>
+参考答案：A
+答案说明：
+3、
+关于HttpSessionListener接口中的方法，HttpSession对象被销毁时将调用的方式（ ）
+(1分)
+    A、sessionCreated()
+    B、initializedSession()
+    C、destroyedSession()
+    D、sessionDestroyed()
+参考答案：D
+答案说明：
+4、
+在过滤器的doFilter方法中，能让目标资源执行的方法是（ ）
+(1分)
+    A、FilterChain.doFilter(request,response)
+    B、不用放行，过滤后目标就直接执行了
+    C、利用转发让目标资源执行
+    D、利用请求重定向让目标资源执行
+参考答案：A
+答案说明：
+5、
+下面选项中，用于释放被Filter对象打开的资源的方法是（  ）
+(1分)
+    A、init(FilterConfig config)
+    B、filter(ServletRequest req,ServletResponse resp,FilterChain chain)
+    C、destroy()
+    D、doFilter(ServletRequest req,ServletResponse resp,FilterChain chain)
+参考答案：C
+答案说明：
+6、
+下列选项中，用于匹配拦截器所过滤的URL的元素是（  ）
+(1分)
+    A、<filter-mapping>
+    B、<url-pattern>
+    C、<filter >
+    D、<filter-name>
+参考答案：B
+答案说明：
+7、
+已知，代码如下：
+request.getRequestDispatcher("/first.jsp").forward(request, response)
+如果希望Filter能够拦截first.jsp页面，那么<dispatcher>元素的取值是（ ）
+(1分)
+    A、INCLUDE
+    B、FORWARD
+    C、ERROR
+    D、REQUEST
+参考答案：B
+答案说明：
+8、
+下列关于< dispatcher >元素值ERROR的作用，描述正确的是（ ）
+(1分)
+    A、表示用户直接访问页面时，Filter将调用
+    B、目标资源通过RequestDispatcher的include()方法访问时，Filter将被调用
+    C、目标资源通过RequestDispatcher的forward()方法访问时，Filter将被调用
+    D、目标资源是通过声明式异常处理机制调用时， Filter将被调用
+参考答案：D
+答案说明：
+9、
+下面选项中，用于监听ServletContext对象中属性变更的接口是（）
+(1分)
+    A、HttpSessionAttributeListener
+    B、ServletContextAttributeListener
+    C、ServletRequestAttributeListener
+    D、ApplicationAttributeListener
+参考答案：B
+答案说明：
+10、
+下列选项，用于设置Filter名称的元素是（  ）
+(1分)
+    A、<filter-mapping>
+    B、<url-pattern>
+    C、<filter>
+    D、<filter-name>
+参考答案：D
+答案说明：
+11、
+下列关于<dispatcher>元素值FORWARD的作用，描述正确的是（ ）
+(1分)
+    A、表示用户直接访问页面时，Filter将调用
+    B、目标资源通过RequestDispatcher的include()方法访问时，Filter将被调用
+    C、目标资源通过RequestDispatcher的forward()方法访问时，Filter将被调用
+    D、目标资源是通过声明式异常处理机制调用时， Filter将被调用
+参考答案：C
+答案说明：
+12、
+下列关于<dispatcher>元素值REQUEST的作用，描述正确的是（ ）
+(1分)
+    A、表示用户直接访问页面时，Filter将调用
+    B、目标资源通过RequestDispatcher的include()方法访问时，Filter将被调用
+    C、目标资源通过RequestDispatcher的forward()方法访问时，Filter将被调用
+    D、目标资源是通过声明式异常处理机制调用时， Filter将被调用
+参考答案：A
+答案说明：
+13、
+在JSP页面中有如下代码：
+<%
+request.setAttribute("username", "itcast");
+request.setAttribute("username", "itheima");
+request.removeAttribute("username");
+%>
+在监听器实现类中，可以获得username属性值的对象是（）
+(1分)
+    A、ServletRequestAttributeEvent
+    B、HttpSessionBindingEvent
+    C、ServletContextAttributeEvent
+    D、HttpSessionAttributeListener
+参考答案：A
+答案说明：
+14、
+关于HttpSessionListener接口中的方法，HttpSession对象被创建时将调用的方法是（ ）
+(1分)
+    A、sessionCreated()
+    B、initializedSession()
+    C、destroyedSession()
+    D、sessionDestroyed()
+参考答案：A
+答案说明：
+15、
+下面选项中，哪个方法是FilterChain接口中定义的（ ）
+(1分)
+    A、public void doFilter(ServletRequest request,ServletResponse response)
+    B、public void doFilter(HttpServletRequest request,HttpServletResponse response)
+    C、public void doFilter(FilterConfig config, ServletRequest request,ServletResponse response)
+    D、public void doFilter(ServletResponse response)
+参考答案：A
+答案说明：
+16、
+在下面过滤器的配置中，当访问应用中的1.jsp时，过滤器的过滤顺序是（ ）
+<filter>
+                   <filter-name>Filter3</filter-name>
+                   <filter-class>cn.itcast.filter.Filter3</filter-class>
+         </filter>
+<filter-mapping>
+                   <filter-name>Filter3</filter-name>
+                   <url-pattern>*.jsp</url-pattern>
+         </filter-mapping>
+         <filter>
+                  <filter-name>Filter1</filter-name>
+                   <filter-class>cn.itcast.filter.Filter1</filter-class>
+         </filter>
+         <filter-mapping>
+                   <filter-name>Filter1</filter-name>
+                   <url-pattern>/*</url-pattern>
+         </filter-mapping>
+ 
+         <filter>
+                   <filter-name>Filter2</filter-name>
+                   <filter-class>cn.itcast.filter.Filter2</filter-class>
+         </filter>
+         <filter-mapping>
+                   <filter-name>Filter2</filter-name>
+                   <url-pattern>*.html</url-pattern>
+         </filter-mapping>   
+(1分)
+    A、Filter1 Filter3 Filter2
+    B、Filter2 Filter1 Filter3
+    C、Filter1 Filter3
+    D、Filter3 Filter1
+参考答案：D
+答案说明：
+17、
+下面选项中，用于初始化过滤器的方法是（  ）
+(1分)
+    A、init(FilterConfig filterConfig)
+    B、doFilter(ServletRequest req,ServletResponse resp,FilterChain chain)
+    C、destroy()
+    D、init(ServletConfig servletConfig)
+参考答案：A
+答案说明：
+18、
+已知web.xml中存在如下配置：
+<session-config>
+  <session-timeout>2</session-timeout>
+</session-config>
+则空闲状态2分钟后，HttpSessionListener中将被调用的方法是（）
+(1分)
+    A、sessionCreated()
+    B、initializedSession()
+    C、destroyedSession()
+    D、sessionDestroyed()
+参考答案：D
+答案说明：
+19、
+ServletContext对象被销毁时，将会调用ServletContextListener接口中（）
+(1分)
+    A、contextInitialized()
+    B、initializedContext()
+    C、destroyedContext()
+    D、contextDestroyed()
+参考答案：D
+答案说明：
+20、
+下面选项中，用于执行过滤器中放行操作的方法是（  ）
+(1分)
+    A、Filter接口中的doFilter()方法
+    B、FilterChain对象中的doFilter()方法
+    C、FilterConfig接口中的doFilter()方法
+    D、以上说法都不对
+参考答案：B
+答案说明：
+21、
+下面选项中，用来表示Filter链的对象是（ ）
+(1分)
+    A、Filter对象
+    B、FilterConfig对象
+    C、FilterChain对象
+    D、ServletChain对象
+参考答案：C
+答案说明：
+22、
+下面选项中，用于监听ServletRequest域对象创建及销毁的监听器接口是（ ）
+(1分)
+    A、ServletRequestAttributeListener
+    B、ServletRequestListener
+    C、HttpServletRequestListener
+    D、ServletRequestActivationListener
+参考答案：B
+答案说明：
+23、
+关于Filter链的执行顺序，是由web.xml文件中的哪个元素决定的（ ）
+(1分)
+    A、<filter>元素顺序决定
+    B、<filter-mapping>元素顺序决定
+    C、<filter-class>元素顺序决定
+    D、由过滤器类名的顺序决定
+参考答案：B
+答案说明：
+24、
+在JSP页面中有如下代码：
+<%
+session.setAttribute("username", "itcast");
+session.setAttribute("username", "itheima");
+session.removeAttribute("username");
+%>
+则能够监听其属性变化情况的监听器接口是（）
+(1分)
+    A、ServletContextAttributeListener
+    B、HttpSessionAttributeListener
+    C、ServletRequestAttributeListener
+    D、HttpServletRequestAttributeListener
+参考答案：B
+答案说明：
+25、 当为域对象中增加属性时，将调用的监听器方法是（）
+(1分)
+    A、attributeAdded()
+    B、attributeRemoved()
+    C、attributeReplaced
+    D、addedAttribute()
+参考答案：A
+答案说明：
+26、
+下面选项中，编写过滤器需要实现的接口是（  ）
+(1分)
+    A、javax.servlet.Servlet
+    B、java.servlet. Filter
+    C、javax.servlet. Listener
+    D、javax.servlet. Filter
+参考答案：D
+答案说明：
+27、
+下面方法中，用于返回<filter-name>元素设置值的方法是（ ）
+(1分)
+    A、getServletContext()
+    B、getFilterName()
+    C、getInitParameter(String name)
+    D、getInitParameterNames()
+参考答案：B
+答案说明：
+28、
+下面选项中，用于监听HttpSession对象中属性变更的接口是（）
+(1分)
+    A、HttpSessionAttributeListener
+    B、ServletContextAttributeListener
+    C、ServletRequestAttributeListener
+    D、ApplicationAttributeListener
+参考答案：A
+答案说明：
+29、
+下列选项中，用于返回Filter设置的指定初始化参数值的方法是（ ）
+(1分)
+    A、getServletContext()
+    B、getFilterName()
+    C、getInitParameter(String name)
+    D、getInitParameterNames()
+参考答案：C
+答案说明：
+30、
+下面选项中，可以充当过滤器的是（ ） 
+(1分)
+    A、Servlet
+    B、Filter
+    C、Listener
+    D、JSP
+参考答案：B
+答案说明：
+31、 当域对象中需要删除属性时，将调用的监听器方法是（）
+(1分)
+    A、attributeAdded()
+    B、attributeRemoved()
+    C、attributeDeleted()
+    D、addedAttribute()
+参考答案：B
+答案说明：
+32、
+ServletContext对象被创建时，将会调用ServletContextListener接口中（）
+(1分)
+    A、contextInitialized()
+    B、initializedContext ()
+    C、destroyedContext()
+    D、contextDestroyed()
+参考答案：A
+答案说明：
+33、
+下面选项中，可作为<listener>元素子元素的是（）
+(1分)
+    A、<listener-url>
+    B、<listener-class>
+    C、<class-listener>
+    D、<listener-name>
+参考答案：B
+答案说明：
+34、
+下面选项中，关于统计网站当前在线人数的计数器count变量应该保存的域范围是（）
+(1分)
+    A、request
+    B、session
+    C、application
+    D、page
+参考答案：C
+答案说明：
+35、
+下面选项中，用来让Filter链上的下一个Filter执行的方法是（ ）
+(1分)
+    A、service()方法
+    B、filter()方法
+    C、doFilter()方法
+    D、doGet()方法
+参考答案：C
+答案说明：
+36、
+下面对象中，封装了Filter在web.xml中的所有注册信息的是（ ）
+(1分)
+    A、javax.servlet.ServletConfig
+    B、javax.servlet.FilterConfig
+    C、javax.servlet.FilterChain
+    D、java.servlet.ServletContext
+参考答案：B
+答案说明：
+37、 当域对象中需要替换属性时，可调用的监听器方法是（）
+(1分)
+    A、attributeReplace()
+    B、attributeRemoved()
+    C、attributeDeleted()
+    D、attributeReplaced()
+参考答案：D
+答案说明：
+38、
+在JSP页面中有如下代码：
+<%
+session.setAttribute("username", "itcast");
+session.setAttribute("username", "itheima");
+session.removeAttribute("username");
+%>
+在监听器实现类中，可以获得username属性值的对象是（）
+(1分)
+    A、ServletRequestAttributeEvent
+    B、HttpSessionBindingEvent
+    C、ServletContextAttributeEvent
+    D、HttpSessionAttributeListener
+参考答案：B
+答案说明：
+39、
+下面选项中，用于监听HttpSession域对象创建及销毁的监听器接口是（ ）
+(1分)
+    A、HttpSessionAttributeListener
+    B、HttpSessionListener
+    C、HttpSessionBindingListener
+    D、HttpSessionActivationListener
+参考答案：B
+答案说明：
+40、
+FilterConfig接口中的， getInitParameterNames()方法的返回值类型是（ ）
+(1分)
+    A、String
+    B、Object
+    C、String []
+    D、Enumeration
+参考答案：D
+答案说明：
+41、
+下面选项中，属于<dispatcher>元素的默认取值的是（ ）
+(1分)
+    A、INCLUDE
+    B、FORWARD
+    C、REQUEST
+    D、ERROR
+参考答案：C
+答案说明：
+42、
+ServletRequest对象被销毁时，将会调用ServletRequestListener接口中的（ ）方法
+(1分)
+    A、requestCreated()
+    B、requestInitialized()
+    C、requestDestroyed()
+    D、destroyedRequest()
+参考答案：C
+答案说明：
+43、
+ServletRequest对象被创建时，将会调用ServletRequestListener接口中的（ ）方法
+(1分)
+    A、requestCreated()
+    B、requestInitialized()
+    C、requestDestroyed()
+    D、destroyedRequest()
+参考答案：B
+答案说明：
+44、
+已知web.xml中存在如下配置：
+<session-config>
+  <session-timeout>2</session-timeout>
+</session-config>
+下面的说法，正确的是（）
+(1分)
+    A、在空闲状态下，2秒后将导致session对象销毁
+    B、在空闲状态下，2分钟后将导致session对象销毁
+    C、在空闲状态下，2毫秒后将导致session对象销毁
+    D、在空闲状态下，2小时后将导致session对象销毁
+参考答案：B
+答案说明：
+45、
+一个Web应用程序中，Filter可以注册的次数是（ ）
+(1分)
+    A、只能是1次
+    B、只能是0次
+    C、可以是0次或1次或多次
+    D、只能是2次
+参考答案：C
+答案说明：
+46、
+下面选项中，用于在web.xml中配置监听器的元素是（）
+(1分)
+    A、<listener-url>
+    B、<url-listener>
+    C、<listener>
+    D、<listener-name>
+参考答案：C
+答案说明：
+47、
+下面选项中，用于监听ServletContext域对象创建及销毁的监听器接口是（ ）
+(1分)
+    A、ServletContextListener
+    B、ServletContextAttributeListener
+    C、ServletContextBindingListener
+    D、ServletContextActivationListener
+参考答案：A
+答案说明：
+48、
+下面选项中，用于监听ServletRequest对象中属性变更的接口是（）
+(1分)
+    A、HttpSessionAttributeListener
+    B、ServletContextAttributeListener
+    C、ServletRequestAttributeListener
+    D、ApplicationAttributeListener
+参考答案：C
+答案说明：
+49、
+在JSP页面中有如下代码：
+<%
+request.setAttribute("username", "itcast");
+request.setAttribute("username", "itheima");
+request.removeAttribute("username");
+%>
+则能够监听其属性变化情况的监听器接口是（）
+(1分)
+    A、ServletContextAttributeListener
+    B、HttpSessionAttributeListener
+    C、ServletRequestAttributeListener
+    D、HttpServletRequestAttributeListener
+参考答案：C
+答案说明：
+50、
+下面选项中，能够获取FilterConfig对象的是（ ）
+(1分)
+    A、getServletConfig()
+    B、new FilterConfig()
+    C、getFilterConfig()
+    D、初始化时容器调用init(FilterConfig config)方法注入值
+参考答案：D
+答案说明：
+51、
+下列选项中，哪个元素用于指定Filter拦截的资源被容器调用的方式（ ）
+(1分)
+    A、<filter-name>
+    B、<url-pattern>
+    C、<filter-class>
+    D、<dispatcher>
+参考答案：D
+答案说明：
+52、
+下面选项中，能够返回Filter设置的所有初始化参数名称的方法是（ ）
+(1分)
+    A、getServletContext()
+    B、getFilterName()
+    C、getInitParameter(String name)
+    D、getInitParameterNames()
+参考答案：D
+答案说明：
+53、
+下列关于<dispatcher>元素值INCLUDE的作用，描述正确的是（ ）
+(1分)
+    A、表示用户直接访问页面时，Filter将调用
+    B、目标资源通过RequestDispatcher的include()方法访问时，Filter将被调用
+    C、目标资源通过RequestDispatcher的forward()方法访问时，Filter将被调用
+    D、目标资源是通过声明式异常处理机制调用时， Filter将被调用
+参考答案：B
+答案说明：
+54、
+下列配置中，表示过滤器拦截所有用户请求访问的是（  ）
+(1分)
+    A、<url >/*</url>
+    B、<url-pattern>/*</url-pattern>
+    C、<url>/*</url>
+    D、<url-pattern>* </url-pattern>
+参考答案：B
+答案说明：
+单选题
+1、
+在c_if.jsp有如下部分代码：
+<c:if test="true" >
+            true
+  </c:if>
+  <c:else test="false" >
+            false
+  </c:else>
+对于上述代码片段说法正确的是（）
+(1分)
+    A、该页面代码部署启动时，控制台会报错
+    B、在该页面会出现编译错误，并有红叉提示
+    C、访问该页面会出现结果：true false
+    D、访问该页面时，浏览器没有任何信息显示
+参考答案：C
+答案说明：
+2、
+阅读下面的类：
+public class Book {
+ private double price;
+ public double getPrice() {
+  return price;
+ }
+ public void setPrice(double price) {
+  this.price = price;
+ }
+}
+针对以上类，下列说法正确的是（  ）
+(1分)
+    A、符合JavaBean规范
+    B、不符合JavaBean规范
+    C、没有构造方法，所以不符合JavaBean规范
+    D、以上说法都不对
+参考答案：A
+答案说明：
+3、
+下面隐式对象中，返回结果为String类型数组的是（）(单选)
+(1分)
+    A、param
+    B、paramValue
+    C、paramValues
+    D、paramScope
+参考答案：C
+答案说明：
+4、
+阅读下面代码片段：
+c_if.jsp:
+<body>
+         <c:if test="1==1" >
+                   hello world
+         </c:if>
+</body>
+当在浏览器访问该c_if.jsp时会什么结果（  ）
+(1分)
+    A、浏览器显示：hello world，控制台正常
+    B、浏览器正常，控制台显示：hello wrold
+    C、浏览器报错，控制台出现异常
+    D、浏览器空白，控制台有信息显示
+参考答案：D
+答案说明：
+c:if标签中test属性值要通过EL表达式获取true或者false来决定是否显示内容。
+5、
+下面选项中，属性married是布尔型，则默认读写属性是（  ）
+(1分)
+    A、setMarried(boolean m)、isMarried()
+    B、setmarried(boolean m)、getMarried()
+    C、setMarried(boolean m)、getMarried()
+    D、setmarried(boolean m)、ismarried()
+参考答案：A
+答案说明：
+6、
+下面隐式对象中，用于获取指定请求参数的一组值的是（）(单选)
+(1分)
+    A、param
+    B、applicationScope
+    C、paramValues
+    D、paramScope
+参考答案：C
+答案说明：
+7、
+阅读下面代码片段：
+c_ choose.jsp：
+<body>
+         <c:choose>
+            <c:when test="${empty param.username}">
+                    unKnown user.
+           </c:when>
+            <c:when test="${param.username=='itcast' }">
+                    ${ param.username} is manager.
+           </c:when>
+            <c:otherwise>
+                   ${ param.username} is employee.
+           </c:otherwise>
+           hello
+         </c:choose>
+         choose end
+</body>
+当在浏览器访问该c_ choose.jsp时会什么结果（  ）
+(1分)
+    A、浏览器显示：unKnown user. choose end，控制台正常
+    B、浏览器500错误，控制台出现异常
+    C、浏览器显示：unKnown user.，控制台正常
+    D、浏览器显示：hello choose end，控制台有信息显示
+参考答案：B
+答案说明：
+ 
+ 
+8、
+已知JSP页面中cookie信息如下：
+<% response.addCookie(new Cookie("userName", "itcast")); %>
+则下面选项中，可以获取cookie对象的名称是（）
+(1分)
+    A、${cookie.userName.name }
+    B、${cookie.name }
+    C、${cookie.userName.value }
+    D、${cookie.userName.name.value }
+参考答案：A
+答案说明：
+9、 下面选项中，可用于供外界设置javaBean的price属性的方法是（  ）
+(1分)
+    A、getPrice()
+    B、setprice()
+    C、setPrice()
+    D、getprice()
+参考答案：C
+答案说明：访问JavaBean的属性
+10、
+使用EL的pageContext对象，可以获取到的JSP对象是（）(单选)
+(1分)
+    A、page
+    B、pageScope
+    C、request
+    D、session
+参考答案：C
+答案说明：
+11、
+阅读下面代码片段：
+c_forEach.jsp:
+<body>
+         <c:forEach var="name" items="list">
+                 ${name};
+         </c:forEach>
+         <%  Map userMap = new HashMap();
+                   userMap.put("Tom", "123");%>
+         <c:forEach var="entry" items="<%=userMap%>">
+                            ${entry.key}&nbsp;${entry.value}<br />
+         </c:forEach>
+</body>
+当在浏览器访问该c_forEach.jsp时会什么结果（）
+(1分)
+    A、list; Tom 123
+    B、name; Tom 123
+    C、null; Tom 123
+    D、页面出现错误
+参考答案：A
+答案说明：
+12、
+在BeanUtils类中，能返回bean中指定属性值的方法是（  ）
+(1分)
+    A、Object getProperty(Object bean, String name)
+    B、String getProperty(Object bean, String name)
+    C、String get(Object bean, String name)
+    D、List<String> getProperties(Object bean, String name)
+参考答案：B
+答案说明：
+13、
+下面关于${(1==2)?3:4}的返回结果是（）(单选)
+(1分)
+    A、true
+    B、false
+    C、3
+    D、4
+参考答案：D
+答案说明：
+14、
+阅读下面代码片段：
+c_out.jsp:
+<%--第1个out标签 --%>
+         userName1属性的值为：
+         <c:out value="username1" default="unknown" />
+         <%--第2个out标签 --%>
+         userName2属性的值为：
+         <c:out value="username2">
+               unknown
+</c:out>
+当使用浏览器访问c_out.jsp时会什么结果（  ）
+(1分)
+    A、A. userName1属性的值为：unknown userName2属性的值为： username2
+    B、B. userName1属性的值为：username1 userName2属性的值为： username2
+    C、C. userName1属性的值为： null userName2属性的值为： null
+    D、D. userName1属性的值为：username1 userName2属性的值为： unknown
+参考答案：B
+答案说明：
+这是通过使用<c:out>标签的default属性以及标签体两种方式来设置的默认值
+15、
+下面选项，哪些是合法的EL表达式（）(单选)
+(1分)
+    A、$<request.name>
+    B、$[empty requestScope]
+    C、$(“aaa”+“bbb”)
+    D、${header[“user-agent”]}
+参考答案：D
+答案说明：
+16、
+下面选项中，与request.getAttribute(“p”);等效的EL表达式是（）(单选)
+(1分)
+    A、$<request.p>
+    B、$[requestScope.p]
+    C、$(request.p)
+    D、${requestScope.p}
+参考答案：D
+答案说明：
+17、
+下面隐式对象中，用于获取请求头字段的某个值的是（）
+(1分)
+    A、header
+    B、headerValue
+    C、headerValues
+    D、headerScope
+参考答案：A
+答案说明：
+18、
+下面选项中，属于JSP和EL都包含的隐式对象的是（）(单选)
+(1分)
+    A、page
+    B、pageScope
+    C、pageContext
+    D、request
+参考答案：C
+答案说明：
+19、
+已知JSP页面中存在如下代码：
+<% session.setAttribute("pageContext", "itcast");        %>
+${pageContext}
+则以下说法，正确的是（）(单选)
+(1分)
+    A、将出现语法错误，因为pageContext是保留字
+    B、运行时存在异常
+    C、不出现异常，输出null
+    D、不出现异常，输出pageContext对象
+参考答案：D
+答案说明：
+20、 下列有关JSTL标签库的描述，错误的是（ ）(单选)
+(1分)
+    A、JSTL标签库是由许多Web应用厂商共同制定的
+    B、JSTL标签库是由5个不同功能的标签库共同组成的
+    C、使用JSTL标签可以大大降低JSP页面的复杂度
+    D、I18N是JSTL标签库中的一个国际化/格式化标签库
+参考答案：A
+答案说明：JSTL标签库并非是由Web应用厂商共同制定的，而是由Sun公司制定的
+21、
+下面隐式对象中，用于获取指定请求参数的单个值的是（）(单选)
+(1分)
+    A、param
+    B、applicationScope
+    C、paramValues
+    D、paramScope
+参考答案：A
+答案说明：
+22、
+下面隐式对象中，获取page域中所保存数据的EL对象是（）(单选)
+(1分)
+    A、pageScope
+    B、pageContext
+    C、requestScope
+    D、pagecontext
+参考答案：A
+答案说明：
+23、
+下面选项中，属于Null常量取值的是（）(单选)
+(1分)
+    A、none
+    B、‘’
+    C、”
+    D、N
+参考答案：D
+答案说明：
+24、
+下面隐式对象中，可以获取EL其它10个隐式对象的是（）(单选)
+(1分)
+    A、pageScope
+    B、pageContext
+    C、requestScope
+    D、pagecontext
+参考答案：B
+答案说明：
+25、
+下面隐式对象中，用于获取session域中所保存数据的是（）(单选)
+(1分)
+    A、pageScope
+    B、pageContext
+    C、requestScope
+    D、sessionScope
+参考答案：D
+答案说明：
+26、
+下面选项中，哪个是BeanUtils工具中最为核心的类（）
+(1分)
+    A、IOUtils
+    B、PropertyUtils
+    C、MethodUtils
+    D、BeanUtils
+参考答案：D
+答案说明：
+27、
+下面隐式对象中，用于获取application域中所保存数据的是（）(单选)
+(1分)
+    A、pageScope
+    B、applicationScope
+    C、requestScope
+    D、sessionScope
+参考答案：B
+答案说明：
+28、
+下面选项中，如果一个javaBean属性既有getter方法，又有setter方法，则该属性为（  ）。
+(1分)
+    A、只读属性
+    B、只写属性
+    C、读写属性
+    D、只读或只写属性
+参考答案：C
+答案说明：
+29、
+已知JSP页面中有如下代码：
+<%
+   session.setAttribute(“itcast”,”itheima”);
+%>
+下面EL中，可以获取session域中名称为”itcast”的值的是（）(单选)
+(1分)
+    A、${requestScope.itcast}
+    B、${sessionScope.itcast}
+    C、${applicationScope.itcast}
+    D、${session.itcast}
+参考答案：B
+答案说明：
+30、
+下面关于BeanUtils工具的方法中，可以根据指定的名称/值对为相应的javabean属性设置值的是（）
+(1分)
+    A、push()
+    B、setProperty()
+    C、populate()
+    D、Pop()
+参考答案：C
+答案说明：
+31、
+下面选项中，用于供外界获取javaBean的price属性值的方法是（  ）
+(1分)
+    A、getPrice()
+    B、setprice()
+    C、setPrice()
+    D、getprice()
+参考答案：A
+答案说明：
+32、
+下面隐式对象中，用于获取客户端的Cookie信息的是（）
+(1分)
+    A、cookie
+    B、cookies
+    C、cookieValues
+    D、cookiesValue
+参考答案：A
+答案说明：
+33、
+已知web.xml文件中配置如下：
+<context-param>
+         <param-name>webSite</param-name>
+         <param-value>www.itcast.cn</param-value>
+</context-param>
+则下面选项中，可以获取初始化参数值的是（）
+(1分)
+    A、${initParameter.webSite}
+    B、${initParam.www.itcast.cn }
+    C、${initParam.webSite}
+    D、${cookie.webSite }
+参考答案：C
+答案说明：
+34、
+下面运算符中，优先级最高的是（）(单选)
+(1分)
+    A、[]
+    B、()
+    C、empty
+    D、or
+参考答案：A
+答案说明：
+判断题
+35、 JSTL标签库中的Core标签库的URI为http://java.sun.com/jsp/jstl/core。
+A、对   B、错
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+36、
+使用EL的pageContext隐式对象可以获取其它10个EL隐式对象。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+37、
+EL的比较运算符中的“==”是两个等号，也可只写一个等号。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+38、 JSTL标签库是由5个不同功能的标签库共同组成。
+A、对   B、错
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：JSTL标签库是由5个不同功能的标签库共同组成的，分别是Core、I18N、SQL、XML和Functions。
+39、
+使用EL表达式中的pageContext对象，可以成功的获取到了request、response、servletContext和servletConfig对象中的属性。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+40、
+使用header获取请求参数时，如果一个请求头字段有多个值，那么将返回请求头字段的最后一个值。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+41、
+EL表达式的initParam隐式对象可获取web.xml文件中配置的Servlet信息。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+42、
+EL的 param对象用于获取请求参数的某个值。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+43、
+使用EL表达式中的pageContext隐式对象，可以获取JSP页面的隐式对象。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+44、
+EL的param隐式对象代表application域中用于保存属性的Map对象。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+45、
+EL是Expression Lanaguage的缩写，它是一种简单的数据访问语言，可以简化java类中代码的编写。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+46、
+EL表达式中条件运算符用于执行某种条件判断，它类似于Java语言中的if-else语句。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+47、
+JavaBean是开发语言中一个可以重复使用的软件组件，它本质上就是一个Java类，编写类时可以随意编写。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+48、
+EL的“-”运算符既可以作为减号，也可以作为负号。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+49、
+EL表达式中的方括号运算符与点运算符的功能相同，都用于访问JSP页面中某些对象的属性。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+50、 安装JSTL时需导入jstl.jar和standard.jar这两个JAR包。
+A、对   B、错
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+51、
+EL表达式中的变量就是一个基本的存储单元。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+52、
+EL表达式中的常量又称字面量，它是不能改变的数据。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+53、
+EL的headerValues对象用于返回请求头字段的所有值组成的数组。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+54、
+EL表达式中的隐式对象与JSP中的隐式对象除了pageContext对象是它们共有的，其它隐式对象则毫不相关。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+55、
+EL表达式${userName}因为没有指明在哪个域中进行查找，所以默认在page域中查找。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+56、
+EL表达式中的变量不用事先定义就可以直接使用。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+57、
+EL表达式中的标识符可以由任意顺序的大小写字母、数字和下划线组成。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+58、
+EL的 param对象用来获取请求参数的所有值，并返回请求参数所有值组成的数组。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+59、
+EL表达式中的保留字也可以被用作EL标识符。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+60、 JSTL标签库是不需要安装的，在JSP页面中可以直接使用其中的标签。
+A、对   B、错
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：要想在JSP页面中使用JSTL，首先需要安装JSTL。
+61、
+EL表达式的cookie隐式对象用于获取客户端的Cookie信息。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+62、
+EL的applicationScope隐式对象代表session域中用于保存属性的Map对象。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+63、 Sun公司制定了一套JSTL标准标签库，它的英文全称是JavaServer Pages Standard Tag Library。
+A、对   B、错
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+64、
+EL表达式语法非常简单，都是以“${”符号开始，以“}”符号结束的。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+65、
+EL的 header对象用于获取请求头字段的某个值。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+下列选项中，哪个是application隐式对象所属的类？（）
+(1分)
+    A、ServletConfig
+    B、HttpServletResponse
+    C、HttpServletRequest
+    D、ServletContext
+参考答案：D
+答案说明：
+2、
+阅读下面代码片段：
+<body>
+<%
+       out.println("first line ");
+       response.getWriter().write("second line ");
+%> 
+</body>
+当使用浏览器访问该jsp页面时会什么结果（  ）
+(1分)
+    A、将上述代码原样输出
+    B、first line
+    C、first line second line
+    D、second line first line
+参考答案：D
+答案说明：
+out对象通过print语句写入数据后，直到整个JSP页面结束，out对象中输入缓冲区的数据（即：first line）才真正写入到Serlvet引擎提供的缓冲区中，而response.getWriter().println();语句则是直接把内容（即：second line）写入Servlet引擎提供的缓冲区中，Servlet引擎按照缓冲区中的数据存放顺序输出内容。
+3、
+阅读下面代码片段：
+Exception.jsp：
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+                            pageEncoding="UTF-8" %>
+....
+<body>
+         输出结果为：<%=(3/ 0)%>
+</body>
+error.jsp：
+         <%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" isErrorPage="true"%>
+....
+<body>
+     <%=exception.getMessage() %><br>
+</body>
+当程序启动，浏览器访问exception.jsp页面时，会有出现哪种情况（）
+(1分)
+    A、页面出现500错误，同时控制台出现异常
+    B、页面正常显示，控制台出现异常信息
+    C、页面正常显示，控制台未出现异常信息
+    D、页面出现500错误，控制台未出现异常信息
+参考答案：A
+答案说明：
+4、
+下面选项中，关于jsp文件翻译后的Servlet源码中，它所继承的父类是（）
+(1分)
+    A、HttpServlet
+    B、JspServlet
+    C、HttpJspBase
+    D、HttpBase
+参考答案：C
+答案说明：
+5、
+访问如下jsp时，浏览器得到的输出结果是（）
+ <% int i = 0; %>
+  <!--  <%  i=i+100; %>  -->
+  <%=i %>
+(1分)
+    A、0
+    B、1
+    C、11
+    D、100
+参考答案：D
+答案说明：
+6、
+下列是page指令中的一些属性，其中，用于指定线程是否安全的属性是（）
+(1分)
+    A、session
+    B、buffer
+    C、autoFlush
+    D、isThreadSafe
+参考答案：D
+答案说明：
+7、
+在JSP中，exception隐式对象所对应的类是（）
+(1分)
+    A、java.lang.Exception
+    B、java.lang.Throwable
+    C、java.lang.ExceptionThrowable
+    D、java.lang. ThrowableException
+参考答案：A
+答案说明：
+8、
+下列选项中，哪个属性可以指定JSP翻译成Servlet源文件中导入包或类？（）
+(1分)
+    A、language
+    B、extends
+    C、import
+    D、session
+参考答案：C
+答案说明：
+9、
+当用户访问JSP文件时，对于HTML标签以及文本的输出形式是（）
+(1分)
+    A、以原样方式输出
+    B、通过out.write()方法转化后输出
+    C、通过out.print()方法转化后输出
+    D、通过System.out.println()方法转化后输出
+参考答案：B
+答案说明：
+10、
+新建一个index.jsp页面（位于test项目WebContent目录下的jsp文件夹），然后将test项目发布到Tomcat中并启动项目，请问在浏览器上输入下列哪个地址可以正常访问index.jsp页面( )(在本机上并使用默认端口号)（）
+(1分)
+    A、http://localhost/test/index.jsp
+    B、http://localhost:8080/test/WebContent/index.jsp
+    C、http://localhost:8080/test/WebContent/jsp/index.jsp
+    D、http://localhost:8080/test /index.jsp
+参考答案：C
+答案说明：
+11、
+已知JSP页面中存在如下代码：
+<% session.setAttribute("pageContext", "itcast");        %>
+${pageContext}
+则以下说法，正确的是（）
+(1分)
+    A、将出现语法错误，因为pageContext是保留字
+    B、运行时存在异常
+    C、不出现异常，输出null
+    D、不出现异常，输出pageContext对象
+参考答案：D
+答案说明：
+12、
+在JSP页面中包含如下jsp代码：
+<%
+out.print(new java.util.Date().toLocaleString());
+%>
+则下面说法中，正确的是（）
+(1分)
+    A、该代码是将信息打印在客户端控制台上
+    B、该代码是将信息打印在服务器控制台上
+    C、该代码是将信息打印在客户端浏览器上
+    D、每次在客户端浏览器上访问此jsp页面，显示时间都是一样的
+参考答案：C
+答案说明：
+13、
+下列选项中，哪些是Tomcat服务器中jsp配置文件的存放目录（）
+(1分)
+    A、Tomcat安装目录\ conf\server.xml
+    B、Tomcat安装目录\ conf\web.xml
+    C、Tomcat安装目录\ webapps\web.xml
+    D、Tomcat安装目录\ conf\context.xml
+参考答案：B
+答案说明：
+14、
+下列是page指令中的一些属性，其中，用于指定一个错误页面的属性是（）
+(1分)
+    A、session
+    B、errorPage
+    C、isErrorPage
+    D、isThreadSafe
+参考答案：B
+答案说明：
+15、
+下面选项中，可以被发送到浏览器段的输出内容是（）
+<%-- 第一种 --%>
+<% //第二种 %>
+<% /*第三种 */ %>
+<!-- 第四种 -->
+(1分)
+    A、第一种
+    B、第二种
+    C、第三种
+    D、第四种
+参考答案：D
+答案说明：
+16、
+下面 pageContext对象的作用范围值中，表示Web应用程序范围的是（）
+(1分)
+    A、PAGE_SCOPE
+    B、REQUEST_SCOPE
+    C、SESSION_SCOPE
+    D、APPLICATION_SCOPE
+参考答案：D
+答案说明：
+17、
+要想在Tomcat服务器配置jsp文件，则需要在以下哪个目录中配置（）
+(1分)
+    A、Tomcat安装目录\ conf\server.xml
+    B、Tomcat安装目录\ conf\web.xml
+    C、Tomcat安装目录\ webapps\web.xml
+    D、Tomcat安装目录\ conf\context.xml
+参考答案：B
+答案说明：
+18、
+下面选项中，属于JSP模板元素的是（）
+(1分)
+    A、JAVA代码
+    B、HTML代码
+    C、JAVA注释
+    D、JSP指令
+参考答案：B
+答案说明：
+19、
+下列选项中，哪个是JSP的本质？（  ）
+(1分)
+    A、JS
+    B、Servlet
+    C、Html
+    D、Css
+参考答案：B
+答案说明：
+20、
+下面选项中，用于封装JSP中抛出的异常信息的隐式对象是（）
+(1分)
+    A、page
+    B、out
+    C、request
+    D、exception
+参考答案：D
+答案说明：
+21、
+将jsp翻译成的Servlet源码后，用户访问JSP文件时会被调用的方法是（）
+(1分)
+    A、_jspInit()
+    B、_jspDestroy()
+    C、_jspService()
+    D、Serivce()
+参考答案：C
+答案说明：
+22、
+下面选项中，哪个是JSP文件的扩展名（  ）
+(1分)
+    A、.js
+    B、.java
+    C、.html
+    D、.jsp
+参考答案：D
+答案说明：
+23、
+下列选项中，哪个是page指令中language属性的默认取值？（）
+(1分)
+    A、english
+    B、java
+    C、jsp
+    D、html
+参考答案：B
+答案说明：
+24、
+JSP文件也可以像Servlet程序一样，在下列选项中的哪个文件中进行注册和映射虚拟路径（）
+(1分)
+    A、service.xml
+    B、web.xml
+    C、server.xml
+    D、context.xml
+参考答案：B
+答案说明：
+25、
+下列选项中，page指令语法格式正确的是（）
+(1分)
+    A、<%! page 属性名= "属性值"%>
+    B、<%@ page 属性名= "属性值"%>
+    C、<%@ page 属性名:"属性值"%>
+    D、<%! page 属性名:"属性值"%>
+参考答案：B
+答案说明：
+26、
+阅读下面JSP代码片段：
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%
+  out.println("first line<br>");
+  response.getWriter().println("second line<br>");
+%> 
+上述代码的输出结果是（）
+(1分)
+    A、second line first line
+    B、first line second line
+    C、first line
+    D、second line
+参考答案：A
+答案说明：
+27、
+下面选项中，能够获取其它八个隐式对象的JSP隐式对象是（）
+(1分)
+    A、page
+    B、out
+    C、request
+    D、pageContext
+参考答案：D
+答案说明：
+28、
+下面关于JSP作用域对象的描述,错误的是（）
+(1分)
+    A、request对象可以得到请求中的参数
+    B、session对象可以保存用户信息
+    C、application对象可以被多个应用共享
+    D、作用域范围从小到大是request、session、application
+参考答案：C
+答案说明：
+29、
+阅读下面2个JSP页面中的代码，
+    <%
+        out.println(session.getAttribute("itcast"));
+    %>
+    <%
+        session.invalidate();
+        out.println(session.getAttribute("itcast "));
+    %>
+假定session中没有任何属性，输出的结果是（）
+(1分)
+    A、null, 异常信息
+    B、null, null
+    C、异常信息，异常信息
+    D、异常信息，null
+参考答案：A
+答案说明：
+30、
+下面关于JSP文件注册和映射虚拟路径的说法中，正确的是（）
+(1分)
+    A、只需将<servlet-class>元素修改为<jsp-file>元素即可
+    B、只需将<servlet-name>元素修改为<jsp-file>元素即可
+    C、只需将<url-pattern>元素修改为<jsp-file>元素即可
+    D、与原来配置一样，<servlet-class>中直接写jsp文件所在地址就可以
+参考答案：A
+答案说明：
+31、
+阅读下面JSP代码片段：
+<%@ page language="java" contentType="text/html; charset=UTF-8" buffer=”none” %>
+<%
+  out.println("first line<br>");
+  response.getWriter().println("second line<br>");
+%> 
+上述代码的输出结果是（）
+(1分)
+    A、second line first line
+    B、first line second line
+    C、first line
+    D、second line
+参考答案：B
+答案说明：
+32、
+下列是page指令中的一些属性，其中，用于告知客户端浏览器采用什么文档类型的属性是（）
+(1分)
+    A、session
+    B、contentType
+    C、content
+    D、isThreadSafe
+参考答案：B
+答案说明：
+33、
+下列选项中，关于page指令用法的描述，错误的是（）
+(1分)
+    A、<%@ page %>作用于整个JSP页面
+    B、可以在一个页面中使用多个<%@ page %>指令
+    C、为增强程序的可读性，建议将<%@ page %>指令放在JSP文件的开头，但不是必须的
+    D、<%@ page %>指令中的属性只能出现一次
+参考答案：D
+答案说明：
+34、
+在JSP页面中有如下代码：
+<%@page import="java.util.Date"%>
+<%@page import="java.io.*"%>
+下面选项中，与之功能相同的是（）
+(1分)
+    A、<%@page import="java.util.Date java.io.*"%>
+    B、<%@page import="java.util.Date;java.io.*"%>
+    C、<%@page import="java.util.Date,java.io.*"%>
+    D、<%@page import="java.util.Date!java.io.*"%>
+参考答案：C
+答案说明：
+35、
+在JSP中， out隐式对象所对应的类是（）
+(1分)
+    A、Writer
+    B、PrintWriter
+    C、JspWriter
+    D、Print
+参考答案：C
+答案说明：
+36、
+hello.jsp文件的路径是WebRoot/hello/hello.jsp，
+则在应用helloapp中，浏览器端访问hello.jsp的URL是 （）
+(1分)
+    A、http://localhost:8080/hello.jsp
+    B、http://localhost:8080/helloapp/hello.jsp
+    C、http://localhost:8080/helloapp/hello/hello.jsp
+    D、http://localhost:8080/hello/hello.jsp
+参考答案：C
+答案说明：
+37、
+JSP隐式对象pageContext所对应的类是（）
+(1分)
+    A、javax.servlet.http.PageContext
+    B、javax.servlet.jsp.PageContext
+    C、javax.servlet.http.jsp.PageContext
+    D、javax.servlet.jsp.http.PageContext
+参考答案：B
+答案说明：
+38、
+下面选项中，属于JSP和EL都包含的隐式对象的是（）
+(1分)
+    A、page
+    B、pageScope
+    C、pageContext
+    D、request
+参考答案：C
+答案说明：
+39、
+下面选项中，属于pageContext提供的用于从四个域对象中查找属性的方法是（）
+(1分)
+    A、setAttribute
+    B、getAttribute
+    C、removeAttribute
+    D、findAttribute
+参考答案：D
+答案说明：
+40、
+阅读下面代码：
+Servlet1：
+response.getOutputStream().write(“aaa”.getBytes());
+request.getRequestDispatcher(“/jsp1.jsp”).forward(request,response);
+jsp1.jsp:
+bbb
+当浏览器访问Servlet1时，输出的结果是（）
+(1分)
+    A、服务器不报错，浏览器输出aaabbb
+    B、服务器不报错，浏览器输出bbbaaa
+    C、服务器不报错，浏览器输出bbb
+    D、服务器报错
+参考答案：D
+答案说明：
+41、
+下面选项中，用于向客户端发送文本形式实体内容的JSP隐式对象是（）
+(1分)
+    A、response
+    B、out
+    C、request
+    D、print
+参考答案：B
+答案说明：
+42、
+下面关于include指令的语法格式中，正确的是()
+(1分)
+    A、<%@ include path="relativeURL"%>
+    B、<%@ include file="relativeURL"%>
+    C、<%# include path="relativeURL"%>
+    D、<%# include file="relativeURL"%>
+参考答案：B
+答案说明：
+43、
+在jsp文件中有如下代码：
+<%@ page language="java" contentType="text/html; charset=UTF-8" errorPage="error.jsp"%>
+<%
+int a=1/0;
+%>
+下列关于程序执行结果的描述中，正确的是（）
+(1分)
+    A、正常显示
+    B、出现500错误
+    C、转发到error.jsp页面
+    D、重定向到eror.jsp页面
+参考答案：C
+答案说明：
+44、
+jsp文件翻译后的Servlet源码和class文件所存放的目录是（）
+(1分)
+    A、Tomcat安装目录/conf/Catalina/localhost/应用名/
+    B、Tomcat安装目录/work/Catalina/localhost/应用名/
+    C、Tomcat安装目录/lib/Catalina/localhost/应用名/
+    D、Tomcat安装目录/webapps/Catalina/localhost/应用名/
+参考答案：B
+答案说明：
+45、
+下列选项中，哪个属性可以指明编译JSP文件时所继承的类?（）
+(1分)
+    A、language
+    B、extends
+    C、import
+    D、session
+参考答案：B
+答案说明：
+46、
+下列选项中，哪个是JSP配置注册和映射虚拟路径的文件？
+(1分)
+    A、service.xml
+    B、context.xml
+    C、server.xml
+    D、web.xml
+参考答案：D
+答案说明：
+47、
+使用EL的pageContext对象，可以获取到的JSP对象是（）
+(1分)
+    A、page
+    B、pageScope
+    C、request
+    D、session
+参考答案：C
+答案说明：
+48、
+下面关于JSP声明的描述中，错误的是（）
+(1分)
+    A、一次可声明多个方法
+    B、一个声明仅在一个页面中有效
+    C、声明的方法可以直接使用JSP内置对象
+    D、声明可以放在JSP的任何位置
+参考答案：C
+答案说明：
+49、
+下列是page指令中的一些属性，其中，用于指明是否运行缓存的属性是（）
+(1分)
+    A、session
+    B、buffer
+    C、autoFlush
+    D、isThreadSafe
+参考答案：C
+答案说明：
+50、
+下面选项中，关于JSP文件注册和映射虚拟路径的配置，正确的是（）
+(1分)
+    A、<servlet> <servlet-name>SimpleJspServlet</servlet-name> <servlet-class>/simple.jsp</ servlet-class > </servlet> <servlet-mapping> <servlet-name>SimpleJspServlet</servlet-name> <url-pattern>/itcast</url-pattern> </servlet-mapping>
+    B、<servlet> <servlet-name>SimpleJspServlet</servlet-name> <jsp-file>/simple.jsp</jsp-file> </servlet> <servlet-mapping> <servlet-name>SimpleJspServlet</servlet-name> <url-pattern>/itcast</url-pattern> </servlet-mapping>
+    C、<servlet> <servlet-name>SimpleJspServlet</servlet-name> <servlet-class>/simple.jsp</ servlet-class > </servlet> <servlet-mapping> <servlet-name>SimpleJspServlet</servlet-name> <url-pattern>/simple.jsp </url-pattern> </servlet-mapping>
+    D、<servlet> <servlet-name>SimpleJspServlet</servlet-name> <jsp-file>/ SimpleJspServlet</jsp-file> </servlet> <servlet-mapping> <servlet-name>SimpleJspServlet</servlet-name> <url-pattern>/itcast</url-pattern> </servlet-mapping>
+参考答案：B
+答案说明：
+51、
+下面关于JSP注释的说法中，正确的是（）
+(1分)
+    A、JSP注释语法格式：<!-- 注释信息 -->
+    B、JSP注释不会发送到客户端
+    C、JSP注释会在服务器端翻译
+    D、JSP注释与HTML注释是一样的
+参考答案：B
+答案说明：
+52、
+下列是page指令中的一些属性，其中，用于指明是否内置Session对象的属性是（）
+(1分)
+    A、language
+    B、extends
+    C、import
+    D、session
+参考答案：D
+答案说明：
+53、
+下列选项中，哪个是正确的JSP注释格式？（）
+(1分)
+    A、<!-- 注释信息 -->
+    B、<%! 注释信息 %>
+    C、<%= 注释信息 %>
+    D、<%-- 注释信息 --%>
+参考答案：D
+答案说明：
+54、
+下面选项中，处理以.jsp为扩展名的URL访问请求的是（）
+(1分)
+    A、JspServlet
+    B、HttpJspBase
+    C、JspSourceDependent
+    D、HttpServlet
+参考答案：A
+答案说明：
+55、
+访问如下jsp页面将会出现什么输出：（）
+<%@ page session="false"%>
+       <%
+                session.setAttribute("name","itcast");
+                   application.setAttribute("name","itheima");
+        %>
+        <%= session.getAttribute(“name”) %>
+(1分)
+    A、itcast
+    B、itheima
+    C、无输出
+    D、Jsp不能被正确翻译，访问时服务器报错
+参考答案：D
+答案说明：
+56、
+阅读下列JSP代码片断：
+<% int x=5;  %>
+<%! private int m(int a){ return a+1;} %>
+<% x=3;      %>
+x=<%=x%>,<%=m(x)%>
+其运行结果是（ ）
+(1分)
+    A、x=3,6
+    B、x=3,4
+    C、x=5,4
+    D、编译错误
+参考答案：B
+答案说明：
+57、
+下列选项中，关于page指令中指明需要内置Session对象的设置是（）
+(1分)
+    A、session=”false”
+    B、session=”0”
+    C、session=”1”
+    D、session=”true”
+参考答案：D
+答案说明：
+判断题
+58、
+使用EL表达式中的pageContext隐式对象，可以获取JSP页面的隐式对象。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+59、
+用户每次访问JSP页面时，该页面都会被JspServlet翻译成一个Servlet源文件，然后将源文件编译为.class文件。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+60、
+EL表达式中的隐式对象与JSP中的隐式对象除了pageContext对象是它们共有的，其它隐式对象则毫不相关。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+61、
+JSP本质是一个Servlet，但却不要去做相应的配置信息，是因为在Tomcat服务器的web.xml文件中已帮助我们实现了JSP的相关配置。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+62、
+JSP文件与html文件一样，在编写好后都可以直接在浏览器中运行。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+63、
+EL表达式中的隐式对象与JSP中的隐式对象除了pageContext对象是它们共有的，其它隐式对象则毫不相关。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+64、
+使用EL表达式中的pageContext对象，可以成功的获取到了request、response、servletContext和servletConfig对象中的属性。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+65、
+在处理JSP页面的异常时，如果page指令的errorPage属性和web.xml文件中的<error-page>元素都进行了配置，那么这两项配置都会起作用。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+66、
+page指令的属性中，所有的属性都只能出现一次，否则会编译失败。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+67、
+以.jsp为扩展名的URL访问请求都是由org.apache.jasper.servlet.JspServlet处理，所以，Tomcat中的JSP引擎就是这个Servlet程序。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+68、
+Include指令用于静态包含一个文件，它的file属性只能取相对路径。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+69、
+Tomcat在将JSP页面翻译成Servlet程序时，会忽略JSP注释的内容，不会将注释信息发送到客户端。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+70、
+JSP全名是Java Server Page，它是一套全新的技术，与Servlet完全没有任何联系。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+71、
+JSP隐式对象out可以通过response.getWriter()方式获取，然后再通过println()或者write()方法向页面发送文本内容。（）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+out对象的类型为JspWriter，是通过pageContext对象的getOut()方法返回的，与ServletResponse.getWriter()方法返回的PrintWriter对象十分相似。
+72、
+JSP模版元素定义了网页的基本骨架，即定义了页面的结构和外观。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+73、
+page指令的autoFlush属性为true时，使用out.println()等输出的字符串将会存在缓冲区中，缓存满或者程序执行完毕或执行out.flush()操作才会到客户端。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+单选题
+1、
+阅读下面代码：
+Person 类：
+public class Person {
+         private String name;
+ 
+         public String getName() {
+                   return name;
+         }
+ 
+         public void setName(String name) {
+                   this.name = name;
+         }
+}
+Servlet1:
+request.getSession().setAttribute("name","zhangsan");
+Person p = new Person();
+p.setName("lisi");
+request.getSession().setAttribute("person",p);
+Servlet2:
+String name1 =  (String)request.getSession().getAttribute("name");
+         Person p = (Person)request.getSession().getAttribute("person");
+         response.getWriter().write(name1);
+         if(p!=null)response.getWriter().write(p.getName());
+浏览器先访问Servlet1，再去访问Servlet2，输出的结果是：（）
+(1分)
+    A、zhangsanlisi
+    B、zhangsan
+    C、lisi
+    D、服务器重启时报错
+参考答案：A
+答案说明：
+2、
+下面选项中，能够实现将用户会话中的“counter”计数器的值增加1的选项是（）
+(1分)
+    A、HttpSession session = request.getSession(true); int ival = session.getAttribute(“counter”); if(ival == null){ ival = 1; }else{ Ival = ival + 1; } session.setAttribute (“counter”, ival);
+    B、HttpSession session = request.getSession (true); Integer ival = (Integer) session.getAttribute (“counter”); Session.setAttribute (“counter”, ival + 1);
+    C、HttpSession session = request.getSession (true); Integer ival = (Integer) session.getAttribute (“counter”); if(ival == null){ Ival = new Integer (1); } else { Ival = new Integer (ival.intValue () + 1); } session.setAttribute (“counter”, ival);
+    D、HttpSession session = request.getSession (); int ival = session.getAttribute(“counter”); if (ival == null){ ival = 1; } else { ival = ival + 1; }session.setAttribute (“counter”, new Integer (ival));
+参考答案：C
+答案说明：
+3、
+下列选项中，重写URL的方法encodeURL(String url)所在的接口是（）
+(1分)
+    A、HttpServletRequest
+    B、HttpSession
+    C、ServletContext
+    D、HttpServletResponse
+参考答案：D
+答案说明：
+4、
+阅读下面代码：
+Book book = BookDB.getBook(id);
+HttpSession session = req.getSession();
+List<Book> cart = (List) session.getAttribute("cart");
+if (cart == null) {
+cart = new ArrayList<Book>();
+session.setAttribute("cart", cart);
+}       
+cart.add(book);
+下面选项中，哪个是对上述代码功能的正确描述？（）
+(1分)
+    A、实现不同用户的不同浏览器之间共享同一个购物车中的数据
+    B、实现不同的应用程序之间共享同一个购物车中的数据
+    C、实现放在不同web容器中的不同应用程序共享同一个购物车中的数据
+    D、实现了每个不同的浏览器都有自己对应的一个购物车，来实现数据共享
+参考答案：D
+答案说明：
+5、
+下列选项中，用于对超链接和form表单中的action属性中设置的URL进行重写的方法是（）
+(1分)
+    A、encodeURL(String url)
+    B、encodeRedirectURL(String url)
+    C、encodeForwardURL(String url)
+    D、encodeRedirect (String url)
+参考答案：A
+答案说明：
+多选题
+6、
+下列关于URL重写的描述中，正确的是 （） （多选）
+(1分)
+    A、如果浏览器没有禁用cookie,那么在浏览器中访问时就不会重写URL
+    B、如果浏览器禁用cookie了，那么浏览器每次访问时都会重写URL
+    C、如果浏览器没有禁用cookie,那么在浏览器只在第一次访问时才会重写URL，以后每次访问时都不会重写URL
+    D、不管浏览器是否禁用cookie，都一定要重写URL
+参考答案：B,C
+答案说明：
+7、
+下列选项，生成一次性验证码所用到的主要类和接口的是 （） （多选）
+(1分)
+    A、BufferedImage
+    B、ImageIO
+    C、Graphic
+    D、IOImage
+参考答案：A,B,C
+答案说明：
+8、
+下列选项中，属于URL重写的方法是（）  （多选）
+(1分)
+    A、encodeURL(String url)
+    B、encodeRedirectURL(String url)
+    C、encodeForwardURL(String url)
+    D、encodeRedirect (String url)
+参考答案：A,B
+答案说明：
+9、
+下列关于URL重写的描述中，正确的是（） （多选）
+(1分)
+    A、URL重写可以在URL地址后跟上JSESSIONID，浏览器即使禁用cookie也能在访问服务器时带回JSESSIONID的值，从而可以使用session
+    B、response.encodeRedirectURL(java.lang.String url)和response. encodeURL(java.lang.String url)都可以实现URL重写。
+    C、URL重写不需要对所有地址都重写。
+    D、response. encodeURL(java.lang.String url)一旦发现浏览器带来了任何cookie信息就认为浏览器没有禁用cookie，就不会再对传入的URL进行URL重写了
+参考答案：A,B,D
+答案说明：
+10、
+下面关于URL重写的说法中，正确的是（） （多选）
+(1分)
+    A、URL重写可以解决浏览器禁用cookie导致的Session无法使用的问题
+    B、URL重写会将sessionID附加在重写的URL后，当用户点击该超链接访问服务器时，request.getSession()方法可以从请求URL中分析出sessionID从而找到对应的Session
+    C、如果服务器发现浏览器并没有禁用cookie，那么URL重写操作将不再进行
+    D、调用URLEncoder.encode()方法可以进行URL重写操作
+参考答案：A,B,C
+答案说明：
+11、
+下列选项中，适合将信息存入Session的是 （） （多选）
+(1分)
+    A、用户登录信息
+    B、验证码
+    C、购物车
+    D、聊天室
+参考答案：A,B,C
+答案说明：
+判断题
+12、
+一次性验证码可以限制人们使用软件来暴力猜测密码，从而保证了用户信息的安全。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+13、
+当浏览器禁用cookie后，原来已实现的关于session的应用程序，不会受到影响依然可以运行。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+14、
+无论浏览器是否支持Cookie，服务器都会在第一次响应的页面中对URL地址进行重写。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+下面选项中，可以获取到代表当前会话的Session对象的方法是（）
+(1分)
+    A、request.getSession();
+    B、request.getSession(false);
+    C、new HttpSession();
+    D、HttpSession.newInstance(request);
+参考答案：A
+答案说明：
+2、
+下面选项中，用于判断当前HttpSession对象是否是新创建的方法是（）
+(1分)
+    A、request. isNew();
+    B、request. isTrue()
+    C、response. isTrue();
+    D、session. isNew();
+参考答案：D
+答案说明：
+3、
+下面选项中，用于设置当前HttpSession对象可空闲的以秒为单位的最长时间的方法是（）
+(1分)
+    A、request. setMaxInactiveInterval ();
+    B、request. getCreationTime();
+    C、response. setMaxInactiveInterval ();
+    D、session. setMaxInactiveInterval ();
+参考答案：D
+答案说明：
+4、
+下面选项中，用于返回客户端最后一次发送与Session相关请求的时间，的方法是（）
+(1分)
+    A、request.getSession();
+    B、request. getCreationTime();
+    C、session. getLastAccessedTime();
+    D、response. getLastAccessedTime();
+参考答案：C
+答案说明：
+5、
+下面选项中，用于强制使Session对象无效的方法是（）
+(1分)
+    A、request. invalidate ();
+    B、session. validate ();
+    C、response. invalidate ();
+    D、session. invalidate ();
+参考答案：D
+答案说明：
+6、
+下列选项中，能够返回与当前HttpSession对象关联的会话标识号的方法是（）
+(1分)
+    A、request.getSession();
+    B、request.getId();
+    C、session.getId();
+    D、response.getId();
+参考答案：C
+答案说明：
+7、
+下面选项中，用于返回当前HttpSession对象所属于的WEB应用程序对象的方法是（）
+(1分)
+    A、request. getServletContext ();
+    B、session. getServletContext ();
+    C、response. getServletContext ();
+    D、session. getApplication ();
+参考答案：B
+答案说明：
+8、
+下面选项中，用于返回Session创建的时间的方法是（）
+(1分)
+    A、request.getSession();
+    B、request. getCreationTime();
+    C、session. getCreationTime();
+    D、response. getCreationTime();
+参考答案：C
+答案说明：
+9、
+下列选项中，关于session保存数据的位置，说法正确的是（）
+(1分)
+    A、数据保存在客户端
+    B、数据保存在服务器端
+    C、数据保存在客户端与服务器端各一份
+    D、以上说法都不对
+参考答案：B
+答案说明：
+10、
+若想结束或关闭HttpSession对象，下列做法中错误的是（）
+(1分)
+    A、关闭浏览器
+    B、调用HttpSession的invalidate()方法
+    C、调用HttpSession的removeAttribute(String name)方法
+    D、两次访问时间间隔大于定义的非活动时间间隔
+参考答案：C
+答案说明：
+11、
+下面选项中，关于获得HttpSession对象的说法正确的是（）
+(1分)
+    A、用new语句创建一个HttpSession对象
+    B、调用ServletRequest对象的getSession()方法
+    C、调用ServletConfig对象的getSession()方法
+    D、以上说法都不对
+参考答案：B
+答案说明：
+12、
+阅读web.xml中下面配置代码：
+<session-config>
+    <session-timeout>30</session-timeout>
+</session-config>             
+可以得知，Tomcat服务器的默认会话超时时间是（）
+(1分)
+    A、30秒
+    B、30分钟
+    C、30毫秒
+    D、30小时
+参考答案：B
+答案说明：
+13、
+给定servletA的代码片段如下所示：
+public void doPost(HttpServletRequestrequest,
+HttpServletResponse response)  throws
+                        ServletException,IOException{
+String id="itcast";
+______________________
+}       
+Servlet B与servlet A同在一个有效的会话范围内，当把请求转发给Servlet B后，使B能够获得“itcast”值，下划线处应填入（ ）。
+(1分)
+    A、request.getSession().setAttribute("ID",id)；
+    B、request.getSession().getAttribute("ID",id)；
+    C、request.getSession().setParameter("ID",id)；
+    D、request.getSession().getParameter("ID",id)；
+参考答案：A
+答案说明：
+14、
+在Java EE中，定义了getSession()方法的接口是（）
+(1分)
+    A、HttpServlet
+    B、HttpSession
+    C、HttpServletRequest
+    D、HttpServletResponse
+参考答案：C
+答案说明：
+15、
+若想修改Tomcat服务器的默认会话时间，则需要进入下列哪个文件中修改？（）
+(1分)
+    A、在<tomcat安装目录>\conf\context.xml文件中修改
+    B、在<tomcat安装目录>\conf\web.xml文件中修改
+    C、在<tomcat安装目录>\conf\server.xml文件中修改
+    D、在<tomcat安装目录> \conf\当前应用\web.xml文件中修改
+参考答案：B
+答案说明：
+16、
+下面选项中，当存在Session对象直接返回，否则返回null的方法是（）
+(1分)
+    A、request.getSession();
+    B、request.getSession(true);
+    C、request.getSession(false);
+    D、response.getSession();
+参考答案：C
+答案说明：
+17、
+下列关于Cookie和Session的描述中，错误的是（）
+(1分)
+    A、Cookie和HttpSession是保存会话相关数据的技术，其中Cookie将信息存储在浏览器端是客户端技术，Session将数据保存在服务器端是服务器端技术
+    B、HttpSession会话对象的默认保持时间可以修改
+    C、HttpSession默认是基于Cookie运作的
+    D、浏览器可以接受任意多个Cookie信息保存任意长的时间。
+参考答案：D
+答案说明：
+多选题
+18、
+给定一个Servlet的代码片段如下所示
+Public void doGet（HttpServletRequest request，HttpServletResponse resonse）throws ServletException，IOException{
+         ArrayList list=new ArrayList();
+         HttpSession session =request.getSession();
+Session.setAttribute(“list”,list);          
+_________________________
+}       
+要取出session中的值，下划线处的代码可以是（） （多选）
+(1分)
+    A、Object o=session.getAttribute(“list”);
+    B、Object o=(ArrayList)session.getParameter(“list”);
+    C、ArrayList list2=(ArrayList)session.getAttribute(“list”);
+    D、ArrayList list2=session.getParameter(“list”)
+参考答案：A,C
+答案说明：
+19、
+下面关于HttpSession的说法，正确的是（） （多选）
+(1分)
+    A、Servlet容器负责创建HttpSession对象
+    B、每个HttpSession对象都有唯一的ID
+    C、客户端浏览器负责为HttpSession分配唯一的ID
+    D、HttpSession对象的ID值,由程序进行分配
+参考答案：A,B
+答案说明：
+20、
+下列说法中正确的是（） （多选）
+(1分)
+    A、Cookie是基于HTTP协议中的Set-Cookie响应头和Cookie请求头进行工作的
+    B、浏览器对Cookie具有严格的限制，一个网站能在浏览器中保存多少Cookie是有限制的
+    C、默认情况下HttpSession是基于一个名称为JSESSIONID 的特殊Cookie工作的
+    D、一个浏览器可能保存着多个名称为JSESSIONID的Cookie
+参考答案：A,B,C,D
+答案说明：
+21、
+下列选项中,关于HttpSession的说法,正确的是（） （多选）
+(1分)
+    A、HttpSession.getAttribute(String param)方法的返回类型是Object
+    B、HttpSession.getAttribute(String param)方式的返回类型是String
+    C、调用HttpSession的setAttribute(“key”,”value”)方法时，如果这个会话中对应键key已经有一个值，就会导致抛出异常
+    D、调用HttpSession的setAttribute(“key”,”value”)方法时，如果这个会话中对应键key已经有一个值，就会用新值替换原先的值
+参考答案：A,D
+答案说明：
+22、
+下面关于HttpSession的说法中，正确的是（） （多选）
+(1分)
+    A、Servlet容器负责创建HttpSession对象
+    B、每个HttpSession对象都有唯一的ID
+    C、客户端浏览器负责为HttpSession分配唯一的ID
+    D、HttpSession对象的ID值，由程序员进行分配
+参考答案：A,B
+答案说明：
+23、
+给定一个Servlet的代码片段如下所示：
+public void doGet(HttpServletRequest request,
+ HttpServletResponse response) throws ServletException, IOException{
+         String str = "world";
+         HttpSession session = request.getSession();
+         session.setAttribute("str", str);
+         ___________________
+}       
+要取出session中的值，下划线处的代码可以是（） （多选）
+(1分)
+    A、String s = session.getParameter("str");
+    B、String s = (String)session.getAttribute("str");
+    C、Object o = session.getAttribute("str");
+    D、Object o = (Object)session.getParameter("str");
+参考答案：B,C
+答案说明：
+24、
+下面选项中，HttpServletRequest定义了用于获取Session对象的方法是（）  （多选）
+(1分)
+    A、req.getSession()
+    B、req.getSession(false)
+    C、req.getSession(true)
+    D、req.createSession()
+参考答案：A,C
+答案说明：
+25、
+下面选项中，关于SessionID的说法正确的是（） （多选）
+(1分)
+    A、每个HttpSession对象都有唯一的Session ID
+    B、SessionID 由Servlet容器创建
+    C、SessionID必须保存在客户端的cookie文件中
+    D、Servlet容器会把Session ID作为Cookie或者URL的一部分发送到客户端
+参考答案：A,B,D
+答案说明：
+26、
+下列关于HttpSession对象的描述中，说法正确的是（） （多选）
+(1分)
+    A、如果两次访问时间间隔超过session定义的非活动时间间隔，则HttpSession对象将失效
+    B、用户每次做出请求时都会创建一个新的会话
+    C、同一个浏览器做出的多个请求可以访问同一个会话对象
+    D、SessionID保存在服务器端，HttpSession对象保存在客户的浏览器
+参考答案：A,C
+答案说明：
+27、
+下面关于Session域的说法中，正确的是（） （多选）
+(1分)
+    A、Session域的作用范围为整个会话
+    B、Session域中的数据只能存在30分钟，这个时间不能修改
+    C、可以调用HttpSession的invalidate方法，立即销毁Session域
+    D、当web应用被移除出web容器时，该web应用对应的Session跟着销毁
+参考答案：A,C,D
+答案说明：
+28、
+下列选项中，关于会话的说法正确的是（） （多选）
+(1分)
+    A、浏览器开始访问一个网站时，会话就开始了，服务器立即就会创建代表当前会话的Session
+    B、如果服务器端执行了HttpSession对象的invalidate()方法，那么这个会话被销毁
+    C、当客户端关闭浏览器进程，服务器端会探测到客户端关闭浏览器进程的行为，从而立即销毁相应的HttpSession对象
+    D、当一个会话过期，服务器端会自动销毁这个会话
+参考答案：B,D
+答案说明：
+29、
+下面选项中，最合适放在session域中的是（） （多选）
+(1分)
+    A、统计服务器中所有Servlet一共被访问过多少次的计数器
+    B、当前用户的登录状态
+    C、发送给浏览器的验证码信息，且需要在服务器端进行验证
+    D、在Servlet中查询的结果，需要在JSP页面中进行数据展示
+参考答案：B,C
+答案说明：
+判断题
+30、
+request.getSession(false)的作用是返回存在的Session对象，当Session对象不存在时，就创建新的HttpSession对象并返回。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+31、
+Tomcat容器中如果将<session-timeout>元素中的时间值设置成0或一个负数，则表示会话永不超时。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+32、
+Tomcat容器中会话的有效时间可以在web.xml文件中设置，默认会话过期时间为30分钟。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+33、
+Session是一种将会话数据保存到服务器端的技术，需要借助Cookie技术来实现。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+34、
+Session对象的getLastAccessedTime()方法返回的是发送请求的时间与1970年1月1日00:00:00之间时间差的秒表示形式。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+单选题
+1、
+下面关于Cookie的domain属性默认取值的说法中，正确的是（）
+(1分)
+    A、默认值为localhost
+    B、默认值为/
+    C、默认值为当前主机名
+    D、默认值为-1
+参考答案：C
+答案说明：
+2、
+下列选项中，客户端在一次会话过程中可以发送的请求次数是（）
+(1分)
+    A、1次
+    B、0次
+    C、2次
+    D、多次
+参考答案：D
+答案说明：
+3、
+下面关于setMaxAge(0)方法的描述中，正确的是（）
+(1分)
+    A、通知服务器立即删除这个Cookie信息
+    B、通知浏览器立即删除这个Cookie信息
+    C、通知浏览器再等1秒后删除这个Cookie信息
+    D、通知服务器再等1秒后删除这个Cookie信息
+参考答案：B
+答案说明：
+4、
+下列选项中，能够用于获取客户端所有cookie对象的方法是（）
+(1分)
+    A、List<Cookie> cookies = request.getCookies();
+    B、Cookie[] cookies = request.getCookies();
+    C、List<Cookie> cookies = response.getCookies();
+    D、Cookie[] cookies = response.getCookies();
+参考答案：B
+答案说明：
+5、
+下面关于setMaxAge(int expires)方法参数默认值的描述中，正确的是（）
+(1分)
+    A、默认值是1
+    B、默认值是-1
+    C、默认值是0
+    D、默认值是无穷大
+参考答案：B
+答案说明：
+6、
+下面选项中，哪个方法可以用于获取Cookie的值（）
+(1分)
+    A、Object getValue()
+    B、String getValue ()
+    C、String getValue (String str)
+    D、Object getValue (String str)
+参考答案：B
+答案说明：
+7、
+阅读下面代码：
+Cookie cookie = new Cookie(“myCookie”,”xxxx”);
+__________________
+response.addCookie(cookie);
+path为 / ，由localhost发送Cookie信息，则在下面选项中横线处填写下列哪段代码可以删除名称为myCookie的对象（）
+(1分)
+    A、cookie.delete();
+    B、cookie.setMaxAge(0);
+    C、cookie.setPath(“/”);cookie.setMaxAge(0);
+    D、cookie.setDomain(“localhost”);cookie.setPath(“/”);cookie.setMaxAge(0);
+参考答案：C
+答案说明：
+8、
+下面选项中，哪个方法可以用于设置Cookie的有效域（）
+(1分)
+    A、String setPath(String pattern)
+    B、void setPath(String pattern)
+    C、void setDomain(String pattern)
+    D、String setDomain(String pattern)
+参考答案：C
+答案说明：
+9、
+下列选项中，哪个是设置Set-Cookie响应头字段正确的书写格式？（  ）
+(1分)
+    A、Set-Cookie; user=itcast; Path=/;
+    B、Set-Cookie user=itcast; Path=/;
+    C、Set-Cookie: user=itcast; Path=/;
+    D、Set-Cookie: user=itcast Path=/;
+参考答案：C
+答案说明：
+10、
+阅读下面代码：
+Person 类：
+public class Person {
+         private String name;
+ 
+         public String getName() {
+                   return name;
+         }
+ 
+         public void setName(String name) {
+                   this.name = name;
+         }
+}
+Servlet1:
+request.getSession().setAttribute("name","zhangsan");
+Person p = new Person();
+p.setName("lisi");
+request.getSession().setAttribute("person",p);
+Servlet2:
+String name1 =  (String)request.getSession().getAttribute("name");
+         Person p = (Person)request.getSession().getAttribute("person");
+         response.getWriter().write(name1);
+         if(p!=null)response.getWriter().write(p.getName());
+浏览器先访问Servlet1，再去访问Servlet2，输出的结果是：（）
+(1分)
+    A、zhangsanlisi
+    B、zhangsan
+    C、lisi
+    D、服务器重启时报错
+参考答案：A
+答案说明：
+11、
+下列选项中，Cookie类所在的完整包的写法是（）
+(1分)
+    A、javax.servlet.Cookie
+    B、javax.servlet.http.Cookie
+    C、java.servlet.http.Cookie
+    D、java.servlet.Cookie
+参考答案：B
+答案说明：
+12、
+下面关于setMaxAge(int expires)方法参数的描述中，正确的是（）
+(1分)
+    A、参数代表的是cookie过期的毫秒数
+    B、参数代表的是cookie过期的分钟数
+    C、参数代表的是cookie过期的秒数
+    D、参数代表的是cookie过期的纳秒数
+参考答案：C
+答案说明：
+13、
+下面选项中，哪个方法可以生成一个Cookie对象？（）
+(1分)
+    A、Cookie c = new Cookie(“name”,”itcast”);
+    B、Cookie c = request.getCookie(“name”);
+    C、Cookie c = response.getCookie(“name”);
+    D、Cookie c = session.getCookie(“name”);
+参考答案：A
+答案说明：
+14、
+下列对于setMaxAge(-1)方法的描述中，正确的是（）
+(1分)
+    A、表示通知浏览器保存这个Cookie信息
+    B、表示通知浏览器立即删除这个Cookie信息
+    C、表示当浏览器关闭时，Cookie信息会被删除
+    D、以上都不正确
+参考答案：C
+答案说明：
+15、
+下面关于Cookie的path属性有效性的说法中，正确的是（）
+(1分)
+    A、只对当前访问路径所属的目录有效
+    B、只对当前访问路径所属的目录及其子目录有效
+    C、只对当前访问路径所属的子目录有效
+    D、只对其它目录有效（当前访问路径所属的目录及其子目录无效）
+参考答案：B
+答案说明：
+16、
+下面选项中，用于获取Cookie值的方法是（）
+(1分)
+    A、Object getValue()
+    B、String getValue ()
+    C、String getValue (String str)
+    D、Object getValue (String str)
+参考答案：B
+答案说明：
+17、
+下列选项中，哪个是服务器向客户端发送Cookie的本质？（  ）
+(1分)
+    A、在HTTP响应头字段中增加Set-Cookie响应头字段
+    B、在HTTP响应头字段中增加Cookie响应头字段
+    C、在HTTP请求头字段中增加Cookie响应头字段
+    D、在HTTP请求头字段中增加Set-Cookie响应头字段
+参考答案：A
+答案说明：
+18、
+下列选项中，能够创建Cookie，并将当前时间作为值发送给客户端的代码是（）
+(1分)
+    A、Cookie cookie = new Cookie("lastAccess",new Date().toLocaleString()); request.addCookie(cookie);
+    B、Cookie cookie = request.getCookies()[0]; response.addCookie(cookie);
+    C、Cookie cookie = request.getCookies()[0]; request.addCookie(cookie);
+    D、Cookie cookie = new Cookie("lastAccess",new Date().toLocaleString()); response.addCookie(cookie);
+参考答案：D
+答案说明：
+19、
+下列选项中，能够使浏览器在访问chapter06工程资源时都会回送Cookie信息的正确写法是（）
+(1分)
+    A、cookie.setPath("/chapter06")
+    B、cookie.setPath("chapter06")
+    C、cookie.seDomain("/chapter06")
+    D、cookie.setDomain("chapter06")
+参考答案：A
+答案说明：
+20、
+下列选项中，能够正确创建Cookie对象的语句是（）
+(1分)
+    A、Cookie c = new Cookie(“name”,”itcast”);
+    B、Cookie c = request.getCookie(“name”);
+    C、Cookie c = response.getCookie(“name”);
+    D、Cookie c = session.getCookie(“name”);
+参考答案：A
+答案说明：
+21、
+下列选项中，关于Cookie中保存的数据，说法正确的是（  ）
+(1分)
+    A、保存在服务器中
+    B、保存在客户端浏览器中
+    C、保存在数据库中
+    D、以上说法都不对
+参考答案：B
+答案说明：
+22、
+若想设置Cookie的path属性对本站点所有资源访问时都有效，则需要将path属性设置为以下哪种方式？（）
+(1分)
+    A、path属性设置为“/”
+    B、path属性设置为“”
+    C、path属性设置为“/应用名”
+    D、path属性设置为“应用名”
+参考答案：A
+答案说明：
+23、
+下面选项中，用于获取Cookie名称的方法是（）
+(1分)
+    A、Object getName()
+    B、String getName()
+    C、String getName(String str)
+    D、Object getName(String str)
+参考答案：B
+答案说明：
+24、
+下面选项中，关于Cookie的说法正确的是（）
+(1分)
+    A、Cookie一旦创建，名称和对应的值都不能更改
+    B、Cookie一旦创建，名称和对应的值都可以更改
+    C、Cookie一旦创建，名称不能更改，但值可以更改
+    D、Cookie一旦创建，名称可以更改，但值不能更改
+参考答案：C
+答案说明：
+25、
+下面选项中，哪个方法用于设置Cookie的有效路径（）
+(1分)
+    A、String setPath(String uri)
+    B、void setPath(String uri)
+    C、void setDomain(String uri)
+    D、String setDomain(String uri)
+参考答案：B
+答案说明：
+26、
+下列选项中，可以更改Cookie的存活时间的是（）
+(1分)
+    A、cookie.setMaxAge(3600*24);
+    B、cookie.setPath(“/app”);
+    C、cookie.setDomain(“localhost”);
+    D、cookie.setValue(“share”);
+参考答案：A
+答案说明：
+多选题
+27、
+下列选项中，属于Servlet常用会话技术的是（  ）
+(1分)
+    A、Cookie
+    B、Session
+    C、Application
+    D、request
+参考答案：A,B
+答案说明：
+28、
+在Servlet1中使用如下代码设置Cookie：
+Cookie c = new Cookie(“myCookie”,”xxxx”);
+response.addCookie(c);          
+当访问http://localhost:8080/news/servlet/Servlet1运行Servlet1后,
+下列选项中，哪个Servlet可以获取到这个Cookie信息？（） （多选）
+(1分)
+    A、http://localhost:8080/news/servlet/Servlet1
+    B、http://localhost:8080/news/servlet/Servlet2
+    C、http://localhost:8080/news/Servlet3
+    D、http://localhost:8080/news/servlet/n/Servlet4
+参考答案：A,B,D
+答案说明：
+29、
+下列选项，生成一次性验证码所用到的主要类和接口的是 （） （多选）
+(1分)
+    A、BufferedImage
+    B、ImageIO
+    C、Graphic
+    D、IOImage
+参考答案：A,B,C
+答案说明：
+30、
+下列选项中，适合将信息存入Session的是 （） （多选）
+(1分)
+    A、用户登录信息
+    B、验证码
+    C、购物车
+    D、聊天室
+参考答案：A,B,C
+答案说明：
+判断题
+31、
+一次会话过程中，只允许客户端与服务器进行一次请求与响应过程。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+32、
+服务器向客户端发送Cookie时，会在HTTP响应头字段中增加Set-Cookie响应头字段。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+33、
+在Servlet技术中，提供了两个用于保存会话数据的对象，分别是Cookie和Session。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+34、
+Cookie的path属性设置后，只对当前访问路径所属的目录有效。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+35、
+一次性验证码可以限制人们使用软件来暴力猜测密码，从而保证了用户信息的安全。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+36、
+Cookie技术用于将会话过程中的数据保存到服务器中，从而使浏览器和服务器可以更好地进行数据交互。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+37、
+Cookie一旦创建，它的名称就不能更改，而Cookie的值创建后也不允许被修改。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+38、
+在一个Cookie对象中，如调用setMaxAge()方法设置值为负整数时，浏览器会将Cookie信息保存在的缓存中，当浏览器关闭时，Cookie信息会被删除。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+39、
+Servlet API中提供了一个javax.servlet.http.Cookie类，该类提供了操作Cookie的属性与方法，Cookie类有且仅有一个构造方法。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+40、
+Cookie的domain属性是用来指定浏览器访问的域，设置domain属性时严格区分大小写。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+41、
+Cookie的domain属性是用来指定浏览器访问的域，设置domain属性时必须以“.”开头。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+42、
+在一个Cookie对象中，如果没有调用setMaxAge()方法设置过期时间，那么默认情况下，Max-Age属性的值是-1。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+阅读下面代码片段：
+Servlet1：
+request.setAttribute("name", "zhangsan");
+       RequestDispatcher dispatcher = request.getRequestDispatcher("/ResultServlet");
+dispatcher.forward(request, response);
+response.getWriter().write("over");
+Servlet2：
+         response.setContentType("text/html;charset=utf-8");
+         String name = (String) request.getAttribute("name ");
+         response.getWriter().println("名称：" + name);
+先使用浏览器访问Servlet1，然后将Servlet1中的forward()方法更改为include()方法再次访问Servlet1，两者输出情况的描述正确的是（  ）
+(1分)
+    A、两种方法下页面输出结果相同，都是”名称：zhangsan”
+    B、forward()方法输出结果为”名称：zhangsan”;而用include方法输出结果为”名称：zhangsan over”
+    C、forward()方法输出结果为”名称：zhangsan over”;而用include方法输出结果为”名称：zhangsan”
+    D、将forward()方法改为include方法后，页面访问程序出现异常
+参考答案：B
+答案说明：
+理解 RequestDispatcher接口中forward和include两种方法的核心区别：使用 include的servlet执行完后，再返回到原来的servlet执行response的输出，而使用forward跳转则后面的response输出则不会执行。
+2、
+当响应提交给客户端后再调用forward()方法转发，将产生的异常是（  ）
+(1分)
+    A、IOException
+    B、IllegalStateException
+    C、StateException
+    D、SQLException
+参考答案：B
+答案说明：
+3、
+阅读下面代码片段（其中login.jsp页面在webroot目录下）：
+Servlet1：
+  request.setAttribute("company", "北京传智播客教育有限公司");
+  RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+  dispatcher.forward(request, response);
+login.jsp：
+<body>
+            hello ${company}
+</body>
+当使用浏览器访问Servlet1时会什么结果（  ）
+(1分)
+    A、页面跳转失败
+    B、页面结果显示为:hello ${company};
+    C、页面跳转错误，程序出现异常 ；
+    D、正常跳转，页面显示为:hello 北京传智播客教育有限公司。
+参考答案：D
+答案说明：
+4、
+阅读下面代码片段：
+         Public void doPost(HttpServletRequest
+ request,HttpServletResponse response)
+                   Throws ServletExceptin,IOExceptin{
+         ______________________________________//此处填写代码
+}       
+下面选项中，可以正确得到RequestDispatcher的对象的是（  ）
+(1分)
+    A、RequestDispatcher dispatcher = response.getRequestDispatcher(“/text.jsp”);
+    B、RequestDispatcher dispatcher = new RequestDispatcher();
+    C、RequestDsipatcher dispatcher = request.getRequestDispatcher(“/test.jsp”);
+    D、RequestDispatcher dispatcher =RequestDispatcher.getInstance();
+参考答案：C
+答案说明：
+5、
+阅读下面代码片段：
+Servlet1：
+         response.setContentType("text/html;charset=gbk");
+         response.getWriter().write("传播智慧");
+         request.getRequestDispatcher("/servlet/Servlet2")
+.forward(request,response);
+         response.sendRedirect("/app/servlet/Servlet3");
+Servlet2：                 
+response.getWriter().write("收获成长");
+请问当浏览器访问Servlet1时会有什么样的输出（  ）
+(1分)
+    A、浏览器地址栏仍然保持为Servlet1，输出为“传播智慧收获成长”
+    B、浏览器地址栏仍然保持为Servlet1，输出为“收获成长”
+    C、浏览器地址栏仍然保持为Servlet1，输出为“传播智慧”
+    D、服务器端报错
+参考答案：D
+答案说明：
+6、
+阅读下面代码片段：
+Servlet1：
+   response.getWriter().write(“hello,servlet1”);
+   request.getRequestDispatcher().include(“Servlet2”);
+Servlet2:                    
+   response.setHeader(“Refresh”,”1”);
+   response.getWriter().write(“,servlet2”);
+下面选项中，关于运行结果说法正确的是（  ）
+(1分)
+    A、正常显示：hello,servlet1,servlet2
+    B、正常显示：hello,servlet1,servlet2，并且页面会不断刷新
+    C、正常显示：,servlet2
+    D、正常显示：hello,servlet1
+参考答案：A
+答案说明：
+7、
+阅读下面代码片段：
+Servlet1：
+response.setCharacterEncoding("utf-8");
+response.setHeader("Content-Type", "text/html;charset=utf-8");
+response.getWriter().write("传播");
+request.getRequestDispatcher("/servlet/Servlet2")
+.forward(request,resp onse);
+Servlet2：       
+         response.getWriter().write("智慧");
+         request.getRequestDispatcher("/servlet/Servlet3")
+.forward(request,response);
+         response.setHeader("Content-Type", "text/html;charset=iso8859-1");
+Servlet3：                                  
+response.getWriter().write("挥洒汗水");
+请问当浏览器访问Servlet1时会有什么样的输出：（  ）
+(1分)
+    A、浏览器地址栏仍然保持为Servlet1，输出为“传播智慧挥洒汗水”
+    B、浏览器地址栏仍然保持为Servlet1，输出为问号组成的乱码
+    C、浏览器地址栏仍然保持为Servlet1，输出为“挥洒汗水”
+    D、服务器报错，不能多次请求转发
+参考答案：C
+答案说明：
+8、
+下列关于使用request.setAttribute()保存数据的说法中，正确的是（  ）
+(1分)
+    A、不能共享
+    B、可以在本次请求中共享
+    C、可以在所有请求中共享
+    D、不同客户端也可以共享
+参考答案：B
+答案说明：
+9、
+使用request实现转发时，下列哪个路径的写法是正确的？（）
+(1分)
+    A、只能是相对路径
+    B、只能是绝对路径
+    C、相对路径和绝对路径都可以
+    D、相对路径可以，但绝对路径不可以
+参考答案：C
+答案说明：
+10、
+RequestDispatcher接口中，用于将请求从一个Servlet传递给另外的一个Web资源的方法是（  ）
+(1分)
+    A、forward(ServletResponse response，ServletRequest request)
+    B、include(ServletRequest request，ServletResponse response)
+    C、forward(ServletRequest request，ServletResponse response)
+    D、include(ServletResponse response，ServletRequest request)
+参考答案：C
+答案说明：
+11、
+下面选项中关于请求包含include()方法的参数，正确的是（  ）
+(1分)
+    A、依次为ServletRequest和ServletResponse两个
+    B、依次为ServletResponse和ServletRequest两个
+    C、只有ServletRequest
+    D、只有ServletResponse
+参考答案：A
+答案说明：
+12、
+阅读下面代码片段：
+Servlet1：
+response.setHeader(“Content-Type”,“text/html;charset=utf-8”);
+response.getOutputStream().write(“传智”.getBytes(“utf-8”));
+request.getRequestDispatcher(“/Servlet2”).forward(request,response);
+Servlet2：
+         response.getOutputStream().write(“播客”.getBytes(“utf-8”));
+当使用浏览器访问Servlet1时会什么结果（  ）
+(1分)
+    A、浏览器输出 “传智播客”均正常无乱码
+    B、浏览器输出“传智”为乱码，输出“播客”正常
+    C、浏览器输出“传智”正常，输出“播客”乱码
+    D、浏览器输出“播客”正常
+参考答案：D
+答案说明：
+13、
+RequestDispatcher接口中能实现请求包含的方法是（  ）
+(1分)
+    A、forward(ServletRequest request，ServletResponse response)
+    B、include(ServletRequest request，ServletResponse response)
+    C、include(ServletResponse response，ServletRequest request)
+    D、sendRedirect(String url)
+参考答案：B
+答案说明：
+多选题
+14、
+以下关于获取RequestDispatcher对象的方法说明，正确的是（）（多选）
+(1分)
+    A、RequestDispatcher dispatch = request.getRequestDispatcher(arg);这里的参数可以是一个相对路径或者是一个不定的资源(sp, servlet) ；
+    B、RequestDispatcher dispatch = getServletContext.getRequestDispatcher(arg)这里的参数必须是一个绝对路径RUL(以/开始),有效的servlet或者jsp.这里的URL是在web.xml文件里定义的,必须以/开始 ;
+    C、RequestDispatcher dispatch = getServletContext.getNamedDispatcher("string"); 这里的参数必须是一个servlet的名字.在web.xml定义 ；
+    D、javax.servlet. ServletRequest的getRequestDispatcher(String path)方法，其中path可以是相对路径，也课越出当前Servlet上下文。如果path以“/”开头，则解析为相对于当前上下文的根。
+参考答案：A,B,C
+答案说明：
+15、
+下列关于请求转发和重定向的说法中，正确的是（  ）（多选）
+(1分)
+    A、请求转发和重定向都可以实现访问一个资源时转向当前应用资源
+    B、请求转发是一次请求一次响应，而重定向为两次请求两次响应
+    C、一般情况下应该使用请求转发，减少浏览器对服务器的访问，减轻服务器压力
+    D、如果需要改变浏览器的地址栏，或更改浏览器的刷新按钮的功能时需要使用重定向
+参考答案：A,B,C,D
+答案说明：
+16、
+给定某Servlet程序的片段如下所示：
+public void doGet(HttpServletRequest request,
+       HttpServletResponse response) throws IOException,
+ ServletException {
+         RequestDispatcher rd =
+ request.getRequestDispatcher(“____________”);
+         rd.forward(request, response);
+}                                  
+上面横线中填入以下路径，错误的有（  ）（多选）
+(1分)
+    A、/user/login.jsp
+    B、/welcome.txt
+    C、www.itcast.cn
+    D、http:// www.itcast.cn
+参考答案：C,D
+答案说明：
+17、
+以下哪些方法可以获取RequestDispatcher对象（）（多选）
+(1分)
+    A、RequestDispatcher dispatcher = request.getRequestDispatcher("/ResultServlet");
+    B、RequestDispatcher dispatcher =this.getServletContext().getRequestDispatcher("/ResultServlet");
+    C、RequestDispatcher dispatcher =this.getServletContext().getNamedDispatcher("/ResultServlet");
+    D、RequestDispatcher dispatcher = request.getServletContext().getRequestDispatcher("/ResultServlet");
+参考答案：A,B,C
+答案说明：
+18、
+下列关于请求与包含，说法正确的是（  ）（多选）
+(1分)
+    A、请求转发和请求包含都是服务器端技术，与浏览器没有任何关系
+    B、请求包含可以实现将多个资源的数据合并后输出
+    C、利用好请求包含，可以将多个输出内容中相同的部分提取出来，方便开发
+    D、请求包含只能包含动态web资源，不能包含HTML文件
+参考答案：A,B,C
+答案说明：
+19、
+下列选项中，属于RequestDispatcher接口中方法的有（  ）（多选）
+(1分)
+    A、sendRedirect()方法
+    B、include()方法
+    C、forward()方法
+    D、dispatcher()方法
+参考答案：B,C
+答案说明：
+20、
+下面选项中，能取到request.setAttribute(“name”,”itcast”)中值的有（  ）（多选）
+(1分)
+    A、重定向到另一个Servlet时，另一个Servlet中可以获取
+    B、转发到另一个Servlet时，另一个Servlet中可以获取
+    C、包含另一个Servlet时，另一个Servlet中可以获取
+    D、转发与重定向到另一个Servlet时，都可以获取
+参考答案：B,C
+答案说明：
+判断题
+21、
+通过请求转发来实现目标资源的访问是服务器内部的行为，对于客户端来说是一次请求过程。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+22、
+通过请求转发来实现目标资源的访问时，由于客户端发送了两次请求，所以浏览器地址栏发生改变。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+23、
+转发的forward()方法，必须在响应提交给客户端之前被调用，否则将抛出IllegalStateException异常
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+24、
+Iinclude()方法实现请求包含时，响应消息中不包含了当前Servlet响应消息，只有被包含进来的其它Web资源的响应消息。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+单选题
+1、
+在HttpServletRequest接口中，用于获取请求行中的协议名和版本的方法是（）
+(1分)
+    A、getMethod()
+    B、getRequestURI()
+    C、getQueryString()
+    D、getProtocol()
+参考答案：D
+答案说明：
+2、 阅读下面代码片段：
+Servlet1：
+                   request.setAttribute("username", "张三");
+                   String username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+                
+                   request.setAttribute("username", "李四");
+                   username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+                
+                   request.removeAttribute("username");
+                   username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+当使用浏览器访问Servlet1时控制台会输出什么结果（  ）
+(1分)
+    A、张三 张三 null
+    B、李四 李四 null
+    C、null null null
+    D、李四 null null
+参考答案：A
+答案说明：
+3、
+在HttpServletRequest接口中，用于获取请求URL中的额外路径信息的方法是（  ）
+(1分)
+    A、getMethod()
+    B、getPathInfo()
+    C、getContextPath()
+    D、getProtocol()
+参考答案：B
+答案说明：
+4、
+如果请求消息中有多个指定名称的头字段，则有关getHeader(String name)方法返回值，说法正确的是（  ）
+(1分)
+    A、多个指定名称头字段的一组值
+    B、最后一个头字段所对应的值
+    C、第一个头字段所对应的值
+    D、将返回null
+参考答案：C
+答案说明：
+5、
+HttpServletRequest接口中getParameterMap()方法的返回值类型是（  ）
+(1分)
+    A、Object[]
+    B、String[]
+    C、Enumeration
+    D、Map集合
+参考答案：D
+答案说明：
+6、
+在HttpServletRequest接口中用于获取请求行中参数部分（?号后面的内容）的方法是（  ）
+(1分)
+    A、getMethod()
+    B、getRequestURI()
+    C、getQueryString()
+    D、getProtocol()
+参考答案：C
+答案说明：
+7、
+下列关于HttpServletRequest接口中getDateHeader(String name)方法返回值的说法中，正确的是（  ）
+(1分)
+    A、自1970年1月1日0点0分0秒算起的以秒为单位的时间值
+    B、自1970年1月1日0点0分0秒算起的以毫秒为单位的时间值
+    C、自1970年1月1日0点0分0秒算起的以纳秒为单位的时间值
+    D、自1970年1月1日0点0分0秒算起的以分钟为单位的时间值
+参考答案：B
+答案说明：
+8、
+下面选项中，使用get方式提交name=“传智播客”时，得到结果中没有乱码的是（  ） 
+(1分)
+    A、String name = request.getParameter("username"); request.setCharacterEncoding("gbk");
+    B、String name = request.getParameter("username");name=new String(name.getBytes("iso8859-1"),"gbk");
+    C、String name = request.getParameter("username"); name=new String(name.getBytes("gbk "),"iso8859-1");
+    D、request.setCharacterEncoding("gbk"); String name = request.getParameter("name");
+参考答案：B
+答案说明：
+9、
+在HttpServletRequest接口中，用于获取请求行中资源名称的是（  ）
+(1分)
+    A、getMethod()
+    B、getRequestURI()
+    C、getQueryString()
+    D、getProtocol()
+参考答案：B
+答案说明：
+10、
+在HttpServletRequest接口中，用于获取一个指定头字段的一组值的方法是（  ）
+(1分)
+    A、getMethod()
+    B、getHeader(String name)
+    C、getHeaders(String name)
+    D、getHeaderNames(String name)
+参考答案：C
+答案说明：
+11、
+如果想要将页面传递来的用户名username为张三的数据存放在Requset对象中，以下哪种方式可以实现（）
+(1分)
+    A、String username=request.getParameter("张三");
+    B、String username=(String) request.getAttribute("张三");
+    C、request.setAttribute("username", "张三");
+    D、request.removeAttribute("张三");
+参考答案：C
+答案说明：
+12、
+在HttpServletRequest接口中，getParameterValues(String name)方法的返回值类型是（  ）
+(1分)
+    A、Object[]
+    B、String[]
+    C、String
+    D、Object
+参考答案：B
+答案说明：
+13、
+下列选项中，哪种请求方式的参数可以使用HttpServletRequest接口的getQueryString()方法获取到？
+(1分)
+    A、post
+    B、delete
+    C、put
+    D、get
+参考答案：D
+答案说明：
+14、
+HttpServletRequest接口中的getDateHeader(String name)方法的返回值类型是（  ）
+(1分)
+    A、int
+    B、java.util.Date
+    C、long
+    D、double
+参考答案：C
+答案说明：
+15、
+访问如下的URL地址：
+http://www.itcast.cn/HelloServlet?name=youjun&name=itcast&age=30
+在HelloServlet中能实现得到name的两个取值，以下代码正确的是（  )
+(1分)
+    A、String[] names = request.getParameters("name"); for (int i = 0; i < names.length; i++) {System.out.println(names[i]+" "); }
+    B、String[] names = request.getParameterValues("name"); for (int i = 0; i < names.length; i++) {System.out.println(names[i]+" "); }
+    C、String[] names = request.getParameterNames("name"); for (int i = 0; i < names.length; i++) {System.out.println(names[i]+" "); }
+    D、String[] names = request.getParameterMap(); for (int i = 0; i < names.length; i++) {System.out.println(names[i]+" "); }
+参考答案：C
+答案说明：
+16、
+访问如下的URL地址：
+http://www.itcast.cn/HelloServlet?name=youjun&name=itcast&age=30
+则在HelloServlet用getParameter(“name”)方法取到的值是（  ）
+(1分)
+    A、youjun
+    B、itcast
+    C、youjun itcast
+    D、30
+参考答案：A
+答案说明：
+17、
+在HttpServletRequest接口中，用于获取所有请求头名称并返回Enumeration对象的方法是（）
+(1分)
+    A、getMethod()
+    B、getHeader(String name)
+    C、getHeaders(String name)
+    D、getHeaderNames()
+参考答案：D
+答案说明：
+18、
+下面=关于request. setCharacterEncoding()方法的描述中，正确的是（  ） 
+(1分)
+    A、设置request对象的解码方式只对get请求方式有效
+    B、设置request对象的解码方式只对post请求方式有效
+    C、设置request对象的解码方式对get与post请求方式有效
+    D、设置request对象的解码方式只对get请求方式有效
+参考答案：B
+答案说明：
+19、
+下面选项中，使用post方式提交name=“传智播客”时，得到的结果中没有乱码的是（  ） 
+(1分)
+    A、response.setCharacterEncoding("gbk"); String name = request.getParameter("name");
+    B、request.setCharacterEncoding("gbk"); String name = request.getParameter("name");
+    C、String name = request.getParameter("name"); request.setCharacterEncoding("gbk");
+    D、String name = request.getParameter("name"); response.setCharacterEncoding("gbk");
+参考答案：B
+答案说明：
+20、
+如果请求消息中包含有多个该指定名称的参数，getParameter()方法的返回值是（  ）
+(1分)
+    A、这些参数的所有值形成一个数组
+    B、“”
+    C、第一个参数的值
+    D、最后一个参数的值
+参考答案：C
+答案说明：
+21、
+HttpServletRequest接口中getParameterNames()方法的返回值类型是（  ）
+(1分)
+    A、Object[]
+    B、String[]
+    C、Enumeration
+    D、Object
+参考答案：C
+答案说明：
+22、
+下面选项中，用于获取请求消息中所有头字段及对应值的代码片段是（  ）
+(1分)
+    A、List<String> headerNames = request.getHeaderNames(); while (headerNames.hasMoreElements()) { String headerName = (String) headerNames.nextElement(); String headerValue = request.getHeader(headerName); out.print(headerName + " : " +headerValue + "<br>"); }
+    B、Enumeration headerNames = request.getHeaderName(); while (headerNames.hasMoreElements()) { String headerName = (String) headerNames.nextElement(); String headerValue = request.getHeader(headerName); out.print(headerName + " : " +headerValue + "<br>"); }
+    C、Enumeration headerNames = request.getHeaderNames(); while (headerNames.hasMoreElements()) { String headerName = (String) headerNames.nextElement(); String headerValue = request.getHeader(headerName); out.print(headerName + " : " +headerValue + "<br>"); }
+    D、Enumeration headerNames = request.getHeaders(); while (headerNames.hasMoreElements()) { String headerName = (String) headerNames.nextElement(); String headerValue = request.getHeader(headerName); out.print(headerName + " : " +headerValue + "<br>"); }
+参考答案：C
+答案说明：
+23、
+在HttpServletRequest接口中，用于获取指定名称参数的一组值的方法是（  ）
+(1分)
+    A、Object[] getParameterValues(String name)
+    B、String[] getParameterValues(String name)
+    C、String getParameter(Object name)
+    D、String[] getParameters(String name)
+参考答案：B
+答案说明：
+24、
+通过配置Tomcat来解决GET请求参数的乱码问题，可以在server.xml文件中的Connector节点下添加的属性是（  ） 
+(1分)
+    A、useBodyEncodingForURI=”false”
+    B、useBodyEncoding=”true”
+    C、useBodyEncodingForURI=”true”
+    D、useBodyEncoding=”false”
+参考答案：C
+答案说明：
+25、
+在HttpServletRequest接口中，用于返回请求消息的实体部分的字符集编码的方法是（  ）
+(1分)
+    A、getCharacter ()
+    B、getCharacterEncoding()
+    C、getEncoding()
+    D、getHeader(String name)
+参考答案：B
+答案说明：
+26、
+在HttpServletRequest接口中，用于指定名称的头字段，并且返回结果为int类型的方法是（）
+(1分)
+    A、getIntHeader(String name)
+    B、getHeader(String name)
+    C、getHeaders(String name)
+    D、getHeaderNames()
+参考答案：A
+答案说明：
+27、 阅读下面代码片段：
+Servlet1：
+                   request.setAttribute("username", "张三");
+                   String username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+               
+                   request.setAttribute("username", null);
+                   username=(String) request.getAttribute("username");
+                   System.out.println("username:"+username);
+当使用浏览器访问Servlet1时控制台会输出什么结果（  ）
+(1分)
+    A、张三 张三
+    B、张三 null
+    C、null 张三
+    D、null null
+参考答案：B
+答案说明：
+28、
+在HttpServletRequest接口中，用于获取一个指定头字段值的方法是（  ）
+(1分)
+    A、getMethod()
+    B、getHeader(String name)
+    C、getHeaders(String name)
+    D、getHeaderNames(String name)
+参考答案：B
+答案说明：
+29、
+在HttpServletRequest接口中，用于获取Servlet映射路径的方法是（  ）
+(1分)
+    A、getMethod()
+    B、getPathInfo()
+    C、getContextPath()
+    D、getServletPath ()
+参考答案：D
+答案说明：
+30、
+在HttpServletRequest接口中，用于获取请求URL中属于WEB应用程序的路径的方法是（  ）
+(1分)
+    A、getMethod()
+    B、getRequestURI()
+    C、getContextPath()
+    D、getProtocol()
+参考答案：C
+答案说明：
+31、
+在HttpServletRequest接口中， getContentType()方法的返回值类型为（  ）
+(1分)
+    A、int
+    B、String
+    C、long
+    D、double
+参考答案：B
+答案说明：
+32、
+在HttpServletRequest接口中用于获取HTTP请求消息中的请求方式的方法是（  ）
+(1分)
+    A、getMethod()
+    B、getRequestURI()
+    C、getQueryString()
+    D、getProtocol()
+参考答案：A
+答案说明：
+33、
+访问如下的URL地址：
+http://www.itcast.cn/HelloServlet?name=youjun&name=itcast&age=30
+则在HelloServlet用getParameterValues (“name”)方法取到的值是（  )
+(1分)
+    A、youjun
+    B、itcast
+    C、{“youjun”, “itcast”}
+    D、30
+参考答案：C
+答案说明：
+34、
+访问如下的URL地址：
+http://www.itcast.cn/HelloServlet?name=youjun&name=itcast&age=30
+则在HelloServlet可以得到所有参数名的方法是（  ）
+(1分)
+    A、request. getParameterMap();
+    B、request. getParameterNames();
+    C、request. getParameter ();
+    D、request. getParameterValues();
+参考答案：B
+答案说明：
+35、
+HttpServletRequest接口中用于获取某个指定名称的参数值的方法是（  ）
+(1分)
+    A、Object getParameter(Object name)
+    B、Object getParameter(String name)
+    C、String getParameter(Object name)
+    D、String getParameter(String name)
+参考答案：D
+答案说明：
+36、
+在HttpServletRequest接口中，getContentLength()方法的返回值类型是（  ）
+(1分)
+    A、int
+    B、String
+    C、long
+    D、double
+参考答案：A
+答案说明：
+多选题
+37、
+以下关于ServletRequest接口中操作属性的方法，说法正确的是（）（多选）
+(1分)
+    A、setAttribute()方法用于将一个对象与一个名称关联后存储ServletRequest对象中
+    B、getAttribute()方法用于从ServletRequest对象中返回指定名称的属性对象
+    C、removeAttribute()方法用于从ServletRequest对象中删除指定名称的属性
+    D、getAttributeNames()方法用于返回一个包含ServletRequest对象中的所有属性名的Eumeration对象，如果在请求中没有属性，这个方法将返回null
+参考答案：A,B,C
+答案说明：
+getAttributeNames()方法返回请求中所有可用的属性的名字。如果在请求中没有属性，这个方法将返回一个空的枚举集合
+38、
+服务器使用如下哪条语句发送数据有可能有乱码（  ）（多选）
+(1分)
+    A、response.getOutputStream().write(“中国”.getBytes(“utf-8”));
+    B、response.getWriter().write(“中国”);
+    C、response.setCharacterEncoding(“utf-8”); response.setHeader(“Content-Type”,”text/html;charset=utf-8”); response.getWriter().write(“中国”);
+    D、response.setContentType(“text/html;charset=utf-8”); response.getWriter().write(“中国”);
+参考答案：A,B
+答案说明：
+判断题
+39、
+HttpServletResponse接口的getRequestURI()方法，可以用于获取求行中的主机地址、端口号和资源名称。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+40、
+在HttpServletRequest接口中，getParameterMap()方法的返回值是Map对象，该对象包含了请求消息中所有参数的值。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+41、
+如果请求消息中包含有多个该指定名称的参数，getParameter(String name)方法返回最后一个出现的参数值。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+42、
+getIntHeader(String name) 方法，如果获取到的头字段的值不能转为int类型，将发生NumberFormatException异常。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+43、
+HttpServletRequest接口中的setCharacterEncoding()方法用于设置request对象获取请求参数的解码方式，它对于get与post请求都有效。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+44、
+在HttpServletRequest接口中，getParameterNames()方法的返回值是Enumeration对象，该对象包含了请求消息中的所有参数。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+45、
+HttpServletResponse接口的getQueryString()方法，用于获取请求行中的参数部分，它可以取得post提交的参数。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+46、
+如果请求消息中没有包含指定名称的参数，则getParameter()方法返回null。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+47、
+HttpServletResponse接口的getHeader(String name)方法，用于获取一个指定头字段的值，如果没有包含指定的头字段，则返回“”。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+48、
+HttpServletResponse接口的getDateHeader(String name)方法，返回结果是自1970年1月1日0点0分0秒算起的以毫秒为单位的时间值。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+49、
+通过配置Tomcat来解决GET请求参数的乱码问题，做法是在server.xml文件中的Connector节点下增加一个useBodyEncodingForURI=”true”的属性。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+50、
+HttpServletResponse接口的getMethod()方法，用于获取HTTP请求消息中的请求方式（如GET、POST等）。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+51、
+HttpServletRequest接口中的getParameterValues(String name)方法返回一个String类型的数组。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+52、
+HttpServletResponse接口的getContextPath()方法，用于获取请求URL中属于WEB应用程序的路径，这个路径以“/”开头。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+HttpServletResponse接口中定义的SC_NOT_FOUND常量表示没有找到资源，其状态码是（  ）
+(1分)
+    A、500
+    B、400
+    C、404
+    D、200
+参考答案：C
+答案说明：
+2、
+在HttpServletResponse对象中，getWriter()方法直接输出的是（  ）
+(1分)
+    A、字符文本数据
+    B、二进制数据
+    C、字符文本数据和二进制数据都可以
+    D、字符文本数据和二进制数据都不可以
+参考答案：A
+答案说明：
+3、
+阅读下面Servlet的doGet()方法中代码片段：
+String data="中国";
+response.setCharacterEncoding("utf-8");
+PrintWriter out = response.getWriter();  
+out.println(data);    
+下列关于浏览器访问结果的描述中，正确的是（)
+(1分)
+    A、正常输出:中国
+    B、输出乱码
+    C、出现500异常
+    D、页面没有任何输出
+参考答案：B
+答案说明：
+4、
+HttpServletResponse接口中用于设置编码的方法的优先权最高的是（）
+(1分)
+    A、addHeader()
+    B、setContetType()
+    C、setLoacale()
+    D、setCharacterEncoding()
+参考答案：D
+答案说明：
+5、
+阅读下面Servlet的doGet()方法中代码片段：
+String data="中国";
+response.setCharacterEncoding("utf-8");
+response.setHeader("Content-Type","text/html;charset=utf-8");
+PrintWriter out = response.getWriter();  
+out.println(data);
+当打开浏览器直接访问时看到的结果，说法正确的是（  ）
+(1分)
+    A、正常输出:中国
+    B、输出乱码
+    C、出现500异常
+    D、页面没有任何输出
+参考答案：A
+答案说明：
+6、
+下列选项中，属于sendRedirect(java.lang.String url)方法所在接口的是（  ）
+(1分)
+    A、HttpSession
+    B、HttpServletRequest
+    C、HttpServletResponse
+    D、ServletResponse
+参考答案：C
+答案说明：
+7、
+一次重定向过程中，浏览器会发出多少次服务器请求（  ） 
+(1分)
+    A、1次
+    B、2次
+    C、0次
+    D、3次
+参考答案：B
+答案说明：
+8、
+下列选项中，属于HttpServletResponse接口中定义的表示请求成功的常量是（  ）
+(1分)
+    A、SC_FORBIDDEN
+    B、SC_OK
+    C、SC_NOT_FOUND
+    D、SC_CONFLICT
+参考答案：B
+答案说明：
+9、
+下面用于设置字符流输出文本采用UTF-8编码的选项中，正确的是（  ）
+(1分)
+    A、response.setEncoding("utf-8");
+    B、response.setCharacter ("utf-8");
+    C、response.setCharacterEncoding("utf-8");
+    D、request.setCharacterEncoding("utf-8");
+参考答案：C
+答案说明：
+10、
+HttpServletResponse对象中用于获取字节输出流对象的方法是（  ）
+(1分)
+    A、getStream()
+    B、getOutputStream()
+    C、getOutput()
+    D、getWriter()
+参考答案：B
+答案说明：
+11、
+阅读下列的代码
+public void doGet(HttpServletRequest request,
+HttpServletResponse  response) throws
+                             ServletException,IOException{
+                    
+out.println("hello kity!");
+}
+若使Servlet运行的结果为hi kitty！,填写在空白处的代码为（）
+则应在此Servlet下划线处添加如下（）代码。
+(1分)
+    A、PrintWriter out = response.getWriter();
+    B、PrintWriter out request.getWriter();
+    C、OutputStream out = response.getOutputStream();
+    D、OutputStream out = request.getWriter();
+参考答案：A
+答案说明：
+12、
+下列关于HttpServletResponse对象的创建，说法正确的是（  ）
+(1分)
+    A、由Servlet容器负责创建，对于每个HTTP请求的响应，Servlet容器都会创建一个HttpServletResponse对象
+    B、由Java Web应用的Servlet或JSP组件创建，当Servlet或JSP组件响应HTTP请求时，先创建HttpServletResponse对象
+    C、由程序员通过编码形式创建，以传递请求的数据
+    D、以上都不对
+参考答案：A
+答案说明：
+13、
+下面关于实现重定向sendRedirect()方法的描述中，正确的是（） 
+(1分)
+    A、生成300响应码和Refresh响应头
+    B、生成302响应码和Location响应头
+    C、生成302响应码和Refresh响应头
+    D、生成300响应码和Location响应头
+参考答案：B
+答案说明：
+14、
+下面选项中，属于HttpServletResponse接口中定义的用于实现请求重定向的方法是（  ） 
+(1分)
+    A、Redirect()
+    B、send ()
+    C、sendRedirect()
+    D、forward()
+参考答案：C
+答案说明：
+15、
+HttpServletResponse接口中表示状态码404，也就是没有找到资源的常量是（）
+(1分)
+    A、SC_FORBIDDEN
+    B、SC_OK
+    C、SC_NOT_FOUND
+    D、SC_CONFLICT
+参考答案：C
+答案说明：
+16、
+下面选项中，能实现转向另外一个Servlet的方法是（  ）
+(1分)
+    A、运用javax.servlet.http.HttpServletRequest接口的 sendRedirect()方法
+    B、运用javax.servlet.http.HttpServletResponse接口的sendRedirect()方法
+    C、运用javax.servlet.RequestDispatcher接口的sendRedirect()方法
+    D、运用javax.servlet.ResponseDispatcher接口的forward()方法
+参考答案：B
+答案说明：
+17、
+HttpServletResponse接口中用于设置Servlet输出内容的MIME类型的方法是（  ）
+(1分)
+    A、setContent (String type)
+    B、setContentLength(int type)
+    C、setContentType(String type)
+    D、setType(String type)
+参考答案：C
+答案说明：
+18、
+当Servlet发送响应消息时，需要在响应消息中设置（  ）
+(1分)
+    A、验证码
+    B、状态码
+    C、错误码
+    D、MD5密码
+参考答案：B
+答案说明：
+19、
+在HttpServletResponse对象中，getOutputStream()方法直接输出的是（  ）  
+(1分)
+    A、字符文本数据
+    B、二进制数据
+    C、字符文本数据和二进制数据都可以
+    D、字符文本数据和二进制数据都不可以
+参考答案：B
+答案说明：
+20、
+下面选项中，能实现2秒跳到传智播客官网首页的是（  ） 
+(1分)
+    A、response.setHeader("Refresh","2：URL=http://www.itcast.cn");
+    B、response.setHeader("Refresh","2;URL=http://www.itcast.cn");
+    C、response.setHeader("Location","2 URL=http://www.itcast.cn");
+    D、response.setHeader("Location ","2;URL=http://www.itcast.cn");
+参考答案：B
+答案说明：
+21、
+下列关于计算机中数据的存储形式，正确的是（  ）  
+(1分)
+    A、字符文本数据
+    B、二进制数据
+    C、字符文本数据和二进制数据都可以
+    D、字符文本数据和二进制数据都不可以
+参考答案：B
+答案说明：
+22、
+HttpServletResponse接口中定义的SC_OK常量表示请求成功，其状态码是（  ）
+(1分)
+    A、500
+    B、400
+    C、404
+    D、200
+参考答案：D
+答案说明：
+23、
+HttpServletResponse对象中的getOutputStream()和getWriter()方法同时使用，将产生的异常是（  ）
+(1分)
+    A、ArithmeticException
+    B、IllegalStateException
+    C、SQLException
+    D、IOException
+参考答案：B
+答案说明：
+24、
+阅读下面Servlet的doGet()方法中代码片段：
+String data="中国";
+response.setContentType("text/html;charset=utf-8");
+PrintWriter out = response.getWriter();  
+out.println(data);
+当打开浏览器直接访问时看到的结果中，说法正确的是（  ）
+(1分)
+    A、正常输出:中国
+    B、输出乱码
+    C、出现500异常
+    D、页面没有任何输出
+参考答案：A
+答案说明：
+25、
+阅读下面Servlet的doGet()方法中代码片段：
+String data="中国";
+response.setCharacterEncoding("utf-8");
+PrintWriter out = response.getWriter();  
+out.println(data);
+当打开浏览器后，点击【查看】à【编码】à【utf-8】选项，再访问时看到的结果，说法正确的是（  ）
+(1分)
+    A、正常输出:中国
+    B、输出乱码
+    C、出现500异常
+    D、页面没有任何输出
+参考答案：A
+答案说明：
+26、
+阅读下面Servlet1类中的代码片段：
+Servlet1：
+     
+response.getOutputStream().write("传智".getBytes("gbk"));
+response.getWriter().write("播客");
+request.getRequestDispatcher("/Servlet2").forward(request,response);
+如果使用浏览器访问Servlet1时会有什么结果（  )
+(1分)
+    A、浏览器输出 传智播客
+    B、浏览器输出乱码
+    C、浏览器输出播客
+    D、服务器端报错
+参考答案：D
+答案说明：
+27、
+下面关于HttpServletResponse对象中，使用getOutputStream(97)输出结果是（  ）  
+(1分)
+    A、A
+    B、97
+    C、a
+    D、出现异常
+参考答案：C
+答案说明：
+28、
+HttpServletResponse接口中用于设置响应消息的本地化信息的方法是（  ）
+(1分)
+    A、setContent (String type)
+    B、setContent (Locale l)
+    C、setContentLocale(Locale l)
+    D、setLocale(Locale l)
+参考答案：D
+答案说明：
+29、
+下面选项中， 用于设置响应消息的实体内容大小的方法是（  ）
+(1分)
+    A、setLength()
+    B、setContentLength()
+    C、setContentSize()
+    D、setSize()
+参考答案：B
+答案说明：
+30、
+HttpServletResponse接口中用于设置输出内容使用的字符编码的方法是（  ）
+(1分)
+    A、setEncodingCharacter(String charset)
+    B、setEncoding(String charset)
+    C、setCharacter (String charset)
+    D、setCharacterEncoding(String charset)
+参考答案：D
+答案说明：
+31、
+下面选项中，用于设置浏览器显示文本采用UTF-8编码的是 （） 
+(1分)
+    A、response.setHeader("Content-Type"," charset=utf-8");
+    B、request.setHeader("Content-Type"," charset=utf-8");
+    C、request.setHeader("Content-Type","text/html;charset=utf-8");
+    D、response.setHeader("Content-Type","text/html;charset=utf-8");
+参考答案：D
+答案说明：
+多选题
+32、
+下列选项中，属于HttpServletResponse类中发送状态码的方法是（  ）（多选）
+(1分)
+    A、setStatus(int status)
+    B、setStatus(String status)
+    C、setError(String status)
+    D、setError(int status)
+参考答案：A,D
+答案说明：
+33、
+下列关于request和response的说法中，错误的是（  ） 
+(1分)
+    A、javaweb开发是基于HTTP协议进行的，javaweb中使用request代表请求对象，response代表响应对象
+    B、request对象代表请求，response对象代表响应，这两个对象都是由浏览器创建后发送给服务器的
+    C、HTTP协议只规定了浏览器和服务器之间如何通信，而request和response对象是由javaee规范规定的、由javaweb容器负责创建的
+    D、HTTP协议是javaweb开发的基石，如response中提供的请求重定向的方法和request中提供的转发和包含方法就是基于HTTP协议进行的
+参考答案：B,D
+答案说明：
+34、
+阅读下面代码片段：
+response.setContentType("text/html;charset=utf-8");
+下列选项中，与上述代码功能等效的是（  ）（多选）
+(1分)
+    A、response.setCharacterEncoding("utf-8");
+    B、request.setCharacterEncoding("utf-8");
+    C、response.setHeader("Content-Type","text/html;charset=utf-8");
+    D、response.setHeader("Content-Type","charset=utf-8");
+参考答案：A,C
+答案说明：
+35、
+下面选项中，服务器发送数据有可能产生乱码的是（  ）（多选）
+(1分)
+    A、response.getOutputStream().write(“中国”.getBytes(“utf-8”));
+    B、response.getWriter().write(“中国”);
+    C、response.setCharacterEncoding(“utf-8”); response.setHeader(“Content-Type”,”text/html;charset=utf-8”); response.getWriter().write(“中国”);
+    D、response.setContentType(“text/html;charset=utf-8”); response.getWriter().write(“中国”);
+参考答案：A,B
+答案说明：
+36、
+下面关于response的说法中，正确的（  ）（多选）
+(1分)
+    A、response是代表响应的对象，当需要向浏览器输出数据时只能调用response中的getWriter()方法获取连接到浏览器的流
+    B、利用Response输出数据的时候，并不是直接将数据写给浏览器，而是写到了Response的缓冲区中
+    C、使用完流后要养成关闭流的习惯，所以在使用完Response获取的OutputStream或者Writer后必须将其关闭防止浪费资源
+    D、service()方法返回后，服务器会自己检查Response获取的OutputStream或者Writer是否关闭，如果没有关闭，服务器自动帮你关闭，一般情况下不要自己关闭这两个流
+参考答案：B,D
+答案说明：
+37、
+HttpServletResponse接口中可以有效解决乱码问题的方法是（  ）（多选）
+(1分)
+    A、addHeader()
+    B、setContetType()
+    C、setLoacale()
+    D、setCharacterEncoding()
+参考答案：B,C,D
+答案说明：
+38、
+下列选项中，可以实现在访问完app应用下Servlet1后，在浏览器地址栏显示index.jsp路径的是（  ）
+(1分)
+    A、response.setHeader("Refresh
+    B、0;url=/app/index.jsp");
+    C、response.setStatus(300);response.setHeader("Location
+    D、/index.jsp");
+    E、response.sendRedirect(request.getContextPath()+“/index.jsp”);
+    F、request.getRequestDispatcher(“/index.jsp”).forward(request,response);
+参考答案：A,C
+答案说明：
+39、
+HttpServletResponse接口中用于设置各种头字段的方法是（  ）（多选）
+(1分)
+    A、addHeader()
+    B、setHeader()
+    C、addIntHeader()
+    D、setIntHeader()
+参考答案：A,B,C,D
+答案说明：
+40、
+下列关于乱码的描述中，正确的是（  ）（多选）
+(1分)
+    A、Content-Type可以设置浏览器打开页面时的编码。
+    B、tomcat服务器默认使用ISO8859-1编码解码请求参数，如果浏览器发送请求参数时，使用的编码集不同，就会有乱码。
+    C、request.setCharacterEconding方法只对请求体内容起作用，而ge方式提交的参数是附加在URL后的，所以此方法只能解决POST乱码
+    D、对于get方式提交的请求参数，我们需要自己手动的经过将乱码先编码再解码的过程解决乱码
+参考答案：A,B,C,D
+答案说明：
+判断题
+41、
+计算机中的数据都是以文本形式存储的。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+42、
+当Servlet向客户端回送响应消息时，需要在响应消息中设置状态码。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+43、
+response对象的getOutputStream()和getWriter()方法都可以发送响应消息体，两者可以同时使用。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+44、
+如果没有设置Content-Type头字段，那么setCharacterEncoding()方法设置的字符集编码不会出现在HTTP消息的响应头中。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+45、
+所谓请求重定向，指的是Web服务器接受到客户端的请求后，又再次引导客户端重新发送请求，指定了一个新的资源路径。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+46、
+HttpServletResponse接口的sendRedirect()方法，该方法的实质是生成200响应码和Location响应头，并发送给客户端。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+47、
+HttpServletResponse对象中用于获取ServletOutputStream的方法是getOutputStream()
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+48、
+我们可以通过response.setHeader("Refresh","3")语句，使当前页面定时每3毫秒刷新一次。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+49、
+在HttpServletResponse接口中，发送状态码的方法只有一个。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+下面选项中, 可用于获取Web应用的初始化参数的所有参数名的方法是（）
+(1分)
+    A、getInitParameterNames()
+    B、getInitParameter(String name)
+    C、getInitParameter()
+    D、getParameter(String name)
+参考答案：A
+答案说明：ServletContext接口基本概念
+2、
+下面选项中, 用于根据指定名称获取ServletContext的域属性值的方法是（）
+(1分)
+    A、String getAttibute(String name)
+    B、Object getAttibute(String name)
+    C、String getAttibute(Object name)
+    D、Object getAttibute(Object name)
+参考答案：B
+答案说明：
+3、
+下面选项中，用于获取web.xml中<servlet-name>元素的值的方法是（）
+(1分)
+    A、getServletNames()
+    B、getServletName()
+    C、getServletName(String name)
+    D、getServletInfo()
+参考答案：B
+答案说明：
+4、
+下列选项中，哪个是web.xml中配置初始化参数的标签？（）
+(1分)
+    A、<param-init>
+    B、<init-param>
+    C、<param>
+    D、<init>
+参考答案：B
+答案说明：
+5、
+下面获取初始化参数encoding的写法中，正确的是（）
+(1分)
+    A、Object obj = getInitParameter(String name)
+    B、String encode = getInitParameterNames(String name)
+    C、Enumeration enumers = getInitParameterNames()
+    D、String encode = getInitParameter(String name)
+参考答案：D
+答案说明：
+6、
+下面选项中, 哪个方法用于返回映射到某个资源文件的URL对象（）
+(1分)
+    A、getRealPath(String path)
+    B、getResource(String path)
+    C、getResourcePaths(String path)
+    D、getResourceAsStream(String path)
+参考答案：B
+答案说明：
+7、
+下列关于ServletContext的说法中，错误的是（   ）。
+(1分)
+    A、ServletContext对象用来保存当前Web应用中的所有信息
+    B、在一个Web应用中可以有多个ServletContext对象。
+    C、ServletContext接口封装了获取当前Web应用中资源文件的方法。
+    D、ServletContext对象中保存的属性可以被Web应用中的所有Servlet访问。
+参考答案：B
+答案说明：
+8、
+下面选项中, 用于根据虚拟路径得到文件的真实路径的方法是（）
+(1分)
+    A、String getRealPath(String path)
+    B、URL getResource(String path)
+    C、Set getResourcePaths(String path)
+    D、InputStream getResourceAsStream(String path)
+参考答案：A
+答案说明：
+9、
+下面选项中, 用于返回某个资源文件的InputStream输入流对象的方法是（）
+(1分)
+    A、getRealPath(String path)
+    B、getResource(String path)
+    C、getResourcePaths(String path)
+    D、getResourceAsStream(String path)
+参考答案：D
+答案说明：
+10、
+在容器加载web应用后，每个应用中ServletContext对象的个数是（）
+(1分)
+    A、0个
+    B、1个
+    C、2个
+    D、多个
+参考答案：B
+答案说明：
+11、
+下面选项中, 用于根据指定名称删除ServletContext匹配的域属性的方法是（）
+(1分)
+    A、void remove(String name)
+    B、void removeAttribute(Object name)
+    C、void removeAttribute(String name)
+    D、Object removeAttribute(String name)
+参考答案：C
+答案说明：
+12、
+下面选项中, <context-param>元素的父元素是（）
+(1分)
+    A、<servlet>
+    B、<servlet-mapping>
+    C、<param-name>
+    D、<Web-app>
+参考答案：D
+答案说明：
+13、
+下面选项中，用于根据初始化参数名返回对应的值的方法是（）
+(1分)
+    A、String getInitParameter(String name)
+    B、Object getInitParameter(String name)
+    C、String getInitParameterNames(String name)
+    D、Enumeration getInitParameterNames()
+参考答案：A
+答案说明：
+14、
+下面选项中, 用于实现一个Web应用中的所有Servlet共享数据的对象是（）
+(1分)
+    A、HttpSession
+    B、ServletContext
+    C、ServletConfig
+    D、ServletRequest
+参考答案：B
+答案说明：
+15、
+下面选项中, 配置整个Web应用的初始化参数名为companyName，值为itcast，写法正确的是（）
+(1分)
+    A、<init-param> <param-name>companyName</param-name> <param-value>itcast</param-value> </init-param>
+    B、<init-context-param> <param-name>companyName</param-name> <param-value>itcast</param-value> </init-context-param>
+    C、<context-param> <param-name>companyName</param-name> <param-value>itcast</param-value> </context-param>
+    D、<context-param> <param-name> itcast </param-name> <param-value> companyName</param-value> </context-param>
+参考答案：C
+答案说明：
+16、
+下列关于ServletConfig中getServletName()方法的描述中，正确的是（）
+(1分)
+    A、获取web.xml中<param-name>元素的值
+    B、获取web.xml中<servlet-name>元素的值
+    C、获取server.xml中<servlet-name>元素的值
+    D、获取server.xml中< param-name >元素的值
+参考答案：B
+答案说明：
+17、
+下面关于配置整个Web应用的初始化参数的说法中，正确的是（）
+(1分)
+    A、使用<init-param>来配置
+    B、使用<context-param>来配置
+    C、使用<context-init-param>来配置
+    D、使用<init-context-param>来配置
+参考答案：B
+答案说明：
+18、
+下列关于ServletConfig对象的说法中，正确的是（  ）。
+(1分)
+    A、ServletConfig对象可以用来获取Servlet的配置信息。
+    B、ServletConfig对象可以实现Servlet信息的共享。
+    C、ServletConfig对象保存的信息是通过service()方法传递给Servlet的
+    D、ServletConfig对象可以读取web.xml文件中所有的信息。
+参考答案：A
+答案说明：
+19、
+下面选项中，可以创建 ServletConfig对象的是（）
+(1分)
+    A、客户端
+    B、浏览器
+    C、Servlet
+    D、Web容器
+参考答案：D
+答案说明：
+20、
+在Java Web开发中，不同客户端需要共享的数据应存储到（ ）中。
+(1分)
+    A、HttpSession
+    B、ServletContext
+    C、ServletRequest
+    D、ServletResponse
+参考答案：B
+答案说明：
+21、
+下面选项中, 用于设置ServletContext的域属性的方法是（）
+(1分)
+    A、setAttribute(String name,String obj)
+    B、setParameter(String name,Object obj)
+    C、setAttribute(String name,Object obj)
+    D、setParameter (String name,Object obj)
+参考答案：C
+答案说明：
+22、
+下列类和接口中，哪个用于封装servlet的配置信息（  ）
+(1分)
+    A、Servlet
+    B、ServletContext
+    C、ServletConfig
+    D、GenericServlet
+参考答案：C
+答案说明：
+23、
+下面选项中配置参数名为name，它的值为youjun，以下正确的配置是（）
+(1分)
+    A、<init-parames> <param-name>name</param-name <param-value>youjun</param-value> </init-parames>
+    B、<init-param> < name>name</name <value>youjun</value> </init-param>
+    C、<init-param> <param-name>name</param-name <param-value>youjun</param-value> </init-param>
+    D、<init-parameter> <param-name>name</param-name <param-value>youjun</param-value> </init- parameter>
+参考答案：C
+答案说明：
+24、
+下面选项中，与web应用具有相同的生命周期的对象是（）
+(1分)
+    A、Servlet
+    B、ServletConfig
+    C、GenericServlet
+    D、ServletContext
+参考答案：D
+答案说明：
+25、
+以下哪一个类可以获取Servlet的初始化参数（）
+(1分)
+    A、Servlet
+    B、ServletContext
+    C、ServletConfig
+    D、GenericServlet
+参考答案：C
+答案说明：
+26、
+下面选项中，与web应用有相同的生命周期的是（）
+(1分)
+    A、Servlet
+    B、ServletConfig
+    C、ServletContext
+    D、GenericServlet
+参考答案：C
+答案说明：
+27、
+下面选项中，用于返回一个Enumeration对象并包含所有的初始化参数名的方法是（） 
+(1分)
+    A、String getInitParameter(String name)
+    B、Object getInitParameter(String name)
+    C、String getInitParameterNames(String name)
+    D、Enumeration getInitParameterNames()
+参考答案：D
+答案说明：
+多选题
+28、
+下面选项中, 属于<context-param>元素的子元素是（）
+(1分)
+    A、<init-param>
+    B、<servlet-mapping>
+    C、<param-name>
+    D、<param-value>
+参考答案：C,D
+答案说明：
+29、
+下面方法中，用于获取ServletContext对象的方法是（）
+(1分)
+    A、getServletConfig().getServletContext()
+    B、getServletContext()
+    C、getServlet().getServletContext()
+    D、response.getServletContext()
+参考答案：A,B
+答案说明：
+30、
+下面选项中，由web容器创建出来的对象是（） （多选）
+(1分)
+    A、HttpSession
+    B、ServletContext
+    C、ServletRequest
+    D、ServletResponse
+参考答案：A,B,C,D
+答案说明：
+31、
+下列方法中，属于ServletConfig接口中定义的方法有（  ）
+(1分)
+    A、getInitParameter(String name)
+    B、getInitParameterNames()
+    C、getServletConfig()
+    D、getServletName()
+参考答案：A,C,D
+答案说明：
+32、
+下面选项中，容器提供创建 ServletConfig对象的方法是（）
+(1分)
+    A、init(ServletConfig cofig)
+    B、getServletConfig()
+    C、getConfig()
+    D、setServletConfig(ServletConfig config)
+参考答案：A,B
+答案说明：
+判断题
+33、
+ServletContext接口中定义了用于查询、增加、删除、设置ServletContext域属性的方法。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+34、
+ServletConfig对象可以实现多个Servlet之间的数据共享。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+35、
+在Servlet容器启动每一个web应用时，就会创建一个唯一的ServletContext对象，该对象和web应用具有相同的生命周期。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+36、
+当Tomcat初始化一个Servlet时，会将该Servlet的配置信息封装到一个ServletConfig对象。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+37、
+在配置整个Web应用的初始化参数时，可在web.xml中配置如下代码
+<context-param>
+      <param-name>companyName</param-name>
+      <param-value>itcast</param-value>
+  </context-param>
+来实现。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+单选题
+1、
+已知在web.xml中配置的监听器如下：
+<listener>
+    <listener-class>cn.itcast.listener.MyListener</listener-class>
+</listener>
+则下面说法，正确的是（）
+(1分)
+    A、<listener>说明在web.xml中配置了一个监听器
+    B、< listener-class>是指监听器类所对应的包名及类名
+    C、一个 <listener>元素中可以出现多个< listener-class>子元素
+    D、<listener>元素中还可以添加<listener-name>子元素
+参考答案：B
+答案说明：
+2、
+下列是Servlet映射路径中的一些通配符，其中错误的是（）
+(1分)
+    A、/abc/*.do
+    B、/abc/*
+    C、*.do
+    D、/*
+参考答案：A
+答案说明：
+3、
+Eclipse工具开发Servlet会自动将src目录下的文件编译成class文件存放到哪个目录下（）
+(1分)
+    A、class
+    B、classes
+    C、lib
+    D、conf
+参考答案：B
+答案说明：
+4、
+下列关于HttpServlet类的说法中，错误的是（  ）
+(1分)
+    A、HttpServlet是位于javax.servlet.http包下抽象类
+    B、通过继承HttpServlet类可以创建和HTTP协议相关的servlet
+    C、通过继承HttpServlet类的方式创建servlet时，需要重写它的service()方法
+    D、HttpServlet类通过一个service()方法将HTTP请求和响应分别转为HttpServletRequest和HttpServletResponse类型的对象。
+参考答案：C
+答案说明：
+5、
+下面哪个类是Tomcat默认已配好的缺省Servlet （）
+(1分)
+    A、DefaultServlet
+    B、ServletDefault
+    C、DefaultHttpServlet
+    D、HttpServletDefault
+参考答案：A
+答案说明：
+6、
+关于一个web.xml中可以配置的监听器的个数，正确的是（）
+(1分)
+    A、0个
+    B、1个
+    C、0个或1个
+    D、0个或多个
+参考答案：D
+答案说明：
+7、
+在Java Web应用程序中，可以使用（）接口或在类中定义的（）方法来处理客户端发出的表单数据请求
+(1分)
+    A、HttpServlet doHead
+    B、HttpServlet doPost
+    C、ServletRequest doGet
+    D、ServletRequest doPost
+参考答案：B
+答案说明：
+8、
+已知web.xml中存在如下配置：
+<session-config>
+  <session-timeout>2</session-timeout>
+</session-config>
+则空闲状态2秒分钟后，HttpSessionListener中将被调用的方法是（）
+(1分)
+    A、sessionCreated()
+    B、initializedSession ()
+    C、destroyedSession()
+    D、sessionDestroyed()
+参考答案：D
+答案说明：
+9、
+下面关于客户端访问Tomcat服务器中的某个静态HTML文件时的说法中，正确的是（）
+(1分)
+    A、直接访问HTML等静态资源
+    B、先访问缺省Servlet，由缺省Servlet再决定定位静态资源
+    C、先访问HTML静态资源，再访问缺省Servlet
+    D、以上说法都不对
+参考答案：B
+答案说明：
+10、
+下面选项中，用于在web.xml中配置监听器的元素是（）
+(1分)
+    A、<listener-url>
+    B、<url-listener>
+    C、<listener>
+    D、<listener-name>
+参考答案：C
+答案说明：
+11、
+下面选项中，关于统计网站当前在线人数的计数器count变量应该保存的域范围是（）
+(1分)
+    A、request
+    B、session
+    C、application
+    D、page
+参考答案：C
+答案说明：
+12、
+HttpServlet类中，用来处理POST请求的方法是（  ）
+(1分)
+    A、doHead
+    B、doGet
+    C、doPost
+    D、doPut
+参考答案：C
+答案说明：
+13、
+login.html中存在如下代码：
+<form action =”/LoginServlet” method=”post”>
+                                 username:<input type=”text” name = “userName” id=”myName” value=”yourName”>
+</form>
+当表单提交时，下列选项中，能够获取到文本框中值的是（  ）。
+(1分)
+    A、request.getAttribute(“userName”);
+    B、request.getParameter(“myName”);
+    C、request.getParameter(“userName”);
+    D、request.getAttribute(“myName”);
+参考答案：C
+答案说明：
+14、
+在HttpServletRequest对象中，用于获取表单参数值的方法是（  ）。
+(1分)
+    A、getQuaryString()
+    B、getPathInfo()
+    C、getParameter()
+    D、getAttribute()
+参考答案：C
+答案说明：
+15、
+在Java Web应用程序中，给定某Servlet程序的代码如下所示：
+Public class Servlet1 extends HttpServlet{
+Public void doGet(HttpServletRequest request,HttpServletResponse response)
+Throws ServletException IOException{
+System.out.println(“get”);
+}
+Public void doPost(HttpServletRequest request.HttpServletResponse response)
+Throws ServletException,IOException{
+System.out.println(“post”);
+doGet(reauest,response);
+}
+}
+用户在浏览器地址栏中键入正确的请求URL并回车后，在控制台上显示的结果是（ ）。 
+(1分)
+    A、get
+    B、post
+    C、get post
+    D、post get
+参考答案：A
+答案说明：
+16、
+下面关于配置Web应用的缺省Servlet的说法中，正确的是（）
+(1分)
+    A、可以将Servlet的映射路径配置为\
+    B、可以将Servlet的映射路径配置为/
+    C、可以将Servlet的映射路径配置为\
+    D、可以将Servlet的映射路径配置为//
+参考答案：B
+答案说明：
+17、
+已知web.xml中存在如下配置：
+<session-config>
+  <session-timeout>2</session-timeout>
+</session-config>
+下面的说法，正确的是（）
+(1分)
+    A、在空闲状态下，2秒后将导致session对象销毁
+    B、在空闲状态下，2分钟后将导致session对象销毁
+    C、在空闲状态下，2毫秒后将导致session对象销毁
+    D、在空闲状态下，2小时后将导致session对象销毁
+参考答案：B
+答案说明：
+18、
+在浏览器中输入http://localhost:8080/myWebApp/start/,就会调用itcast包中名为Student的Servlet，那么在web.xml中配置正确的是（）
+(1分)
+    A、<servlet> <servlet-name>/start/*</servlet-name> <servlet-value>itcast.Student</servlet-class> </servlet>
+    B、<servlet> <servlet-name> itcast.Student </servlet-name> <servlet-value> /start/*</servlet-class> </servlet>
+    C、<servlet> <servlet-name>student</servlet-name> <servlet-value>itcast.Student</servlet-class> </servlet> <servlet-mapping> <servlet-name>student</servlet-name> <url-pattern>/start/*</url-pattern> </servlet-mapping>
+    D、<servlet> <servlet-name>itcast.Student </servlet-name> <servlet-value>student </servlet-class> </servlet> <servlet-mapping> <servlet-name> itcast.Student </servlet-name> <url-pattern>/start/*</url-pattern> </servlet-mapping>
+参考答案：C
+答案说明：
+19、
+给定如下所示的Java Servlet代码片段，用户在浏览器地址栏中键入正确的请求URL并回车后，在控制台上显示的结果是（）。
+public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+    System.out.println(“get”);
+}
+public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+    System.out.println(“post”);
+}
+protected void service(HttpServletRequest req, HttpSergvletResponse resp) throws ServletException, IOException{
+    System.out.println(“service”);
+}
+(1分)
+    A、get
+    B、post
+    C、service
+    D、service get
+参考答案：C
+答案说明：
+20、
+下面选项中，可作为<listener>元素子元素的是（）
+(1分)
+    A、<listener-url>
+    B、<listener-class>
+    C、<class-listener>
+    D、<listener-name>
+参考答案：B
+答案说明：
+21、
+一个Servlet可以被映射成虚拟路径的个数是 （）
+(1分)
+    A、1个
+    B、2个
+    C、0个
+    D、多个
+参考答案：D
+答案说明：
+多选题
+22、
+下面选项中，属于web.xml文件中<servlet>标签包含的子标签的是 （）
+(1分)
+    A、<init-param>
+    B、<servlet-name>
+    C、<load-on-startup>
+    D、<servlet-class>
+参考答案：A,B,C,D
+答案说明：
+23、
+下列选项中能正确实现一个servlet的方式有（  ）（多选）
+(1分)
+    A、继承javax.servlet.http.HttpServlet类
+    B、实现javax.servlet.Servlet接口
+    C、继承javax.servlet. GenericServlet 类
+    D、自定义一个类，命名为Servlet
+参考答案：A,B,C
+答案说明：
+24、
+某Web应用的上下文路径是root，配置文件web.xml中有如下片段，则以下说法正确的是（）
+<servlet>
+    <servlet-name>process</servlet-name>
+    <servlet-class>itcast.ProcessServlet</servlet-class>
+</serlvet>
+<servlet-mapping>
+    <servlet-name>process</servlet-name>
+    <url-pattern>/proc</url-pattern>
+</servlet-mapping>
+(1分)
+    A、在包itcast中，有一个名为ProcessServlet的类
+    B、访问路径是http://机器 IP:端口号/root/process
+    C、访问路径是http://机器 IP:端口号/root/ProcessServlet
+    D、访问路径是http://机器 IP:端口号/root/proc
+参考答案：A,D
+答案说明：
+25、
+下面关于Servlet中url的配置方式，正确的是（）  （多选）
+(1分)
+    A、/my
+    B、/my/*
+    C、/*.do
+    D、*.do
+参考答案：A,B,D
+答案说明：
+26、
+HttpServlet中定义的doGet和doPost方法的参数类型有哪些？（） 
+(1分)
+    A、ServletRequest
+    B、HttpServletRequest
+    C、HttpServletResponse
+    D、ServletResponse
+参考答案：B,C
+答案说明：
+27、
+下面关于Servlet的多重映射的说法中，正确的是 （）
+(1分)
+    A、可以配置多个<servlet-mapping>来实现
+    B、可以在一个<servlet-mapping>配置多个<url-pattern>来实现
+    C、可以在一个<url-pattern>配置多个<servlet-mapping>来实现
+    D、以上都不正确
+参考答案：A,B
+答案说明：
+28、
+阅读下面的代码：
+<servlet>
+  <servlet-name>TestServlet01</servlet-name>
+<servlet-class>cn.itcast.chapter04.servlet.TestServlet01</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name> TestServlet01</servlet-name>
+  <url-pattern>/TestServlet01</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>TestServlet01</servlet-name>
+  <url-pattern>/Test01</url-pattern>
+</servlet-mapping>
+下面选项中，可以访问chapter04应用下该Servlet的是（）
+(1分)
+    A、http://localhost:8080/chapter04/TestServlet01
+    B、http://localhost:8080/chapter04/servlet/TestServlet01
+    C、http://localhost:8080/chapter04/Test01
+    D、http://localhost:8080/chapter04/servlet/Test01
+参考答案：A,C
+答案说明：
+29、
+下面在Servlet映射的路径中使用通配符“*”的格式正确的是? （）  
+(1分)
+    A、*.扩展名
+    B、/*
+    C、/*.扩展名
+    D、/servlet/*.扩展名
+参考答案：A,B
+答案说明：
+30、
+以下关于请求方式GET和POST的描述中，哪些是错误的（  ）。
+(1分)
+    A、使用GET请求方式传入的参数没有数据大小限制
+    B、使用POST请求方式传入的参数没有数据大小限制
+    C、使用GET请求方式提交的数据在地址栏中不会显示
+    D、使用POST请求方式提交的数据在地址栏中不会显示
+参考答案：A,D
+答案说明：
+31、
+下列异常中，哪些是在Servlet中重写doGet(),doPost()方法时抛出的异常（  ） 
+(1分)
+    A、ServletException
+    B、HttpServletException
+    C、HttpException
+    D、IOException
+参考答案：A,D
+答案说明：
+32、
+下列关于servlet的说法中，正确的是（  ）（多选）
+(1分)
+    A、多个用户同时访问一个servlet时，也会为这个servlet创建多个实例
+    B、当servlet对象被销毁时，由servlet容器调用destroy()方法释放资源
+    C、servlet容器调用destroy()方法之后,它就再也不会调用这个servlet对象的service()方法了
+    D、在servlet的一个生命周期中，service ()方法只会被调用一次
+参考答案：B,C
+答案说明：
+判断题
+33、
+一个完整的Servlet事件监听器包括Listener类和<listener>配置。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+34、
+对象的getOutputStream()和getWriter()方法可以同时发送响应消息体
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+35、
+当访问itcast.sp页面时，将完成ServletRequestListener监听器的requestInitialized()方法和requestDestroyed()方法的调用。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+36、
+使用RequestDispatcher对象的include()方法实现请求包含后，浏览器显示的URL会发生变化的
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+37、
+创建好的Servlet，客户端可以对其进行直接访问。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+38、
+在Servlet程序中，只有属于同一个请求中的数据才可以通过HttpServletRequest对象传递
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+39、
+如果某个Servlet的映射路径是一个正斜线（/），那么这个Servlet就是当前Web应用的缺省Servlet。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+40、
+一个Servlet只能映射一个虚拟路径。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+41、
+一个Servlet可以被映射成多个虚拟路径。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+42、
+/abc/*.do是一个合法的映射路径。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+43、
+在实际开发时会使用Eclipse工具完成部署Web应用到Tomcat服务器
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+44、
+在web.xml中，一个 <listener>元素中可以出现多个< listener-class>子元素。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+45、
+当某个Web应用没有缺省Servlet时，也会使用Tomcat已配好的DefaultServlet作为默认缺省的Servlet。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+46、
+在Servlet映射的路径中使用通配符“*”，格式只有两种：“*.扩展名”和“/*”。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+47、
+一个<servlet-mapping>元素下配置多个<url-pattern>子元素能实现Servlet的多重映射。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+48、
+在一个web.xml中可以配置多个监听器。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+49、
+Servlet的多重映射指的是同一个Servlet可以被映射成多个虚拟路径。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+50、
+要实现Servlet的多重映射，可以在<servlet-mapping>元素下配置多个<url-pattern>子元素。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+51、
+在实际开发中，通常都会使用Eclipse工具完成Servlet的开发，它会自动编译Servlet并生成该Servlet的相应配置信息。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+52、
+<session-timeout>标签指定的超时必须为一个整数，如果这个整数是为0或负整数，则session永远不会超时。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+53、
+统计网站当前在线人数的计数器变量count变量，应该保存在HttpSession域对象中。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+单选题
+1、
+在编写Servlet类时，可以继承父类并与协议无关的对象是（）
+(1分)
+    A、Servlet
+    B、GenericServlet
+    C、HttpServlet
+    D、ServletContext
+参考答案：B
+答案说明：
+2、
+下面选项中，创建Servlet类后需要在哪个配置文件中进行配置（）
+(1分)
+    A、web-config.xml
+    B、application.xml
+    C、config.xml
+    D、web.xml
+参考答案：D
+答案说明：
+3、
+下面选项中，Servlet配置中代表当前Web应用程序的根目录的是（）
+(1分)
+    A、\
+    B、//
+    C、*
+    D、/
+参考答案：D
+答案说明：
+4、
+开发中创建了一个Servlet，该Servlet重写了其父类的doGet()和doPost()方法，那么其父类可能是（ ）
+(1分)
+    A、RequestDispatcher
+    B、HttpServletResponse
+    C、HttpServletRequest
+    D、HttpServlet
+参考答案：D
+答案说明：
+5、
+ServletRequest对象被销毁时，将会调用ServletRequestListener接口中的（ ）方法
+(1分)
+    A、requestCreated()
+    B、requestInitialized ()
+    C、requestDestroyed()
+    D、destroyedRequest()
+参考答案：C
+答案说明：
+6、
+下列关于<servlet-mapping>作用的说法中，正确的是（）
+(1分)
+    A、用于映射Servlet对外访问的虚拟路径
+    B、指定Servlet类的路径
+    C、设置Servlet名称
+    D、以上都不对
+参考答案：A
+答案说明：
+7、
+ServletRequest对象被创建时，将会调用ServletRequestListener接口中的（ ）方法
+(1分)
+    A、requestCreated()
+    B、requestInitialized ()
+    C、requestDestroyed()
+    D、destroyedRequest()
+参考答案：B
+答案说明：
+8、
+ServletContext对象被创建时，将会调用ServletContextListener接口中（）方法
+(1分)
+    A、contextInitialized()
+    B、initializedContext ()
+    C、destroyedContext()
+    D、contextDestroyed()
+参考答案：A
+答案说明：
+9、
+关于HttpSessionListener接口中的方法，HttpSession对象被销毁时将调用的方式（ ）
+(1分)
+    A、sessionCreated()
+    B、initializedSession ()
+    C、destroyedSession()
+    D、sessionDestroyed()
+参考答案：D
+答案说明：
+10、
+下面选项中，用于监听ServletRequest域对象创建及销毁的监听器接口是（ ）
+(1分)
+    A、ServletRequestAttributeListener
+    B、ServletRequestListener
+    C、HttpServletRequestListener
+    D、ServletRequestActivationListener
+参考答案：B
+答案说明：
+11、
+下面选项中，在web.xml配置文件中定义Servlet，包括Servlet的名称和Servlet的实现类的结点是（）
+(1分)
+    A、<servlet>
+    B、<servlet-mapping>
+    C、<servlet-config>
+    D、<wab-app>
+参考答案：A
+答案说明：
+12、
+下面关于Servlet配置信息的选项中，用来指定Servlet完整类名的是（）
+(1分)
+    A、<servlet-name>
+    B、<servlet-class>
+    C、<class>
+    D、<class-path>
+参考答案：B
+答案说明：
+13、
+关于HttpSessionListener接口中的方法，HttpSession对象被创建时将调用的方法是（ ）
+(1分)
+    A、sessionCreated()
+    B、initializedSession ()
+    C、destroyedSession()
+    D、sessionDestroyed()
+参考答案：A
+答案说明：
+14、
+ServletContext对象被销毁时，将会调用ServletContextListener接口中（）方法
+(1分)
+    A、contextInitialized()
+    B、initializedContext ()
+    C、destroyedContext()
+    D、contextDestroyed()
+参考答案：D
+答案说明：
+15、
+下面选项中，用于监听HttpSession域对象创建及销毁的监听器接口是（ ）
+(1分)
+    A、HttpSessionAttributeListener
+    B、HttpSessionListener
+    C、HttpSessionBindingListener
+    D、HttpSessionActivationListener
+参考答案：B
+答案说明：
+16、
+LoginServlet是一个Servlet类，代码如下
+public class LoginServlet extends ___________ {
+public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        …
+}
+public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    …
+}
+}
+在下划线处应填写（）
+(1分)
+    A、Servlet
+    B、HttpServlet
+    C、GenericServlet
+    D、Cookie
+参考答案：B
+答案说明：
+17、
+下面选项中，用于监听ServletContext域对象创建及销毁的监听器接口是（ ）
+(1分)
+    A、ServletContextListener
+    B、ServletContextAttributeListener
+    C、ServletContextBindingListener
+    D、ServletContextActivationListener
+参考答案：A
+答案说明：
+18、
+下面选项中，用来指定Servlet完整类名的节点是（）
+(1分)
+    A、<servlet-name>
+    B、<servlet-class>
+    C、<class>
+    D、<class-path>
+参考答案：B
+答案说明：
+多选题
+19、
+下面选项中，能够用于监听域对象创建和销毁的是（  ）(多选)
+(1分)
+    A、实现ServletContextListener接口的类
+    B、实现HttpSessionListener接口的类
+    C、实现ServletRequestListener接口的类
+    D、实现ServletResponseListener接口的类
+参考答案：A,B,C
+答案说明：
+20、
+下面选项中，能够用于监听绑定到HttpSession域中对象状态的事件监听器的是（  ）(多选)
+(1分)
+    A、实现HttpSessionListener接口的类
+    B、实现HttpSessionActivationListener接口的类
+    C、实现HttpSessionBindingListener接口的类
+    D、实现HttpSessionAttributeListener接口的类
+参考答案：B,C
+答案说明：
+21、
+下面选项中，属于ServletRequestListener接口中定义的方法是（ ）
+(1分)
+    A、requestCreated()
+    B、requestInitialized ()
+    C、requestDestroyed()
+    D、destroyedRequest()
+参考答案：B,C
+答案说明：
+22、
+关于Servlet事件监听器作用的说法中描述，正确的是（  ）(多选）
+(1分)
+    A、注册监听器
+    B、事件处理器，传递事件对象
+    C、获得事件源，并对事件源进行处理
+    D、销毁监听器
+参考答案：A,B,C
+答案说明：
+23、
+下面选项中，属于事件监听器工作步骤的是（  ）(多选)
+(1分)
+    A、注册监听器
+    B、触发事件处理器，传递事件对象
+    C、获得事件源，并对事件源进行处理
+    D、销毁监听器
+参考答案：A,B,C
+答案说明：
+24、
+下面选项中，属于HttpSessionListener接口中定义的方法是（ ）(多选)
+(1分)
+    A、sessionCreated()
+    B、initializedSession ()
+    C、destroyedSession()
+    D、sessionDestroyed()
+参考答案：A,D
+答案说明：
+25、
+下面选项中，属于ServletContextListener接口中定义的方法有（ ）(多选)
+(1分)
+    A、contextInitialized()
+    B、initializedContext ()
+    C、destroyedContext()
+    D、contextDestroyed()
+参考答案：A,D
+答案说明：
+26、
+下面选项中，属于事件的是（  ）(多选)
+(1分)
+    A、一个按钮
+    B、点击一个按钮
+    C、电话
+    D、打电话
+参考答案：B,D
+答案说明：
+27、
+下面选项中，能够用于监听域对象属性增加和删除的事件监听器的是（  ）(多选)
+(1分)
+    A、实现ServletContextAttributeListener接口的类
+    B、实现ServletRequestAttributeListener接口的类
+    C、实现HttpSessionBindingListener接口的类
+    D、实现HttpSessionAttributeListener接口的类
+参考答案：A,B,D
+答案说明：
+28、
+下面选项中，属于Servlet事件监听器监听对象的是（  ）(多选)
+(1分)
+    A、ServletContext
+    B、HttpSession
+    C、ServletRequest
+    D、ServletResponse
+参考答案：A,B,C
+答案说明：
+29、
+下面选项中，属于Servlet事件监听器的是（  ）(多选)
+(1分)
+    A、用于监听域对象创建和销毁的事件监听器
+    B、用于监听域对象属性增加和删除的事件监听器
+    C、用于监听绑定到ServletContext域中某个对象状态的事件监听器
+    D、用于监听绑定到HttpSession域中某个对象状态的事件监听器
+参考答案：A,B,D
+答案说明：
+30、
+下列选项中，可以填入横线处的是（） （多选）
+<servlet>
+         <servlet-name>LoginServlet</servlet-name>
+         <servlet-class>com.itcast.youjun.servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+         <servlet-name>LoginServlet</servlet-name>
+         <url-pattern>________</url-pattern>
+</servlet-mapping>
+(1分)
+    A、LoginServlet
+    B、/LoginServlet/*
+    C、loginServlet
+    D、/loginServlet
+参考答案：B,D
+答案说明：
+31、
+下面选项中，构成事件监听过程的是（  ）(多选)
+(1分)
+    A、事件
+    B、事件源
+    C、Listener
+    D、事件处理器
+参考答案：A,B,C,D
+答案说明：
+判断题
+32、
+Servlet事件监听器根据监听事件的不同，可以分为两类。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+33、
+用于监听ServletRequest对象生命周期的接口是ServletRequestListener。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+34、
+Servlet事件监听器只能监听Web应用程序中ServletContext、HttpSession和ServletRequest等域对象的创建和销毁过程。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+35、
+ServletRequest对象被创建时，将调用ServletRequestListener接口中的requestCreated ()方法。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+36、
+HttpSession对象被创建时，将调用HttpSessionListener接口中的sessionCreated ()方法。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+37、
+Servlet事件监听器就是一个实现特定接口的Java程序。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+38、
+Servlet事件监听器可以监听ServletContext、HttpSession和ServletResponse等域对象的创建和销毁过程。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+39、
+ServletContext对象被创建时，会调用ServletContextListener接口中的contextInitialized ()方法。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+40、
+HttpSession对象被销毁时，将调用HttpSessionListener接口中的sessionCreated ()方法。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+41、
+用于监听ServletContext对象生命周期的接口是ServletContextListener。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+42、
+元素<url-pattern>是用于指定访问该Servlet的虚拟路径，该路径以正斜线(/)开头，代表当前Web应用程序的根目录。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+43、
+ServletContext对象被销毁时，会调用ServletContextListener接口中的contextInitialized ()方法。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+44、
+ServletRequest对象被销毁时，将调用ServletRequestListener接口中的requestDestroyed ()方法。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+45、
+用于监听HttpSession对象生命周期的接口是HttpSessionBindingListener。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+下面选项中，关于运行Tomcat7.0建议使用JDK版本是哪项?（）
+(1分)
+    A、JDK5
+    B、JDK6
+    C、JDK7
+    D、JDK8
+参考答案：C
+答案说明：
+2、
+假设在helloapp应用中有一个hello.jsp，它的文件路径如下：
+     <CATALINA_HOME>/webapps/helloapp/hello/hello.jsp
+在web.xml文件中没有对hello.jsp作任何配置，那么浏览器端访问hello.jsp的URL是什么？
+(1分)
+    A、http://localhost:8080/hello.jsp
+    B、http://localhost:8080/hello.jsp
+    C、http://localhost:8080/helloapp/hello/hello.jsp
+    D、http://localhost:8080/hello
+参考答案：C
+答案说明：
+3、
+下列选项中，修改Tomcat端口号的文件是（）
+(1分)
+    A、conf.xml
+    B、context.xml
+    C、server.xml
+    D、service.xml
+参考答案：C
+答案说明：
+4、
+下列选项中，用于停止Tomcat的是哪个命令（）
+(1分)
+    A、shutdown.bat
+    B、down.bat
+    C、start.bat
+    D、shutdown.dll
+参考答案：A
+答案说明：
+5、
+下面选项中，通常将要发布的应用程序放到哪个目录下（）
+(1分)
+    A、bin
+    B、conf
+    C、lib
+    D、webapps
+参考答案：D
+答案说明：
+6、
+下面关于tomcat服务器描述，正确的是()
+(1分)
+    A、tomcat是一个开源的免费的web服务器，它支持javaEE所有规范
+    B、tomcat 安装后默认端口80
+    C、tomcat 启动时需要配置JAVA_HOME 环境变量
+    D、tomcat 启动时必须配置CATALINA_HOME环境变量
+参考答案：C
+答案说明：
+7、
+安装tomcat成功后，要修改tomcat端口，要修改的文件是()
+(1分)
+    A、tomcat/bin/startup.bat文件
+    B、tomcat/conf/server.xml
+    C、tomcat/conf/web.xml
+    D、以上都不是
+参考答案：B
+答案说明：
+8、
+在<Tomcat7.x安装目录>\bin文件夹中，双击下列哪个脚本文件可以启动Tomcat服务器？（  ）
+(1分)
+    A、service.bat
+    B、shutdown.bat
+    C、startup.bat
+    D、tomcat7.exe
+参考答案：C
+答案说明：
+9、
+自定义xml配置虚拟目录的名字为chapter02.xml,则访问时URL中正确的是（）
+(1分)
+    A、http://localhost:8080/chapter02/index.html
+    B、http://localhost:8080/index.html
+    C、http://localhost:8080/chapter/index.html
+    D、http://localhost:8080/chapter2/index.html
+参考答案：A
+答案说明：
+10、
+下面关于配置web应用的默认页面，说法正确的是（）
+(1分)
+    A、需要在Tomcat安装目录下conf/web.xml进行配置
+    B、需要在Tomcat安装目录下conf/server.xml进行配置
+    C、需要在当前web应用目录下WEB-INF/web.xml进行配置
+    D、需要在当前web应用目录下WEB-INF/server.xml进行配置
+参考答案：C
+答案说明：
+11、
+ 下面选项中，Tomcat安装目录的子目录描述，错误的是（）
+(1分)
+    A、bin：用于存放Tomcat的可执行文件和脚本文件
+    B、conf：用于存放Tomcat的各种配置文件
+    C、lib：用于存放Tomcat服务器和Web应用程序需要访问的DLL文件
+    D、webapps：Web应用程序的主要发布目录
+参考答案：C
+答案说明：
+12、
+下面关于配置web默认页面index.html的说法中，正确的是（）
+(1分)
+    A、<welcome-file-list> <welcome-files>index.html</welcome-files> </welcome-file-list>
+    B、<welcome-file-lists> <welcome-file>index.html</welcome-file> </welcome-file-lists>
+    C、<welcome-file-list> <welcome-file>index.html</welcome-file> </welcome-file-list>
+    D、<welcome-file-lists> <welcome-files>index.html</welcome-files> </welcome-file-lists>
+参考答案：C
+答案说明：
+13、
+假设在helloapp应用中有一个HelloServet.java类，它位于com.itheima包中，那么这个类的.class文件的存放路径应该是什么？（ ）
+(1分)
+    A、helloapp/HelloServlet.class
+    B、helloapp/WEB-INF/HelloServlet.class
+    C、helloapp/WEB-INF/classes/HelloServlet.class
+    D、helloapp/WEB-INF/classes/com/itheima/HelloServlet.class
+参考答案：D
+答案说明：
+14、
+下面关于自定义xml配置虚拟目录的名字为ROOT.xml,则访问主页index.html时URL中正确的是（）
+(1分)
+    A、http://localhost:8080/chapter02/index.html
+    B、http://localhost:8080/index.html
+    C、http://localhost:8080/chapter/index.html
+    D、http://localhost:8080/chapter2/index.html
+参考答案：B
+答案说明：
+15、
+下列选项中，可以成功修改Tomcat端口号为80的是（）
+(1分)
+    A、<Connect port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />
+    B、<Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />
+    C、<Connector port="80" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />
+    D、<Connect port="80" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />
+参考答案：C
+答案说明：
+16、
+在tomcat中发布web应用myweb，定义类cn.itcast.Hello.java，Hello.class会被编译到哪个目录（）
+(1分)
+    A、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/Hello.class
+    B、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/cn/itcast/Hello.class
+    C、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/cn.itcast.Hello.class
+    D、${CATALINA_HOME}/webapps/myweb/WEB-INF/classes/cn.itcast/Hello.class
+参考答案：B
+答案说明：
+17、
+下列选项中，可以启动Tomcat的是哪个命令（）
+(1分)
+    A、shutdown.bat
+    B、startup.bat
+    C、start.bat
+    D、startup.dll
+参考答案：B
+答案说明：
+18、
+下面选项中，关于Tomcat存放Web应用程序需要访问的JAR包的是（）
+(1分)
+    A、bin
+    B、conf
+    C、lib
+    D、webapps
+参考答案：C
+答案说明：
+19、
+下列选项中，关于配置JAVA_HOME环境变量的具体步骤，正确的是（）
+(1分)
+    A、打开环境变量，配置path参数
+    B、打开环境变量，配置classpath参数
+    C、打开环境变量，新建JAVA_HOME参数并配置值为JDK安装目录
+    D、以上说法都不对
+参考答案：C
+答案说明：
+20、
+下面关于配置一个WEB应用的默认页面时，说法正确的是（） 
+(1分)
+    A、一个Web应用最多只能配置一个默认页面
+    B、一个Web应用最多只能配置两个默认页面
+    C、一个Web应用最多只能配置三个默认页面
+    D、一个Web应用最多只能配置三个默认页面
+参考答案：D
+答案说明：
+21、
+下列选项中，修改Tomcat端口号的文件server.xml位于哪个目录中（）
+(1分)
+    A、conf
+    B、bin
+    C、lib
+    D、work
+参考答案：A
+答案说明：
+22、
+下面选项中，在tomcat上发布javaweb应用时，默认在什么目录()
+(1分)
+    A、webapps
+    B、conf
+    C、bin
+    D、work
+参考答案：A
+答案说明：
+23、
+下面选项中，关于配置虚拟目录所需要添加的结点是（）
+(1分)
+    A、<Host>
+    B、<VirtualPath>
+    C、<Context>
+    D、<Server>
+参考答案：C
+答案说明：
+24、
+下列选项中，启动Tomcat的命令startup.bat，放在哪个目录中（）
+(1分)
+    A、bin
+    B、lib
+    C、webapps
+    D、work
+参考答案：A
+答案说明：
+25、
+下面选项中，用于存放Tomcat startup.bat和shutdown.bat文件的是（）
+(1分)
+    A、bin
+    B、conf
+    C、lib
+    D、webapps
+参考答案：A
+答案说明：
+多选题
+26、
+下列关于安装Tomcat时要先安装JDK的原因，说法正确的有（  ）（多选）
+(1分)
+    A、Tomcat作为Java程序，它的运行离不开JDK提供的Java虚拟机
+    B、Tomcat利用JDK来接收HTTP请求
+    C、Tomcat利用JDK来发送HTTP响应
+    D、Tomcat6.x以下的版本在运行时，利用JDK提供的Java编译器来动态编译JSP代码
+参考答案：A,D
+答案说明：
+27、
+关于JavaWeb应用的目录结构，下面说法正确的是（） （多选）
+(1分)
+    A、JavaWeb应用的目录结构完全由开发人员自行决定
+    B、JavaWeb应用的JSP文件只能存放在Web应用的根目录下
+    C、web.xml文件存放在WEB-INF目录下
+    D、JavaWeb应用中的.class文件存放在WEB-INF/classes目录或其子目录下
+参考答案：C,D
+答案说明：
+28、
+下面选项中，属于产生404错误的原因分析的是（） （多选）
+(1分)
+    A、<Tomcat>/webapps目录找不到所访问的web应用
+    B、访问时地址输入错误
+    C、Web应用从Tomcat中移除了
+    D、端口号被修改了，访问时还是用默认端口号
+参考答案：A,B,C,D
+答案说明：
+29、
+下面选项中，关于WEB-INF目录的组成，必须包含的是（）（多选）
+(1分)
+    A、classes目录
+    B、class目录
+    C、lib目录
+    D、jar目录
+参考答案：A,C
+答案说明：
+30、
+下面选项中，关于配置虚拟目录说法正确的是（） （多选）
+(1分)
+    A、在<Tomcat安装目录>/conf目录下的server.xml文件中进行配置
+    B、需要在<Host>元素中添加一个<Context>元素
+    C、也可以在自定义的xml文件中配置虚拟目录
+    D、以上说法都不对
+参考答案：A,B,C
+答案说明：
+31、
+下列关于JavaWeb应用的目录结构，说法正确的有（  ）（多选）
+(1分)
+    A、JavaWeb应用中的.class文件存放在WEB-INF\classes目录或其子目录下
+    B、web.xml文件存放在WEB-INF目录下
+    C、JavaWeb应用的目录结构完全有开发人员自行决定
+    D、JavaWeb应用中的JSP文件只能存放在Web应用的根目录下
+参考答案：A,B
+答案说明：
+32、
+下列关于JavaWeb应用目录结构说法正确的是 （） （多选）
+(1分)
+    A、WEB-INF下资源不能被浏览器直接访问
+    B、web.xml在classes目录下
+    C、jar包可以放到WEB-INF下lib或者classes目录
+    D、jsp文件可以放入WEB-INF下，浏览器可以间接访问到它们
+参考答案：A,D
+答案说明：
+33、
+一个用户安装了Tomcat，但无法启动Tomcat，可能是由于哪些原因引起的？（多选）
+(1分)
+    A、没有安装JDK
+    B、Tomcat与JDK的版本不匹配，例如Tomcat7推荐使用JDK7版本
+    C、没有设置JAVA_HOME系统环境变量
+    D、以上都有可能
+参考答案：A,B,C,D
+答案说明：
+34、
+一个用户安装了Tomcat，但无法启动Tomcat，可能的由于下列选项中的哪些原因引起的？（  ）（多选）
+(1分)
+    A、没有安装JDK
+    B、Tomcat与JDK的版本不匹配（例如Tomcat6.x要求使用JDK1.5或以上版本）
+    C、没有配置JAVA_HOME系统环境变量
+    D、没有安装浏览器
+参考答案：A,B,C
+答案说明：
+35、
+将web应用发布到tomcat上localhost主机，以下哪几种方式可以完成（）（多选）
+(1分)
+    A、直接将web应用部署到tomcat/webapps下
+    B、将web应用通过tomcat/conf/server.xml进行配置
+    C、创建一个xml文件，并配置web应用信息，将xml文件放置tomcat\conf\Catalina\localhost
+    D、omcat/conf/context.xml 进行配置
+参考答案：A,B,C
+答案说明：
+36、
+阅读下面配置web默认页面index.html的代码
+<welcome-file-lists>
+   <welcome-files>index.html</welcome-files>
+</welcome-file-lists>
+下面选项中，说法正确的是（） （多选）
+(1分)
+    A、第一行配置应改为<welcome-file-list>
+    B、第二行配置正确
+    C、第一行，第三行配置正确
+    D、应将第二行的开始与结束标签都改为welcome-file
+参考答案：A,D
+答案说明：
+判断题
+37、
+当访问一个Web应用程序时，如果没有指定资源名称，则会访问默认的页面。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+38、
+一个web应用下子目录的命名没有特殊规定，可以随意命名。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+39、
+JAVAEE规定了，一个web应用下子目录的命名不能随意的，其中WEB-INF目录是必须的。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+40、
+采取在servler.xml文件中配置虚拟目录，每次修改server.xml文件后，都需要重启服务器，否则修改的配置将不会生效。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+41、
+在配置一个WEB应用的默认页面时，一个WEB应用最多只能配置一个默认主页。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+42、
+配置JAVA_HOME环境变量的具体步骤为，打开环境变量，新建JAVA_HOME参数并配置值为JDK安装目录的bin目录下。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+43、
+当访问一个Web应用程序时，如果没有指定资源名称，则会出现404错误，代表找不到资源。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+单选题
+1、
+下列选择中，哪个响应头能够使客户端访问服务器资源时采用下载窗口打开？（）
+(1分)
+    A、Content-Disposition
+    B、Content-Type
+    C、Content-Encoding
+    D、Disposition
+参考答案：A
+答案说明：
+2、
+下面选项中，哪个头字段用于告知服务器，客户端所使用的字符集？（）
+(1分)
+    A、Accept-Charset
+    B、Accept
+    C、Accept-Encoding
+    D、Accept-Language
+参考答案：A
+答案说明：
+3、
+下列写法中，哪种方式可以用Get方式将参数name为youjun与pwd为123发送给服务器？（）
+(1分)
+    A、http://www.itcast.cn/javaForum&name=youjun&pwd=123
+    B、http://www.itcast.cn/javaForum!name=youjun&pwd=123
+    C、http://www.itcast.cn/javaForum?name=youjun?pwd=123
+    D、http://www.itcast.cn/javaForum?name=youjun&pwd=123
+参考答案：D
+答案说明：
+4、
+下面选项中，哪个头字段可以指定客户端使用的操作系统及版本？（）
+(1分)
+    A、Location
+    B、User-Agent
+    C、If-Modified-Since
+    D、Referer
+参考答案：B
+答案说明：
+5、
+下面选项中，表示服务器错误的状态码是（）
+(1分)
+    A、100
+    B、404
+    C、304
+    D、500
+参考答案：D
+答案说明：
+6、
+下面关于HTTP请求头消息个数的说法中，正确的是（）
+(1分)
+    A、一个HTTP请求消息中只能允许有一个请求头消息
+    B、一个HTTP请求消息中只能允许有两个请求头消息
+    C、一个HTTP请求消息中只能允许有三个请求头消息
+    D、一个HTTP请求消息中允许有若干请求头消息
+参考答案：D
+答案说明：
+7、
+下面选项中，用于指定资源所在的主机名和端口号的头字段是？（）
+(1分)
+    A、Accept-Charset
+    B、Accept
+    C、Accept-Host
+    D、Host
+参考答案：D
+答案说明：
+8、
+下面选项中，哪个头字段用于通知客户端获取请求文档的新地址？（）
+(1分)
+    A、Accept
+    B、Accept-Range
+    C、Accept-Location
+    D、Location
+参考答案：D
+答案说明：
+9、
+下面选项中，哪个头字段用于告诉浏览器自动刷新页面的时间？（）
+(1分)
+    A、Server
+    B、Accept-Location
+    C、Refresh
+    D、Accept- Refresh
+参考答案：C
+答案说明：
+10、
+Refresh能够使客户端不断刷新，其刷新的时间单位是（）
+(1分)
+    A、毫秒
+    B、分钟
+    C、秒
+    D、纳秒
+参考答案：C
+答案说明：
+11、
+下列关于 HTTP请求消息的请求行的写法中，正确的是（  ）
+(1分)
+    A、HTTP/1.1 GET /index.html
+    B、/index.html HTTP/1.1 GET
+    C、GET /index.html HTTP/1.1
+    D、GET /index.html GET
+参考答案：C
+答案说明：
+12、
+下面选项中，哪个用于指出客户端浏览器能够处理的MIME类型？（）
+(1分)
+    A、Accept-Charset
+    B、Accept
+    C、Accept-Encoding
+    D、Accept-Language
+参考答案：B
+答案说明：
+13、
+下面选项中，表示服务器上不存在客户端请求资源的状态码是（）
+(1分)
+    A、100
+    B、404
+    C、304
+    D、303
+参考答案：B
+答案说明：
+14、
+下列关于响应头和状态码的设置中，哪种方式能够实现客户端重定向？（）
+(1分)
+    A、Location与200一起使用
+    B、Location与307一起使用
+    C、Accept-Location与302一起使用
+    D、Accept-Location与307一起使用
+参考答案：B
+答案说明：
+15、
+下列选项中，哪个是HTTP请求行的各部分之间采用的分隔符？（  ）
+(1分)
+    A、空格
+    B、逗号
+    C、分号
+    D、叹号
+参考答案：A
+答案说明：
+16、
+下面选项中，用于指定客户端期望服务器返回哪个国家语言的文档的头字段是（）
+(1分)
+    A、Accept-Charset
+    B、Accept
+    C、Accept-Encoding
+    D、Accept-Language
+参考答案：D
+答案说明：
+17、
+下面选项中，代表客户端的请求成功，响应消息正常的状态码是（）
+(1分)
+    A、100
+    B、200
+    C、500
+    D、404
+参考答案：B
+答案说明：
+18、
+下面选项中，哪个头字段用于指定服务器软件产品的名称？（）
+(1分)
+    A、Server
+    B、Accept-Range
+    C、Accept-Location
+    D、Accept- Server
+参考答案：A
+答案说明：
+19、
+下列关于HTTP请求参数的说法中，正确的是（） 
+(1分)
+    A、在GET请求方式下，HTTP请求参数位于HTTP请求的正文部分
+    B、在一个HTTP请求中，只能包含一个HTTP请求参数
+    C、在POST请求方式下，HTTP请求参数位于HTTP请求的正文部分
+    D、在实际开发中，通常都会使用GET方式发送请求
+参考答案：C
+答案说明：
+20、
+下面选项中，可以实现浏览器重定向的状态码是（）
+(1分)
+    A、100
+    B、200
+    C、304
+    D、303
+参考答案：D
+答案说明：
+21、
+下面选项中，哪个用于指定多个数据的编码方式？（）
+(1分)
+    A、Accept-Encoding: gzip .compress
+    B、Accept-Encoding: gzip;compress
+    C、Accept-Encoding: gzip,compress
+    D、Accept-Encoding: gzip compress
+参考答案：C
+答案说明：
+22、
+请求行位于请求消息的第（   ）行
+(1分)
+    A、1
+    B、2
+    C、3
+    D、4
+参考答案：A
+答案说明：
+23、
+下面选项中，哪个头字段可以实现防盗链？（）
+(1分)
+    A、Location
+    B、Refresh
+    C、Referer
+    D、If-Modified-Since
+参考答案：C
+答案说明：
+24、
+下列关于post请求的说法中，正确的是（）
+(1分)
+    A、form表单的method属性设置为“POST”
+    B、form表单的method属性没有设置，采用POST方式为默认值
+    C、在<a>标签中的超链接
+    D、在浏览器的地址栏中发出的请求
+参考答案：A
+答案说明：
+25、
+下面选项中，哪个头字段可以告知服务器端是否要发送最新数据？（）
+(1分)
+    A、Location
+    B、Refresh
+    C、Referer
+    D、If-Modified-Since
+参考答案：D
+答案说明：
+26、
+下面选项中，哪个头字段用于说明服务器是否接收Range请求头字段请求资源？（）
+(1分)
+    A、Accept
+    B、Accept-Range
+    C、If-Modified-Since
+    D、Referer
+参考答案：B
+答案说明：
+27、
+下面关于http协议中get与post请求的说法中，错误的是（）
+(1分)
+    A、get方式传输数据大小有限制。
+    B、post方式传可以传输大数据
+    C、get方式会将请求信息在地址栏上显示，post不会
+    D、http协议请求方式只有get和post
+参考答案：D
+答案说明：
+28、
+下面选项中，哪个头字段能够指出当前网页在客户端或代理服务器中缓存的有效时间？（）
+(1分)
+    A、Accept
+    B、Accept-Range
+    C、Accept-Age
+    D、Age
+参考答案：D
+答案说明：
+29、
+下面选项中，能够实现客户端3秒后跳到http://www.itcast.cn主页的响应消息头是（）
+(1分)
+    A、Refresh=3;url=http://www.itcast.cn
+    B、Refresh=3;url=http://www.itcast.cn
+    C、Refresh=3,url=http://www.itcast.cn
+    D、Refresh：3;url=http://www.itcast.cn
+参考答案：D
+答案说明：
+30、
+下面选项中，当form表单中采用post提交时，Content-Type的默认取值是（）
+(1分)
+    A、application/octet-stream
+    B、multipart/form-data
+    C、application/gzip
+    D、application/x-www-form-urlencoded
+参考答案：D
+答案说明：
+31、
+下面选项中，哪个头字段用于指定客户端用什么样的数据编码方式？（）
+(1分)
+    A、Accept-Charset
+    B、Accept
+    C、Accept-Encoding
+    D、Accept-Language
+参考答案：C
+答案说明：
+32、
+下面状态码中，哪个用于表示客户端缓存的版本是最新的？（）
+(1分)
+    A、100
+    B、200
+    C、304
+    D、404
+参考答案：C
+答案说明：
+多选题
+33、
+下列选项中，哪些是 HTTP请求消息中请求行的构成部分？（  ）（多选）
+(1分)
+    A、请求方式
+    B、资源路径
+    C、所使用的HTTP协议版本
+    D、响应方式
+参考答案：A,B,C
+答案说明：
+34、
+下面关于HTML协议特点的说法中，正确的是（  ）(多选)
+(1分)
+    A、下面关于HTML协议特点的说法中，正确的是（ ）(多选)
+    B、简单快速
+    C、灵活
+    D、无状态
+参考答案：A,B,C,D
+答案说明：
+35、
+下面关于POST方式发送请求的优点，说法正确的是（）
+(1分)
+    A、POST传输数据大小无限制
+    B、POST比GET请求方式更安全
+    C、POST会将提交数据放在地址栏中
+    D、以上说法都不对
+参考答案：A,B
+答案说明：
+36、
+下面关于HTTP协议一个完整的请求消息构成包括哪些？（  ） (多选)
+(1分)
+    A、请求行
+    B、请求头
+    C、实体内容
+    D、响应内容
+参考答案：A,B,C
+答案说明：
+37、
+下面选项中，说明浏览器允许接收图片的请求消息头有哪些？（）(多选)
+(1分)
+    A、Accept: text/html
+    B、Accept: image/gif
+    C、Accept: image/*
+    D、Accept: */*
+参考答案：B,C,D
+答案说明：
+38、
+下列关于get请求的说法中，错误的是（）（多选）
+(1分)
+    A、get方式传输数据大小有限制
+    B、get方式传输数据大小没有限制
+    C、get方式会将请求信息在地址栏上显示
+    D、get方式提交数据相对安全些
+参考答案：B,D
+答案说明：
+39、
+下面关于HTML协议的说法中，正确的是（  ）(多选)
+(1分)
+    A、HTTP是Hyper Text Transfer Protocol的缩写，即超文本传输协议。
+    B、HTTP是一种请求/响应式的协议
+    C、客户端向服务器端发送一个请求，被称作HTTP请求
+    D、服务器端接收到请求后会做出响应，称为HTTP响应
+参考答案：A,B,C,D
+答案说明：
+40、
+下面关于get请求特点的说法中，正确的是（） (多选)
+(1分)
+    A、form表单的method属性设置为“GET”
+    B、form表单中method属性(默认值是GET
+    C、在<a>标签中的超链接
+    D、在浏览器的地址栏中发出的请求
+参考答案：A,B,C,D
+答案说明：
+41、
+下面关于post请求的说法中，正确的是（）（多选）
+(1分)
+    A、post方式传可以传输大数据
+    B、post方式会将请求信息在地址栏上显示
+    C、post方式不会将请求信息在地址栏上显示
+    D、post方式提交数据相对于get方式安全些
+参考答案：A,C,D
+答案说明：
+判断题
+42、
+当使用Accept-Language头字段指定多个国家的语言时，语言之间用分号分隔。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+43、
+在HTTP响应消息中，第一行为响应状态行，紧接着的是若干响应消息头，服务器端通过响应消息头向客户端传递附加信息。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+44、
+在HTTP的请求消息中，最常用的就是GET和POST方式。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+45、
+客户端向服务器请求服务时，请求方式只有GET、POST两种
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+单选题
+1、
+在XML Schema文档中，要限定一个car的元素，可接受的值只有：Audi、Golf、BMW。下面代码配置中，正确的是（  ）
+(1分)
+    A、<xs:element name="car"> <xs:simpleType> <xs:restriction base="xs:string"> <xs:enumeration value="Audi"/> <xs:enumeration value="Golf"/> <xs:enumeration value="BMW"/> </xs:restriction> </xs:simpleType> </xs:element>
+    B、<xs:element name="car"> <xs:simpleType> <xs:restriction base="xs:string"> <xs:enum value="Audi"/> <xs:enum value="Golf"/> <xs:enum value="BMW"/> </xs:restriction> </xs:simpleType> </xs:element>
+    C、<xs:element name="car"> <xs:simpleType> <xs:restriction base="xs:integer"> <xs:enumeration value="Audi"/> <xs:enumeration value="Golf"/> <xs:enumeration value="BMW"/> </xs:restriction> </xs:simpleType> </xs:element>
+    D、<xs:element name="car"> <xs:simpleType> <xs:restriction base="xs:integer"> <xs:enum value="Audi"/> <xs:enum value="Golf"/> <xs:enum value="BMW"/> </xs:restriction> </xs:simpleType> </xs:element>
+参考答案：A
+答案说明：
+2、
+下面关于使用名称空间引入XML Schema文档，正确的是（  ）
+(1分)
+    A、通过属性xsi:schemaLocation来声明名称空间的文档
+    B、通过属性xmlns:schemaLocation来声明名称空间的文档
+    C、通过属性xsi:noNamespaceSchemaLocation来声明名称空间的文档
+    D、以上说法都不正确
+参考答案：A
+答案说明：
+3、
+在XML Schema文档中，要限定一个letter的元素，要求可接受的值只能是字母a-z其中一个，正确的是（  ）
+(1分)
+    A、<xs:element name="letter"> <xs:simpleType> <xs:restrict base="xs:string"> <xs:pattern value="[a-z]"/> </xs:restrict> </xs:simpleType> </xs:element>
+    B、<xs:element name="later"> <xs:simpleType> <xs:restrict base="xs:string"> <xs:pattern value="[a-z]"/> </xs:restrict> </xs:simpleType> </xs:element>
+    C、<xs:element name="letter"> <xs:simpleType> <xs:restriction base="xs:string"> <xs:pattern value="[a-z]"/> </xs:restriction> </xs:simpleType> </xs:element>
+    D、以上说法都不正确
+参考答案：C
+答案说明：
+4、
+阅读下面XML代码片段：
+<dateborn>1980-03-27</dateborn>
+下面选项中能与之匹配的Schema是（  ）
+(1分)
+    A、<xs:element name="dateborn" type="xs: decimal"/>
+    B、<xs:element name="date" type="xs:date"/>
+    C、<xs:element name="dateborn" type="xs:date"/>
+    D、<xs:element name="dateborn" type="xs:time"/>
+参考答案：C
+答案说明：
+5、
+阅读下面XML代码片段：
+<lastname lang="EN">Smith</lastname>
+下面选项中能匹配lang属性的Schema约束是（  ）
+(1分)
+    A、<xs:attribute name="lang" type="xs:string"/>
+    B、<xs:attri name="lang" type="xs:string"/>
+    C、<xs:attribute name="lang" type="EN"/>
+    D、<xs:element name="lang" type="xs:time"/>
+参考答案：A
+答案说明：
+6、
+在XML Schema文档中，定义一个雇员的年龄时，要求是18~58周岁之间。下面代码配置中，正确的是（  ）
+(1分)
+    A、<xs:element name="age"> <xs:simpleType> <xs:restriction base="xs:integer"> <xs:minInclusive value="18"/> <xs:maxInclusive value="58"/> </xs:restriction> </xs:simpleType> </xs:element>
+    B、<xs:element name="age"> <xs:simpleType> <xs:restriction base="xs:string"> <xs:minInclusive value="18"/> <xs:maxInclusive value="58"/> </xs:restriction> </xs:simpleType> </xs:element>
+    C、<xs:element name="age"> <xs:simpleType> <xs:restriction base="xs:integer"> <xs:min value="18"/> <xs:max value="58"/> </xs:restriction> </xs:simpleType> </xs:element>
+    D、<xs:element name="age"> <xs:simpleType> <xs:restriction base="xs:string"> <xs:min value="18"/> <xs:max value="58"/> </xs:restriction> </xs:simpleType> </xs:element>
+参考答案：A
+答案说明：
+7、
+下面关于不使用名称空间引入XML Schema文档，正确的是（）
+(1分)
+    A、通过属性xsi:schemaLocation来声明名称空间的文档。
+    B、通过属性xmlns:schemaLocation来声明名称空间的文档。
+    C、通过属性xsi:noNamespaceSchemaLocation属性直接指定。
+    D、以上说法都不正确。
+参考答案：C
+答案说明：
+多选题
+8、
+阅读下面XML代码片段：
+<lastname>Smith</lastname>
+<age>28</age>
+<dateborn>1980-03-27</dateborn>
+下面选项中能与之匹配的Schema是（  ）（多选）
+(1分)
+    A、<xs:element name="lastname" type="xs:string"/>
+    B、<xs:element name="age" type="xs:integer"/>
+    C、<xs:element name="dateborn" type="xs:date"/>
+    D、<xs:element name="dateborn" type="xs:time"/>
+参考答案：A,B,C
+答案说明：
+9、
+阅读下面的Schema文档
+<?xml version=”1.0”?>
+<xs:schema xmlns:xs=”http://www.w3.org/2001/XMLSchema”>
+<xs:element name=”root”  type=”xs:string”/>
+</xs:schema>
+以下说法正确的是（  ）（多选）
+(1分)
+    A、第1行用于对XML文档进行声明
+    B、第2行中以xs:schema作为根元素，表示模式定义的开始
+    C、由于XSML中元素和属性都在http://www.w3.org/2001/XMLSchema名称空间中，因此，在根元素上必须声明该名称空间
+    D、以上说法都错误
+参考答案：A,B,C
+答案说明：
+10、
+下面关于Schema和DTD说法，正确的是（  ）
+(1分)
+    A、Schema是XML格式约束文件，扩展名为xsd
+    B、DTD支持命名空间
+    C、Schema相对于DTD的明显区别是Schema文档本身也是XML文档，而不是像DTD一样使用自成一体的语法
+    D、Schema相对于DTD来说，具有更丰富的数据类型
+参考答案：A,C,D
+答案说明：
+11、
+下面关于XML Schema约束文档中命名空间标准的描述，正确的是（  ）（多选）
+(1分)
+    A、一个XML中可以引入多个名称空间
+    B、可以使用xmlns来声明引用名称空间的前缀
+    C、引入的名称空间可以不指定前缀，即声明默认名称空间
+    D、不同的命名空间可以区分同名的元素
+参考答案：A,B,C,D
+答案说明：
+12、
+下面关于XML Schema的优点，说法正确的是（  ）
+(1分)
+    A、XML Schema采用的是XML语法格式，而且它本身也是一种XML文档，因此，XML Schema语法格式比DTD更好理解
+    B、XML Schema则采用与XML文档相同的合法性验证机制
+    C、XML Schema对名称空间支持得非常好，而DTD几乎不支持名称空间
+    D、XML Schema比XML DTD支持更多的数据类型，包括用户自定义数据类型
+参考答案：A,B,C,D
+答案说明：
+判断题
+13、
+在Schema文档中，元素定义的语法格式：<xs:element name="xxx" type="yyy"/>
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+14、
+在使用XML Schema约束文档中默认名称空间时，语法格式是：<元素xmlns="URI">
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+15、
+关于XML Schema文档，除简单类型之外的其它类型都是复杂类型。定义复杂类型，需要使用xs:complexType元素来定义。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+16、
+在XML文档中可以使用名称空间和不使用名称空间两种方式引入XML Schema文档。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+17、
+在Schema文档中，属性定义的语法格式：<xs:attri name="xxx" type="yyy"/>
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+18、
+XML Schema约束文档中声明名称空间的语法格式是：<元素名 xmlns:prefixname="URI">
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+ 1、
+下列关于XML的描述中，正确的是（ ）
+(1分)
+    A、所有的XML元素都必须是小写的
+    B、所有XML元素都必须正确地关闭
+    C、所有XML文档都必须有DTD
+    D、以上说法都正确
+参考答案：B
+答案说明：
+2、
+一个格式良好的XML文件的根元素个数是（   ）
+(1分)
+    A、1
+    B、2
+    C、3
+    D、4
+参考答案：A
+答案说明：
+3、
+以下关于XML文档声明的格式中，正确的是（）
+(1分)
+    A、<?xml version=”1.0” ?>
+    B、<? xml version=”1.0” ?>
+    C、<!xml version=”1.0” !>
+    D、<! --xml version=”1.0” --!>
+参考答案：A
+答案说明：
+4、
+对于一个XML文档，以下哪个元素的名称是正确的（ ）
+(1分)
+    A、<Note>
+    B、<phone number>
+    C、<1dollar>
+    D、以上三个都不正确
+参考答案：A
+答案说明：
+5、
+分析下面DTD文档
+<!ELEMENT doc (title?,chap+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT chap (sect+)>
+<!ELEMENT sect (para+)>
+<!ELEMENT para (#PCDATA)>
+下列xml能够通过上述DTD校验的是（  ）
+(1分)
+    A、<doc><chap><para>Text</para></chap></doc>
+    B、<doc><chap><sect><para>Text</para></sect></chap></doc>
+    C、<doc><title>Text</title></doc>
+    D、<doc><title>Text</title><sect><para>Text</para></sect></doc>
+参考答案：B
+答案说明：
+6、
+在XML文档中，一个元素可以有（ ）个属性。
+(1分)
+    A、0个
+    B、1个
+    C、0个或1个
+    D、多个
+参考答案：D
+答案说明：
+7、
+下面关于DTD中引用实体的语法格式，正确的是（  ）
+(1分)
+    A、&实体名称;
+    B、!实体名称;
+    C、?实体名称;
+    D、以上都正确
+参考答案：A
+答案说明：
+8、
+在XML文档中，以下哪个元素的定义是正确的（ ）
+(1分)
+    A、<7eleven></7eleven>
+    B、<phone number></phone number>
+    C、<img/>
+    D、<note></Note>
+参考答案：C
+答案说明：
+9、
+XML元素的属性与属性之间隔开采用的符号是（ ）
+(1分)
+    A、空格
+    B、逗号
+    C、等号
+    D、双引号或单引号
+参考答案：A
+答案说明：
+10、
+在XML编写后已经保存为GBK编码，浏览器打开后没有乱码，那么下面XML文档声明的格式中，正确的是（ ）
+(1分)
+    A、<?xml version=”1.0” encoding=”GBK” ?>
+    B、<? xml version=”1.0” encoding=”GBK” ?>
+    C、<!xml version=”1.0” encoding=”GBK” !>
+    D、<! --xml version=”1.0” encoding=”GBK” --!>
+参考答案：A
+答案说明：
+11、
+在DTD文档中，声明如下语句
+    <!ELEMENT 学生信息 (地址,成绩)>
+它所代表的含义是（  ）
+(1分)
+    A、任意子元素组成
+    B、学生信息标签由“地址”和“成绩”组成，且必须按照顺序使用
+    C、学生信息标签由“地址”或“成绩”组成
+    D、由文本组成
+参考答案：B
+答案说明：
+12、
+下列对于“圆周”元素及其属性的定义正确的是（  ）
+(1分)
+    A、<圆周 半径=5 周长=10></圆周>
+    B、<圆周 半径=5 周长=10><圆周>
+    C、<圆周 半径="5" 周长="10"><圆周>
+    D、<圆周 半径="5" 周长="10"></圆周>
+参考答案：D
+答案说明：
+13、
+对于一个XML文档，以下哪个元素的名称是错误的（ ）
+(1分)
+    A、<Note>
+    B、<h1>
+    C、<1dollar>
+    D、以上三个都不正确
+参考答案：C
+答案说明：
+多选题
+14、
+阅读下列的DTD文件
+<!ELEMENT 书架 (书+)>
+<!ELEMENT 书 (书名,作者,售价)>
+关于上述DTD，下列描述正确的是（  ）（多选）
+(1分)
+    A、在第1行中，使用<!ELEMENT …>语句定义了一个元素,其中“书架”是元素的名称
+    B、在第1行中，“(书+)”表示书架元素中有一个或者多个书元素
+    C、在第2行中，“书”是元素名称，“(书名,作者,售价)”表示元素书包含书名、作者、售价这三个子元素，并且这些子元素要按照顺序依次出现。
+    D、以上说法都正确
+参考答案：A,B,C,D
+答案说明：
+15、
+下列选项中，哪些是组成XML元素的主要部分（ ）（多选）
+(1分)
+    A、开始标记
+    B、属性
+    C、元素内容
+    D、结束标记
+参考答案：A,B,C,D
+答案说明：
+16、
+在XML文档中，下列空标记写法正确的有（ ）（多选）
+(1分)
+    A、<img></img>
+    B、</img>
+    C、<img/>
+    D、</img/>
+参考答案：A,C
+答案说明：
+17、
+阅读下列的DTD文件
+<!ELEMENT 书架 (书+)>
+<!ELEMENT 书 (书名,作者,售价)>
+<!ELEMENT 书名 (#PCDATA)>
+<!ELEMENT 作者 (#PCDATA)>
+<!ELEMENT 售价 (#PCDATA)>
+关于上述DTD，下列描述正确的是（  ）（多选）
+(1分)
+    A、在第1行中，使用<!ELEMENT …>语句定义了一个元素，其中“书架”是元素的名称
+    B、在第1行中，“(书+)”表示书架元素中有一个或者多个书元素
+    C、在第2行中，“书”是元素名称，“(书名,作者,售价)”表示元素书包含书名、作者、售价这三个子元素，并且这些子元素可以按任意顺序出现。
+    D、在第3~5行中，“书名”、“作者”和“售价”都是元素名称，“(#PCDATA)”表示元素中嵌套的内容是普通的文本字符串。
+参考答案：A,B,D
+答案说明：
+18、
+下列关于XML和HTML区别的描述中，正确的是（ ）
+(1分)
+    A、HTML中的标记是用来显示数据的，而XML中的标记用来描述数据的性质和结构。
+    B、HTML是不区分大小写的，而XML是严格区分大小写的。
+    C、HTML可以有多个根元素，而格式良好的XML有且只能有一个根元素。
+    D、HTML中，属性值的引号是可用可不用的，而XML中，属性值必须放在引号中。
+参考答案：A,B,C,D
+答案说明：
+19、
+定义一个XML文档的结构，常见的XML约束技术有（  ）（多选）
+(1分)
+    A、UML
+    B、DTD
+    C、XML Schema
+    D、Namespace
+参考答案：B,C
+答案说明：
+20、
+下列选项中，哪些是命名XML元素时应该遵守的规范（ ）（多选）
+(1分)
+    A、区分大小写，例如：<P>和<p>是两个不同的标记。
+    B、元素名称中，不能包含空格、冒号、分号、逗号和尖括号等，元素不能以数字开头。
+    C、建议名称不要以字符组合xml（或XML、或Xml等）开头。
+    D、建议名称的大小写尽量采用同一标准，要么全部大写，要么全部小写。
+参考答案：A,B,C,D
+答案说明：
+21、
+关于DTD文档中，实体定义的语法格式，正确的是（  ）（多选）
+(1分)
+    A、<!ENTITY 实体名称 "实体内容">
+    B、<?ENTITY 实体名称 "实体内容">
+    C、<!ENTITY 实体名称 SYSTEM "外部XML文档的URL">
+    D、<?ENTITY 实体名称 SYSTEM "外部XML文档的URL">
+参考答案：A,C
+答案说明：
+22、
+在DTD属性定义中，设置说明的取值可以是（  ）（多选）
+(1分)
+    A、#REQUIRED
+    B、#IMPLIED
+    C、#FIXED
+    D、默认值（和FIXED一样，但该属性的值是可以改变的）
+参考答案：A,B,C,D
+答案说明：
+23、
+在XML文档中的<!DOCTYPE dlib SYSTEM “mydtd.dtd”>语句中,关于SYSTEM的作用说法，错误的是（  ）（多选）
+(1分)
+    A、指定运行的操作系统
+    B、打开文件系统
+    C、连接本地DTD
+    D、连接公共DTD
+参考答案：A,B,D
+答案说明：
+24、
+在DTD属性定义中，属性类型的取值可以是（  ）（多选）
+(1分)
+    A、CDATA
+    B、Enumerated(枚举类型)
+    C、ID
+    D、IDREF和IDREFS
+参考答案：A,B,C,D
+答案说明：
+25、
+下列关于XML的说法中，正确的是（  ）（多选）
+(1分)
+    A、XML标记必须关闭
+    B、XML是大小写敏感的
+    C、XML文件只能跟DTD文件一起使用
+    D、XML的约束常用的有DTD与Schema两种
+参考答案：A,B,D
+答案说明：
+26、
+下列选项中，可以在XML文档中引入外部DTD文件的有（ ）（多选）
+(1分)
+    A、<!DOCTYPE 根元素名称 SYSTEM "外部DTD文件的URI">
+    B、<!DOCTYPE 根元素名称 PUBLIC "DTD名称" "外部DTD文件的URI">
+    C、<!DOCTYPE SYSTEM "外部DTD文件的URI">
+    D、以上选项均正确
+参考答案：A,B
+答案说明：
+27、
+在进行XML元素命名时，元素名称中不能包含的符号有（ ）（多选）
+(1分)
+    A、空格
+    B、冒号
+    C、分号
+    D、逗号和尖括号等
+参考答案：A,B,C,D
+答案说明：
+28、
+下列关于属性取值的说法中，正确的是（）
+(1分)
+    A、XML元素的属性取值，必须要用“”引起来，否则视为错误
+    B、XML元素的属性取值，必须要用‘’引起来
+    C、XML元素属性命名时，可以什么也不用写，直接写属性值，例如color=red
+    D、XML元素的属性取值时，必须要用?引起来
+参考答案：A,B
+答案说明：
+29、
+下列选项中，哪些是DTD定义中可以包含的（  ）（多选）
+(1分)
+    A、元素的定义
+    B、元素之间关系的定义
+    C、元素属性的定义
+    D、实体和符号的定义
+参考答案：A,B,C,D
+答案说明：
+30、
+下列选项中，哪些是DTD导入的方式（  ）（多选）
+(1分)
+    A、内部导入
+    B、外部导入 SYSTEM
+    C、公共导入 PUBLIC
+    D、自定义导入
+参考答案：A,B,C
+答案说明：
+31、
+下列选项中，哪些是XML文档声明中可以使用的属性（ ）
+(1分)
+    A、version
+    B、encoding
+    C、standalone
+    D、name
+参考答案：A,B,C
+答案说明：
+判断题
+32、
+属性是对标记进一步的描述和说明，一个标记只能有一个属性。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+33、
+XML文档声明的语法格式为：<?xml版本信息[编码信息][文档独立性信息]?
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+文档声明以符号“<?”开头，以符号“?>”结束，中间可以声明版本信息，编码信息以及文档独立性信息。
+34、
+在一个DTD文件中，可以包含元素的定义、元素之间关系的定义、元素属性的定义以及实体和符号的定义。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+35、
+在命名XML元素时，元素是不区分大小写的。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+36、
+在XML元素命名时，名称可以使用非英文字符，例如中文，但有些软件可能不支持非英文字符以外的字符，在使用时应考虑这种情况。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+37、
+XML文档中如果保存有中文字符，那么保存的文件编码格式一定要与文档声明的encoding的编码取值相同，否则将会产生中文乱码问题。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+38、
+DTD属性定义中，设置说明如果没有写则使用默认值FIXED，不同的是，该属性的值是可以改变的。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+39、
+在XML元素命名时不能包含空格、冒号、分号、逗号和尖括号等，元素可以是数字开头。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+40、
+XML元素的属性取值，必须要用双引号（“”）或者单引号（‘’）引起来，否则将被视为错误。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+41、
+参数实体语法格式为：<!ENTITY % 实体名称 "实体内容"> ，它只能被DTD文件自身使用。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+42、
+在命名XML元素时，因为它是可扩展标记，所以元素名不需要遵守任何规范，可以随意编写。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+43、
+XML文档声明时，encoding属性默认情况下使用的是GB2312编码方式。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+多选题
+1、
+在编写传智书城注册页面的时候，有如下一段代码：
+<tr>
+    <td style="text-align: right">性别：</td>
+    <td colspan="2">&nbsp;&nbsp;
+       <input type="radio" name="man" value="男" checked="true" /> 男
+       <input type="radio" name="woman" value="女" /> 女
+    </td>
+</tr>
+针对上述代码，说法错误的是（）（多选）
+(1分)
+    A、checked="true"使用错误，应该改为checked="checked"
+    B、checked="true"和checked="checked"都可以
+    C、上述代码部分可以正常将填写信息提交到后台
+    D、input标签中的value值可以为空，表单提交会传入input标签后的男和女值到后台去
+参考答案：A,C,D
+答案说明：
+两个input输入框的name属性值不一致，这样会导致注册的表单信息提交到后台后数据无法正常接收，所以type="radio"类型输入框的name属性值必须保持一样；另外使用checked="true"和checked="checked"都可以默认选中。
+2、
+以下关于在html页面中引入css、js等文件说法正确的是（）
+(1分)
+    A、对于单一的html页面中多使用嵌入式引入css样式
+    B、也可以在body标签内部引入css、js文件
+    C、建议在head部分引入css文件，在body尾部引入js文件
+    D、引入js文件方式如：<script type="text/javascript" src="js文件地址"></script>，其中type="text/javascript"属性可以不写。
+参考答案：A,B,C,D
+答案说明：
+引入CSS在head中,JS建议在body的尾部引入，这样有利于加载速度，这么做可以使得用户先看到样式 具体的操作逻辑可以等待整个网页都传输完成后再生效，有利于提高Web浏览体验啊。
+另现使用的浏览器会默认<script  src="js文件地址"></script>为js文件，可以省略，不过不建议省略。
+判断题
+3、
+在传智书城注册页面提交注册信息时会触发checkForm()方法，对整个表单中的数据进行校验，提交到后台不需要再次验证。（）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：
+实际开发后台也需要数据验证，还包括用户名唯一性验证（前端只是进行了非空校验）
+4、
+在实际开发中，开发者只需将后台数据展示在相应页面即可，无需关心前台界面中的JS代码。（）
+(1分)
+    √
+    ×
+参考答案：错
+单选题
+1、 下列JavaScript语句中，能实现单击一个按钮时弹出一个消息框的是（）。
+(1分)
+    A、<buttonvalue="鼠标响应"onClick=alert("确定")></button>
+    B、<inputtype="button"value="鼠标响应"onClick=alert("确定")>
+    C、<inputtype="button"value="鼠标响应"onChange=alert("确定")>
+    D、<buttonvalue="鼠标响应"onChange=alert("确定")></button>
+参考答案：B
+答案说明：onClick为鼠标点击事件，onChange为当元素值改变时触发的事件，在 HTML 表单中使用 input 元素来创建按钮。
+2、 认真阅读下面代码，并按要求进行作答。<script>var i=9var ii=(i>8)?100:9;alert(ii);</script>在以上语句执行后，输出的结果是（   ）
+(1分)
+    A、8
+    B、9
+    C、100
+    D、null
+参考答案：C
+答案说明：条件运算符是JavaScript中的一种特殊的三目运算符，其语法格式如下：
+操作数？结果1：结果2
+若操作数的值为true，则整个表达式的结果为“结果1”，否则为“结果2”。
+3、 分析下面的JavaScript代码 ，经过运算后m的值为（    ）。var x=11;  var y="number";  var m=x+y;
+(1分)
+    A、11number
+    B、number
+    C、11
+    D、程序报错
+参考答案：A
+答案说明：+ 运算符用于把文本值或字符串变量加起来（连接起来）。
+4、 认真阅读下面代码，并按要求进行作答。txt1="What a very";txt2="nice day";txt3=txt1+txt2;根据上述代码，txt3的运算结果是（    ）
+(1分)
+    A、Whataveryniceday
+    B、Whataveryniceday
+    C、Whatavery
+    D、niceday
+参考答案：A
+答案说明：+ 运算符用于把文本值或字符串变量加起来（连接起来）。如需把两个或多个字符串变量连接起来，可以使用 + 运算符。
+5、 下列选项中，JavaScript运算符的优先级最高的是（    ）
+(1分)
+    A、+
+    B、++
+    C、（）
+    D、==
+参考答案：C
+答案说明：JavaScript运算符均有明确的优先级与结合性，优先级较高的运算符将先于优先级较低的运算符进行运算。运算符“.、 [ ] 、（）”的优先级最高。
+6、 下列选项中，哪个 HTML 元素中可以放置 Javascript 代码？（ ）
+(1分)
+    A、<script>
+    B、<javascript>
+    C、<js>
+    D、<scripting>
+参考答案：A
+答案说明：在HTML文档中，通过<script>标签及其相关属性可以引入JavaScript代码。
+7、 网页程序设计中，运行下面的JavaScript代码，则对话框中将显示（    ）。<script language="javascript">var x=3;var y=2;var z=(x+2)/y;alert(z);</script>
+(1分)
+    A、2
+    B、2.5
+    C、5
+    D、16
+参考答案：B
+答案说明：考察运算符的优先级。
+8、 根据运算符的优先级，表达式z=2*（1+2*3）的运算结果为（    ）
+(1分)
+    A、12
+    B、14
+    C、16
+    D、18
+参考答案：B
+答案说明：JavaScript运算符均有明确的优先级与结合性，优先级较高的运算符将先于优先级较低的运算符进行运算。（）运算优先级>*运算优先级>+运算优先级，所以z=2*（1+2*3）先计算括号里面的，即z=2*7=14。
+9、 认真阅读下面代码，并按要求进行作答。y=2;z=6;x=y+z;在以上语句执行后，x 的值是（   ）
+(1分)
+    A、2
+    B、6
+    C、8
+    D、null
+参考答案：C
+答案说明：考察表达式的运算。
+10、
+下列选项中，可以在JavaScript警告框中写入 "Hello World"的是（  ）
+A.;B.;C.;D.
+(1分)
+    A、alertBox="Hello World";
+    B、msgBox("Hello World");
+    C、alert("Hello World");
+    D、alertBox("Hello World");
+参考答案：C
+答案说明：
+alert()函数主要用于弹出警示对话框，通常用于对用户进行提示。
+11、 在JavaScript中，事件处理的过程通常分为（）步。
+(1分)
+    A、2
+    B、3
+    C、4
+    D、5
+参考答案：B
+答案说明：事件处理过程一般分为1、发生事件2、启动事件处理程序3、事件处理程序作出反应。
+多选题
+12、 下列选项中，属于JavaScript中运算符的有哪些？（    ）
+(1分)
+    A、算术运算符
+    B、比较运算符
+    C、逻辑运算符
+    D、条件运算符
+参考答案：A,B,C,D
+答案说明：JavaScript中的运算符主要包括算数运算符、比较运算符、赋值运算符、逻辑运算符和条件运算符五种。
+13、 下列选项中，关于插入Javacript 脚本位置正确的是（  ）
+(1分)
+    A、<body>部分
+    B、<head>部分
+    C、<body>部分和<head>部分均可
+    D、以上都不正确
+参考答案：A,B,C
+答案说明：在HTML文档中，可以将Javacript 脚本放在<head>和</head>之间；也可以将其放在<body>和</body>之间。
+14、 下面选项中，对JavaScript语言描述正确的是（    ）。
+(1分)
+    A、JavaScript是Web页面中的一种脚本语言文字。
+    B、JavaScript用于为页面添加动态效果。
+    C、JavaScript可以替代html和css。
+    D、JavaScript语言的前身是LiveScript语言。
+参考答案：A,B,D
+答案说明：JavaScript是Web页面中的一种脚本语言，在网站建设中，HTML用于搭建页面结构，CSS用于设置页面样式，而JavaScript则用于为页面添加动态效果。JavaScript语言的前身是LiveScript语言，最初由Netscape（网景公司）的Brendan Eich（瑞登?艾克）设计，后来Netscape为了营销考虑，与Sun微系统达成协议，将其改名为JavaScript。
+判断题
+15、 在JavaScript中，运算符i++表示在使用i之前，使i的值加1；而++i表示在使用i之后，使i的值加1。（  ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：运算符i++表示在使用i之后，使i的值加1；而++i表示在使用i之前，使i的值加1。
+16、 在网站建设中，JavaScript用于搭建页面结构。(     )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：在网站建设中，HTML用于搭建页面结构，CSS用于设置页面样式，而JavaScript则用于为页面添加动态效果。
+17、 在网页建设中，运用JavaScript可以将静态页面转变成支持用户交互并响应相应事件的动态页面。(     )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：CSS采用内嵌方式，虽然与HTML在同一个文件中，但CSS集中写在HTML文档的头部，也是符合结构与表现相分离的。
+18、 在 HTML文档中引入JavaScript，有直接嵌入JavaScript脚本和链接外部JavaScript脚本两种。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：在 HTML文档中引入JavaScript有两种方式，一种是在HTML文档中直接嵌入JavaScript脚本，称为内嵌式；另一种是链接外部JavaScript脚本文件，称为外链式。
+19、 JavaScript代码只能嵌入在HTML中。(     )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：JavaScript代码可以嵌入在HTML中，也可以创建.js外部文件。
+20、 多行注释可以包含任意行数的注释文本。多行注释是以“/*”标记开始，以“*/”标记结束，中间的所有内容都为注释文本。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+21、 在HTML文档中引入JavaScript，JavaScript脚本只能放在<head>和</head>之间。（  ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：通常我们将<script></script>元素放在<head>和</head>之间；也可以将其放在<body>和</body>之间。
+22、 JavaScript不需要区分字母大小写。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：JavaScript严格区分字母大小写。
+23、 window.alert()方法可以不带上window对象，直接使用alert()方法。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：alert()函数主要用于弹出警示对话框，通常用于对用户进行提示。window.alert()方法可以不带上window对象，直接使用alert()方法。
+24、 调用事件处理程序主要分为在JavaScript中调用和在HTML中调用两种。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：调用事件处理程序的方法主要分为两种即在JavaScript中调用事件处理程序和在HTML中调用事件处理程序
+25、 JavaScript是Web上一种功能强大的编程语言，用于开发交互式的Web页面。它不需要进行编译，而是直接嵌入在HTML页面中，把静态页面转变成支持用户交互并响应事件的动态页面。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+26、 JavaScript语言通常习惯在每行代码的结尾处加上分号，来保证代码的严谨性、准确性。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+27、 JavaScript程序按照在HTML文件中出现的顺序逐行执行。如果某些代码（例如函数、全局变量等）需要在整个HTML文件中使用，最好将其放在HTML文件的<head>…</head>标记中。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+28、 在<script type="text/javascript">代码中，type属性用来指定HTML文档引用的脚本语言类型。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：type属性用来指定HTML文档引用的脚本语言类型，当type属性的值为text/javascript时，表示<script></script>元素中包含的是JavaScript脚本。
+29、 alert()函数主要用于弹出警示对话框，通常用于对用户进行提示。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：alert()函数主要用于弹出警示对话框，通常用于对用户进行提示。
+单选题
+1、 关于CSS的描述，下列说法正确的是（    ）。
+(1分)
+    A、当CSS作为独立的文件时，必须以.html为后缀名
+    B、CSS用于设置HTML页面中的文本内容、图片的外形以及版面的布局等外观显示样式。
+    C、只有独立的CSS文件才符合结构与表现分离的特点
+    D、目前流行的CSS版本为CSS3
+参考答案：B
+答案说明：CSS通常称为CSS样式或样式表，主要用于设置HTML页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局等外观显示样式。CSS采用内嵌方式，虽然与HTML在同一个文件中，但CSS集中写在HTML文档的头部，也是符合结构与表现相分离的。CSS非常灵活，既可以嵌入在HTML文档中，也可以是一个单独的外部文件，如果是独立的文件，则必须以.css为后缀名。目前最新的版本是CSS3，但是各个浏览器对它的支持不统一，所以流行的版本仍然是CSS2。
+2、
+关于内嵌式CSS样式的语法格式中，下列选项正确的是（   ）
+A.选择器{k:v; k:v; k:v;};B.选择器{k:v, k:v, k:v,};C.选择器{k,v; k,v; k,v;};D.选择器{k->v; k->v; k->v;}
+(1分)
+    A、选择器{k:v; k:v; k:v;}
+    B、选择器{k:v, k:v, k:v,}
+    C、选择器{k,v; k,v; k,v;}
+    D、选择器{k->v; k->v; k->v;}
+参考答案：A
+答案说明：
+内嵌式是将CSS代码集中写在HTML文档的<head>头部标记中，并且用<style>标记定义，其基本语法格式如下：
+<head>
+<style type="text/css">
+选择器 {属性1:属性值1; 属性2:属性值2; 属性3:属性值3;}
+</style>
+</head>
+3、 在CSS中，用于设置首行文本缩进的属性是（    ）
+(1分)
+    A、text-decoration
+    B、text-align
+    C、text-transform
+    D、text-indent
+参考答案：D
+答案说明：text-decoration属性用于设置文本的下划线，上划线，删除线等装饰效果；text-align属性用于设置文本内容的水平对齐；text-transform属性用于控制英文字符的大小写；text-indent属性用于设置首行文本的缩进。故选D。
+4、 text-transform属性用于控制英文字符的大小写。下列选项中，不属于其属性值的是（    ）。
+(1分)
+    A、capitalize
+    B、line-through
+    C、lowercase
+    D、uppercase
+参考答案：B
+答案说明：text-transform属性用于控制英文字符的大小写，其可用属性值如下：
+none：不转换（默认值）；
+capitalize：首字母大写；
+uppercase：全部字符转换为大写；
+lowercase：全部字符转换为小写；
+5、 下列有关CSS样式，说法正确的是（    ）。
+(1分)
+    A、CSS样式必须写在一对<style></style>标签内部
+    B、CSS用于设置HTML页面中的文本内容、图片的外形以及版面的布局等外观显示样式
+    C、只有外部的CSS文件才是符合结构与表现分离的特点
+    D、目前流行的CSS版本为CSS3
+参考答案：B
+答案说明：CSS通常称为CSS样式或样式表，主要用于设置HTML页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局等外观显示样式。CSS采用内嵌方式，虽然与HTML在同一个文件中，但CSS集中写在HTML文档的头部，也是符合结构与表现相分离的。目前最新的版本是CSS3，但是各个浏览器对它的支持不统一，所以流行的版本仍然是CSS2。
+6、 关于内嵌式引入CSS样式表，以下书写正确的是（     ）
+(1分)
+    A、<styletype="text/stylesheet"></style>
+    B、<styletype="text/css"></style>
+    C、<csstype="text/style"></css>
+    D、<csstype="text/stylesheet"></css>
+参考答案：B
+答案说明：内嵌式是将CSS代码集中写在HTML文档的<head>头部标记中，并且用<style>标记定义。必须设置type的属性值为“text/css”，这样浏览器才知道<style>标记包含的是CSS代码。
+7、 在CSS中，两个或多个基础选择器可以通过不同的方式进行组合。下列写法错误的是（    ）。
+(1分)
+    A、.myDiv.mySpan
+    B、myDiv.mySpan
+    C、myDiv.mySpan
+    D、.myDiv#myDiv
+参考答案：D
+答案说明：两个或多个基础选择器，可以通过不同的方式进行组合。D选项其实写法没有错，但是id选择器是唯一的，所以不加前面的.myDiv。
+8、
+为了更方便的控制网页中各种各样的字体，CSS提供了字体样式属性。下面选项中，设置字号大小书写正确的是（    ）。
+(1分)
+    A、{ font-size: 24px; }
+    B、{ font: 24px; }
+    C、{ fontSize: 24px; }
+    D、{ size: 24px; }
+参考答案：A
+答案说明：
+font-size属性用于设置字号，该属性的值可以使用相对长度单位，也可以使用绝对长度单位。
+9、 在DOM文档的树形结构中，每个节点可以有（    ）个子节点。
+(1分)
+    A、1个
+    B、2个
+    C、有且只有一个
+    D、n个（n>0）
+参考答案：D
+答案说明：一个文档的树形结构是由各种不同的节点组成的，每个节点都可以有许多的子节点。
+多选题
+10、 关于链入式CSS样式表，下面说法正确的是（    ）。
+(1分)
+    A、链入式CSS才是真正实现结构与样式分离的CSS书写方式
+    B、链入式CSS代码必须也在一对style标签内部
+    C、链入式CSS必须将所有CSS属性写在以.css为扩展名的外部样式表文件中
+    D、一个HTML页面只能链接一个CSS文件
+参考答案：A,C
+答案说明：链入式CSS必须将所有CSS属性写在以.css为扩展名的外部样式表文件中；能够真正实现结构与样式代码的分离；一个HTML页面可以通过多个<link />标记链接多个CSS样式表。
+11、 text-decoration属性用于设置文本的下划线，上划线，删除线等装饰效果，其可用属性值有（    ）
+(1分)
+    A、none
+    B、underline
+    C、overline
+    D、line-through
+参考答案：A,B,C,D
+答案说明：text-decoration属性的可用属性值有：
+none：没有装饰（正常文本默认值）。
+underline：下划线。
+overline：上划线。
+line-through：删除线。
+12、 text-align属性用于设置文本内容的水平对齐，其可用属性值有（    ）
+(1分)
+    A、left
+    B、right
+    C、center
+    D、middle
+参考答案：A,B,C
+答案说明：text-align属性用于设置文本内容的水平对齐，其可用属性值如下：
+left：左对齐（默认值）
+right：右对齐。
+center：居中对齐。
+13、 在CSS中，使用链入式引入CSS样式表，要通过设置<link />标签的（    ）属性。
+(1分)
+    A、type="text/css"
+    B、rel="stylesheet"
+    C、href=""
+    D、rel="sheetstyle"
+参考答案：A,B,C
+答案说明：链入式是将所有的样式放在一个或多个以.css为扩展名的外部样式表文件中，通过<link />标记将外部样式表文件链接到HTML文档中，其基本语法格式如下：
+<head>
+<link href="CSS文件的路径" type="text/css" rel="stylesheet" />
+</head>
+14、
+使用font-family设置字体时，以下书写正确的是（    ）
+(1分)
+    A、body{ font-family: Arial,"微软雅黑","宋体","黑体";}
+    B、body{ font-family: "微软雅黑","宋体","黑体",Arial;}
+    C、body{ font-family: "Times New Roman";}
+    D、body{ font-family: Times New Roman;}
+参考答案：A,C
+答案说明：
+font-family属性指定多个字体时，中间以逗号隔开。另外，中文字体需要加引号，英文字体一般不需要加引号，且英文字体名必须位于中文字体名之前。值得注意的，当字体名中包含空格、#、$等符号时，字体必须加英文状态下的单引号或双引号。
+15、 在DOM文档的树形结构中，下列属于文档对象节点的有哪些？（    ）
+(1分)
+    A、html
+    B、head
+    C、body
+    D、DOM
+参考答案：A,B,C
+答案说明：在DOM文档的树形结构中，“html”、“head”、“body”都表示节点，一个文档的树形结构就是由各种不同的节点组成的。
+16、
+在下面的选项中，符合CSS基础选择器的语法格式的是（    ）。
+(1分)
+    A、p{ font-size:12px;}
+    B、#myfont {font-weight:bold;}
+    C、.green{color:green; }
+    D、* { margin: 0; padding: 0; }
+参考答案：A,B,C,D
+答案说明：
+CSS基础选择器有四种，分别是标记选择器、类选择器、id选择器、通配符选择器，上面的选项均符合CSS基础选择器的语法格式。
+判断题
+17、 word-spacing属性用于定义英文单词之间的间距，对中文字符无效。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：word-spacing属性用于定义英文单词之间的间距，对中文字符无效。
+18、 CSS基础选择器仅有三种，分别是标记选择器、类选择器、id选择器。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：CSS基础选择器有4种：标记选择器、类选择器、id选择器、通配符选择器。
+19、 在文档对象节点树中，具有相同父节点的节点叫做“父节点”。（  ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：在文档对象节点树中，具有相同父节点的节点叫做“兄弟节点”。
+20、 链入式是将所有的样式放在一个或多个以.css为扩展名的外部样式表文件中，通过<link />标记将外部样式表文件链接到HTML文档中。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：CSS链入式是将所有的样式放在一个或多个以.css为扩展名的外部样式表文件中，通过<link />标记将外部样式表文件链接到HTML文档中，其基本语法格式如下：
+<head>
+<link href="CSS文件的路径" type="text/css" rel="stylesheet" />
+</head>
+21、 在CSS中，行高属性line-height是用来设置文本高度的。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：line-height属性用于设置行间距，所谓行间距就是行与行之间的距离，并不是文本的高度。
+22、 内嵌式CSS样式对网站中的所有HTML页面都有效。（  ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：内嵌式CSS样式只对其所在的HTML页面有效，对网站中的其他页面无效。
+23、 在DOM文档的树形结构中，每个节点有且只有一个子节点。（  ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：DOM将网页中文档的对象关系规划为节点层级，每个节点都可以有许多的子节点。
+24、 不可以针对不同的浏览器设置不同的CSS样式。(    )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：CSS以HTML为基础，提供了丰富的功能，如字体、颜色、背景的控制及整体排版等，而且还可以针对不同的浏览器设置不同的样式。
+25、 id选择器使用“#”进行标识，后面紧跟id名。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：id选择器使用“#”进行标识，后面紧跟id名，元素的id值是唯一的，只能对应于文档中某一个具体的元素。
+26、 内嵌式CSS样式只对其所在的HTML页面有效，因此，仅设计一个页面时可以使用内嵌式。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：内嵌式CSS样式只对其所在的HTML页面有效，因此，仅设计一个页面时可以使用内嵌式。但如果是一个网站，不建议使用这种方式。
+27、 链入式是使用频率最高，也最实用的CSS样式表，它将HTML代码与CSS代码分离为两个或多个文件，实现了结构和表现的完全分离。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：链入式是使用频率最高，也最实用的CSS样式表，它将HTML代码与CSS代码分离为两个或多个文件，实现了结构和表现的完全分离，使得网页的前期制作和后期维护都十分方便。
+28、 由于采用内嵌式引入的CSS样式写在HTML页面中，因此背离了结构与表现相分离的原则。(  )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：CSS采用内嵌方式，虽然与HTML在同一个文件中，但CSS集中写在HTML文档的头部，也是符合结构与表现相分离的。
+29、 DOM将网页中文档的对象关系规划为节点层级，各对象间的层次结构被称为节点树。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：DOM将网页中文档的对象关系规划为节点层级，构成它们之间的等级关系，这种各对象间的层次结构被称为节点树。
+30、 内嵌式是将CSS代码集中写在HTML文档的<head>头部标记中，并且用<style>标记定义。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：内嵌式是将CSS代码集中写在HTML文档的<head>头部标记中，并且用<style>标记定义。
+31、 CSS样式中的选择器严格区分大小写，属性和值可以不区分大小写。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：在CSS中，选择器必须区分大小写，属性和值可以不区分大小写。但是，按照书写习惯一般将“选择器、属性和值”都采用小写的方式。
+32、 内嵌式CSS样式用<style>标记定义，<style>标记一般位于<head>标记中<title>标记之后，也可以把它放在HTML文档的任何地方。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：内嵌式是将CSS代码集中写在HTML文档的<head>头部标记中，并且用<style>标记定义，<style>标记一般位于<head>标记中<title>标记之后，也可以把它放在HTML文档的任何地方。
+33、 链入式最大的好处是同一个CSS样式表可以被不同的HTML页面链接使用。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：链入式最大的好处是同一个CSS样式表可以被不同的HTML页面链接使用，同时一个HTML页面也可以通过多个<link />标记链接多个CSS样式表。
+34、 由于CSS内嵌式写法是将CSS样式写在HTML页面中，所以内嵌式写法是不符合结构与表现这一特点的。(     )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：CSS采用内嵌方式，虽然与HTML在同一个文件中，但CSS集中写在HTML文档的头部，也是符合结构与表现相分离的。
+35、 通配符选择器设置的样式对所有的HTML标记都生效，不管标记是否需要该样式，这样反而降低了代码的执行速度。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：实际网页开发中不建议使用通配符选择器，因为它设置的样式对所有的HTML标记都生效，不管标记是否需要该样式，这样反而降低了代码的执行速度。
+36、 text-align属性用于设置文本内容的水平对齐，可适用于所有元素。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：text-align属性用于设置文本内容的水平对齐，但仅适用于块级元素，对行内元素无效。
+37、 font-variant属性用于设置变体（字体变化），一般用于定义小型大写字母，仅对英文字符有效。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：font-variant属性仅对英文字符有效，对中文字符无效。
+38、 在链入式CSS样式中，一个HTML页面只能引入一个样式表。（  ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：链入式最大的好处是同一个CSS样式表可以被不同的HTML页面链接使用，同时一个HTML页面也可以通过多个<link />标记链接多个CSS样式表。
+39、 大多数网页都是用HTML编写网页结构和内容，版面布局、文本或图片的显示样式则使用CSS控制。(    )
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：大多数网页都是遵循Web标准开发的，即用HTML编写网页结构和内容，而相关版面布局、文本或图片的显示样式都使用CSS控制。
+40、 在链入式CSS样式中，一个HTML页面可以引入多个样式表。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：链入式最大的好处是同一个CSS样式表可以被不同的HTML页面链接使用，同时一个HTML页面也可以通过多个<link />标记链接多个CSS样式表。
+41、 font-family属性设置字体时, 中文字体需要加英文状态下的引号，英文字体一般不需要加引号。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：font-family属性用于设置字体，中文字体需要加英文状态下的引号，英文字体一般不需要加引号。
+42、 CSS非常灵活，既可以嵌入在HTML文档中，也可以是一个单独的外部文件。(     )
+(1分)
+    √
+    ×
+参考答案：对
+ 1、 下列选项中，不是<img />标记属性的是（    ）
+(1分)
+    A、src
+    B、alt
+    C、width
+    D、href
+参考答案：D
+答案说明：ABC三项都是<img />标记的属性，只有D选项不是。
+2、 在下列属性中，用来定义文本字体的是（    ）。
+(1分)
+    A、color
+    B、face
+    C、size
+    D、align
+参考答案：B
+答案说明：<font>标记常用的属性有3个分别是color为文字颜色控制属性，size为字号控制属性，face为字体控制属性，而align不是<font>标记的属性。
+3、 下列选项中，用来定义下拉列表的是（ ）。
+(1分)
+    A、<input/>
+    B、<textarea></textarea>
+    C、<select></select>
+    D、<form>
+参考答案：C
+答案说明：<select></select>用来定义下拉列表。
+4、 <img />标记链接图片的属性是（    ）
+(1分)
+    A、src
+    B、alt
+    C、width
+    D、height
+参考答案：A
+答案说明：src属性用于指定图像文件的路径和文件名，它是img标记的必需属性。
+5、 下列属性中，用于设置鼠标悬停时图像的提示文字的是哪一项？（    ）
+(1分)
+    A、title
+    B、alt
+    C、width
+    D、height
+参考答案：A
+答案说明：用于设置鼠标悬停时图像的提示文字的属性是title属性。
+6、 在下列属性中，用来定义文本字体大小的是（    ）。
+(1分)
+    A、color
+    B、face
+    C、size
+    D、align
+参考答案：C
+答案说明：在<font>标记中，color为文字颜色控制属性，size为字号控制属性，face为字体控制属性，而align不是<font>标记的属性。
+7、 下面标记中，用来显示段落的标记是（    ）。
+(1分)
+    A、<h1>
+    B、<br/>
+    C、<img/>
+    D、<p>
+参考答案：D
+答案说明：<h1>标记是标题标记，<br />是换行标记，<img />是图像标记，只有<p>是段落标记。
+8、 下列选项中，用来设置行背景颜色的是（  ）。
+(1分)
+    A、height
+    B、align
+    C、bgcolor
+    D、background
+参考答案：C
+答案说明：
+9、 下列选项中，没有对应的结束标记的是哪一项？（    ）
+(1分)
+    A、<title>
+    B、<body>
+    C、<html>
+    D、<br/>
+参考答案：D
+答案说明：
+10、 下列选项中，用来设置单元格横跨的列数的是（ ）。
+(1分)
+    A、width
+    B、bgcolor
+    C、rowspan
+    D、colspan
+参考答案：C
+答案说明：A选项用来设置单元格的宽度，B选项设置背景颜色，C选项设置单元格竖跨的行数，D选项设置单元格横跨的列数。
+11、 <form>与</form>之间的表单控件是由用户自定义的。下列选项中，不属于表单标记<form>常用属性的是（    ）。
+(1分)
+    A、action
+    B、size
+    C、method
+    D、name
+参考答案：B
+答案说明：<form>与</form>之间的表单控件是由用户自定义的，action、method和name为表单标记<form>的常用属性。
+12、 下列选项中，字号最大的是哪一项？(  )
+(1分)
+    A、<h1>
+    B、<h2>
+    C、<h3>
+    D、<h4>
+参考答案：A
+答案说明：HTML提供了6个等级的标题，即<h1>、<h2>、<h3>、<h4>、<h5>和<h6>，从<h1>到<h6>字号依次递减。
+13、 阅读下面代码：
+<tr height="80" align="center" valign="top" bgcolor="yellow">
+     <td>姓名</td>
+        <td>性别</td>
+        <td>电话</td>
+        <td>住址</td>
+</tr>
+上面这段代码表示的含义是（ ）
+(1分)
+    A、按照设置的高度显示、文本内容水平居中垂直居上且添加了背景颜色
+    B、按照设置的高度显示、文本内容水平居右垂直居上且添加了背景颜色
+    C、按照设置的高度显示、文本内容水平居中垂直居中且添加了背景颜色
+    D、按照设置的高度显示、文本内容水平居右垂直居中且添加了背景颜色
+参考答案：A
+答案说明：这一行内容按照设置的高度显示、文本内容水平居中垂直居上、且添加了背景颜色。上面通过对行标记<tr>应用属性，可以单独控制表格中一行内容的显示样式。
+14、 下列选项中，用来设置单元格背景颜色的是（ ）。
+(1分)
+    A、width
+    B、bgcolor
+    C、rowspan
+    D、colspan
+参考答案：B
+答案说明：A选项用来设置单元格的宽度，B选项设置背景颜色，C选项设置单元格竖跨的行数，D选项设置单元格横跨的列数。
+15、 关于<tr>标记的描述，下列选项中正确的是（）。
+(1分)
+    A、tr是表格中的单元格标记
+    B、tr可以单独使用
+    C、tr是表格中的行标记
+    D、tr没有属性
+参考答案：C
+答案说明：<tr>标记是表格中的行标记，不可以单独使用，可定义相应的属性。
+16、 在表格中，用于设置表格背景颜色的属性是（  ）。
+(1分)
+    A、border
+    B、cellspacing
+    C、cellpadding
+    D、background
+参考答案：D
+答案说明：在<table>标记中，background属性用于设置表格的背景颜色。
+17、 下列选项中，用来定义多行文本框的是（ ）。
+(1分)
+    A、<input/>
+    B、<textarea></textarea>
+    C、<select></select>
+    D、<form></form
+参考答案：B
+答案说明：<textarea></textarea>用来定义多行文本。
+18、 在下列属性中，用来定义文本字体颜色的是（    ）。
+(1分)
+    A、color
+    B、face
+    C、size
+    D、align
+参考答案：A
+答案说明：在<font>标记中，color为文字颜色控制属性，size为字号控制属性，face为字体控制属性，而align不是<font>标记的属性。
+19、 在表格中，用于设置表格的边框的属性是（  ）。
+(1分)
+    A、border
+    B、cellspacing
+    C、cellpadding
+    D、background
+参考答案：A
+答案说明：在<table>标记中，border属性用于设置表格的边框，默认值为0。
+多选题
+20、 下列选项中，说法正确的是（    ）。
+(1分)
+    A、在HTML中还有一种特殊的标记——注释标记
+    B、标记分为单标记和双标记
+    C、<h2/>二级标题是一个单标记
+    D、<p></p>是一个双标记
+参考答案：A,B,D
+答案说明：在HTML中还有一种特殊的标记——注释标记<!--这是一段注释-->， 在HTML中标记分为单标记和双标记，其中 <p></p>是一个双标记，同样<h2></h2>也是一个双标记。
+21、 下列选项中，属于创建表格的基本标记的是（  ）。
+(1分)
+    A、<table></table>
+    B、<tr></tr>
+    C、<td></td>
+    D、<title></title>
+参考答案：A,B,C
+答案说明：<table></table>、<tr></tr>、<td></td>是创建表格的基本标记，缺一不可。
+22、 action属性用于指定接收并处理表单数据的服务器程序的url地址，其属性值是（   ）。
+(1分)
+    A、相对路径
+    B、绝对路径
+    C、接收数据的E-mail邮箱地址
+    D、none
+参考答案：A,B,C
+答案说明：表单action属性值可以是相对路径或绝对路径，还可以为接收数据的E-mail邮箱地址。
+23、 下列选项中，属于单标记的是（    ）。
+(1分)
+    A、<hr/>
+    B、<p>
+    C、<h2/>
+    D、<br/>
+参考答案：A,D
+答案说明：单标记也称空标记，是指用一个标记符号即可完整地描述某个功能的标记。其基本语法格式如下：
+< 标记名 />  
+选项中只有A和D符合语法。
+24、 关于HTML的描述，下列说法正确的是（    ）
+(1分)
+    A、HTML是更严谨纯净的XHTML版本
+    B、HTML提供了许多标记，用于对网页内容进行描述
+    C、目前最新的HTML版本是HTML5
+    D、初期的HTML在语法上很宽松
+参考答案：B,C,D
+答案说明：XHTML是更严谨纯净的HTML版本，目的是为了实现HTML向XML的过渡。HTML提供了许多标记，如段落标记、标题标记、超链接标记、图片标记等，网页中需要定义什么内容，就用相应的HTML标记描述即可。目前最新的HTML版本是HTML5，但是由于各个浏览器对其支持不统一，所以还没有得到广泛应用。初期为了能更广泛的被大家接受，HTML在语法上很宽松，如标记不区分大小写，可以不闭合等。
+25、 下列选项中，属于“target”属性值的是（   ）
+(1分)
+    A、_double
+    B、_self
+    C、_new
+    D、_blank
+参考答案：B,D
+答案说明：target用于指定链接页面的打开方式，其取值有_self和_blank两种，其中_self为默认值，意为在原窗口中打开，_blank为在新窗口中打开。
+26、 关于列表的嵌套，下列说法正确的是（   ）。
+(1分)
+    A、无序列表中只能嵌套无序列表
+    B、有序列表中只能嵌套有序列表
+    C、无序列表和有序列表可以相互嵌套
+    D、<li>与</li>之间相当于一个容器，可以嵌套无序列表、有序列表等网页元素
+参考答案：C,D
+答案说明：本题主要考察对列表嵌套的理解。
+27、 HTML中文译为“超文本标记语言”，主要是通过HTML标记对网页中的（    ）等内容进行描述。
+(1分)
+    A、文本
+    B、图片
+    C、声音
+    D、数据
+参考答案：A,B,C
+答案说明：HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标记语言”，主要是通过HTML标记对网页中的文本、图片、声音等内容进行描述。
+28、 下列选项中，属于input控件的常用属性的是（ ）。
+(1分)
+    A、type
+    B、name
+    C、value
+    D、size
+参考答案：A,B,C,D
+答案说明：ABCD四个选项都是input控件的常用属性。
+29、 <font></font>标记可以设置的属性有（    ）。
+(1分)
+    A、color
+    B、align
+    C、size
+    D、font-family
+参考答案：A,C
+答案说明：<font>标记常用的属性有3个分别是color为文字颜色控制属性，size为字号控制属性，face为字体控制属性。
+30、 在无序列表中经常设置type属性，下列属于type属性值的是（  ）。
+(1分)
+    A、disc
+    B、circle
+    C、square
+    D、pointer
+参考答案：A,B,C
+答案说明：无序列表的常用type属性值有三个，分别是：disc、circle、square。
+31、 下列选项中，属于<td>标记属性的是（） 。
+(1分)
+    A、cospan
+    B、width
+    C、float
+    D、rowspan
+参考答案：A,B,D
+答案说明：
+32、 <font></font>标记可以设置的属性有（    ）。
+(1分)
+    A、color
+    B、align
+    C、size
+    D、font-family
+参考答案：A,C
+答案说明：<font>标记常用的属性有3个分别是color为文字颜色控制属性，size为字号控制属性，face为字体控制属性。
+33、 下列选项中，属于<td>标记属性的是（  ）。
+(1分)
+    A、width
+    B、height
+    C、colspan
+    D、rowspan
+参考答案：A,B,C,D
+答案说明：
+34、 关于<p>标记，下列说法正确的是（    ）。
+(1分)
+    A、<p>标记负责给文本添加“段落”语义
+    B、<p>标记里面可以放置<img/>标记
+    C、<p>标记里面可以放置<h3>标记
+    D、<p>标记可以嵌套使用，比如<p><p></p></p>
+参考答案：A,B
+答案说明：<p>标记是英语paragraph段落的意思，负责给文本添加段落语义。<p>标记属于文本级标记，里面只能放置文本级的元素，比如文字、图片、表单元素、超级链接、<span>标记、<b>标记、<u>标记、<i>标记等。不能放置<h1>~<h6>系列标记。并且<p>标记不能嵌套<p>标记。
+35、 下列选项中，属于<textarea>标记的必须属性的是（   ）。
+(1分)
+    A、cols
+    B、rows
+    C、value
+    D、size
+参考答案：A,B
+答案说明：cols和rows为<textarea>标记的必须属性，其中cols用来定义多行文本输入框每行中的字符数，rows用来定义多行文本输入框显示的行数，它们的取值均为正整数。
+36、 在下列标记中，可以写在<div>与</div>之间的是（    ）
+(1分)
+    A、<strong>
+    B、<h>
+    C、<p>
+    D、<span>
+参考答案：A,B,C,D
+答案说明：
+37、 关于定义无序列表的基本语法格式，以下描述正确的是（   ）
+(1分)
+    A、<ul></ul>标记用于定义无序列表。
+    B、<li></li>标记嵌套在<ul></ul>标记中，用于描述具体的列表项。
+    C、每对<ul></ul>中至少应包含一对<li></li>。
+    D、<li>不可以定义type属性，只能使用CSS样式属性代替。
+参考答案：A,B,C
+答案说明：在上面的语法中，<ul></ul>标记用于定义无序列表，<li></li>标记嵌套在<ul></ul>标记中，用于描述具体的列表项，每对<ul></ul>中至少应包含一对<li></li>。值得一提的是，<ul>和<li>都拥有type属性，用于指定列表项目符号。但通常不赞成使用无序列表的type属性，一般通过CSS样式属性替代。
+38、 下列选项中，属于单行文本框属性的是（ ）。
+(1分)
+    A、maxlength
+    B、name
+    C、value
+    D、size
+参考答案：A,B,C
+答案说明：单行文本输入框常用来输入简短的信息，如用户名、账号、证件号码等，常用的属性有name、value、maxlength。
+39、 下列关于<div>标记的描述正确的是（    ）。
+(1分)
+    A、<div>中还可以嵌套多层<div>。
+    B、<div>与</div>之间相当于一个容器，可以容纳段落、标题、图像等各种网页元素。
+    C、所有的HTML标记都可以嵌套在<div>中。
+    D、<div>可定义文档中的分区或节。
+参考答案：A,B,D
+答案说明：不是所有的HTML标记都可以嵌套在<div>中如<body>。
+40、 下列选项中，属于<table>标记属性的是（  ）。
+(1分)
+    A、border
+    B、cellspacing
+    C、cellpadding
+    D、background
+参考答案：A,B,C,D
+答案说明：以上4项都是<table>标记的常用属性。
+41、 关于<br />标记，下列说法正确的是（    ）。
+(1分)
+    A、<br/>标记和<p>标记具有相同的语义
+    B、使用换行标记<br/>的段落可以实现强制换行的效果
+    C、在代码中，可以直接通过回车来实现换行效果，从而不用使用<br/>标记
+    D、<br/>标记可以连续使用，比如<br/><br/>
+参考答案：B,D
+答案说明：在HTML中，任何的空格、换行、TAB缩进产生的空白，都将被折叠为一个空格，这个现象称为“空白折叠”现象。所以不能直接通过回车来实现换行效果。使用换行标记<br />的段落可以实现强制换行的效果，但是并没有赋予文本“段落”的语义。连续使用<br />标记是合法的。
+42、 HTML提供了许多标记，下列选项中，属于HTML标记的是（   ）
+(1分)
+    A、段落标记
+    B、标题标记
+    C、超链接标记
+    D、图片标记
+参考答案：A,B,C,D
+答案说明：HTML提供了许多标记，如段落标记、标题标记、超链接标记、图片标记等，网页中需要定义什么内容，就用相应的HTML标记描述即可。
+43、 下列选项中，属于<select>和<option>标记常用属性的是（ ）。
+(1分)
+    A、size
+    B、multiple
+    C、selected
+    D、value
+参考答案：A,B,C
+答案说明：
+44、 下列选项中，属于input控件的是（   ）。
+(1分)
+    A、单行文本输入框
+    B、单选按钮
+    C、复选框
+    D、提交按钮
+参考答案：A,B,C,D
+答案说明：Input元素的type属性可以定义单行文本输入框、单选按钮、复选框、提交按钮、重置按钮等。
+45、 关于无序列表，下列说法错误的是（）。
+(1分)
+    A、无序列表<ul>可以让列表项采用大写罗马字母表示
+    B、无序列表<ul>里面只能放置<li>，不能放其他标签
+    C、无序列表<ul>里面可以直接嵌套其他标签
+    D、无序列表<li>里面可以嵌套其他标签
+参考答案：B,D
+答案说明：无序列表<ul>，其type样式只能是 disc、circle、square三种，不能采用大写罗马字母表示。无序列表<ul>里面只能放置<li>，不能放其他标签，但是<li>里面可以放其他标签。
+46、 下列选项中，属于表单构成基本元素的是（ ）。
+(1分)
+    A、表单控件
+    B、提示信息
+    C、表单域
+    D、文本域
+参考答案：A,B,C
+答案说明：在HTML中，一个完整的表单通常由表单控件（也称为表单元素）、提示信息和表单域3个部分构成。
+47、 下列选项中，属于<tr>标记属性的是（  ）。
+(1分)
+    A、height
+    B、cellspacing
+    C、cellpadding
+    D、background
+参考答案：A,D
+答案说明：
+48、 下列<td>标记的属性中，可以用来合并单元格的是（） 。
+(1分)
+    A、col
+    B、cols
+    C、rowspan
+    D、colspan
+参考答案：C,D
+答案说明：<td>标记还拥有colspan和rowspan属性，用于对单元格进行合并
+49、 下列选项中，属于表单控件的是（ ）。
+(1分)
+    A、单行文本输入框
+    B、密码输入框
+    C、复选框
+    D、提交按钮
+参考答案：A,B,C,D
+答案说明：表单控件包含了具体的表单功能项，如单行文本输入框、密码输入框、复选框、提交按钮、重置按钮等。
+判断题
+50、 如果要合并哪些单元格就删除它们，并在预留的单元格中设置相应地colspan或rolspan值即可。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：想合并掉哪些单元格就删除他们，并在预留的单元格中设置相应地colspan或rolspan值，这个值即为预留单元格水平跨的列数或竖直跨的行数。
+51、 在定义下拉列表时，<option></option>标记必须嵌套在<select></select>标记中。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<select></select>标记用于在表单中添加一个下拉菜单，<option></option>标记嵌套在<select></select>标记中，用于定义下拉菜单中的具体选项，每对<select></select>中至少应包含一对<option></option>。
+52、 在定义下拉列表时，<optgroup>标记有一个必需属性label，用于定义具体的组名。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<optgroup></optgroup>标记用于定义选项组，必须嵌套在<select></select>标记中，一对<select></select>中通常包含多对<optgroup></optgroup>。在<optgroup>与</optgroup>之间为<option> </option>标记定义的具体选项。<optgroup>标记有一个必需属性label，用于定义具体的组名。
+53、 在HTML语言里，<td>标记中的colspan和rowspan属性用于对单元格进行合并。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<td>标记还拥有colspan和rowspan属性，用于对单元格进行合并。
+54、 在表格中，有几对<tr></tr>，就表示该表格有几行。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<tr></tr>用于定义表格中的一行，必须嵌套在<table></table>标记中，在<table></table>中包含几对<tr></tr>，就表示该表格有几行。
+55、 HTML语言主要是通过HTML标记对网页中的文本、图片、声音等内容进行描述。(   )
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标记语言”，主要是通过HTML标记对网页中的文本、图片、声音等内容进行描述。
+56、 网页中需要定义什么内容，就用相应的HTML标记描述即可。 (     )
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：HTML提供了许多标记，如段落标记、标题标记、超链接标记、图片标记等，网页中需要定义什么内容，就用相应的HTML标记描述。
+57、 表单提交后的数据处理程序由action属性指定。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：name属性用于指定表单的名称。在表单收集到信息后，需要将信息传递给服务器进行处理，action属性用于指定接收并处理表单数据的服务器程序的url地址。
+58、 当对textarea元素应用cols和rows属性时，多行文本输入框在各浏览器中的显示效果可能会有差异。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：各浏览器对cols和rows属性的理解不同，当对textarea元素应用cols和rows属性时，多行文本输入框在各浏览器中的显示效果可能会有差异。所以在实际工作中，更常用的方法是使用CSS的width和height属性来定义多行文本输入框的宽高。
+59、 在创建表单时，表单对象的名称由name属性设定。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：name属性用于指定表单的名称，以区分同一个页面中的多个表单。
+60、 在表格标记中，<table>标记用来创建一个表格。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<table></table>标记用于定义一个表格。
+61、 在定义表单时，如果不定义表单域，表单中的数据就无法传送到后台服务器。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：表单域相当于一个容器，用来容纳所有的表单控件和提示信息，可以通过它定义处理表单数据所用程序的url地址，以及数据提交到服务器的方法。如果不定义表单域，表单中的数据就无法传送到后台服务器。
+62、 在HTML中创建超链接非常简单，只需用<a></a>标记环绕需要被链接的对象即可。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：超链接虽然在网页中占有不可替代的地位，但是在HTML中创建超链接非常简单，只需用<a></a>标记环绕需要被链接的对象即可。
+63、 默认情况下图像是没有边框的，通过border属性可以为图像添加边框。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：默认情况下图像是没有边框的，通过border属性可以为图像添加边框、设置边框的宽度，但边框颜色的调整仅仅通过HTML属性是不能够实现的。
+64、 当对某一个<td>标记应用width属性设置宽度时，该列中的所有单元格均会以设置的宽度显示。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：当对某一个<td>标记应用width属性设置宽度时，该列中的所有单元格均会以设置的宽度显示。
+65、 在使用列表时，如果列表项中包含若干子列表项，就需要将列表进行嵌套。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：在使用列表时，列表项中也有可能包含若干子列表项。要想在列表项中定义子列表项就需要将列表进行嵌套。
+66、 通过vspace和hspace属性可以分别调整图像的垂直边距和水平边距。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：HTML中通过vspace和hspace属性可以分别调整图像的垂直边距和水平边距。
+67、 <hr />为单标记，用于定义一条水平线。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：单标记也称空标记，是指用一个标记符号即可完整地描述某个功能的标记。其中<hr />为单标记，用于定义一条水平线。
+68、 <filedset></filedset>标记用于为表单内容分组，其配套标记<legend></legend>，用于为各个表单组定义名称。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：在表单中<filedset></filedset>标记用于为表单内容分组，他有一个配套标记<legend></legend>，用于为各个表单组定义名称。
+69、 在定义下拉列表时，<optgroup></optgroup>标记用于定义选项组，必须嵌套在<select></select>标记中。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<optgroup></optgroup>标记用于定义选项组，必须嵌套在<select></select>标记中，一对<select></select>中通常包含多对<optgroup></optgroup>。在<optgroup>与</optgroup>之间为<option> </option>标记定义的具体选项。
+70、 代码“<td rowspan="3">海淀区</td>”表示的意思是将三行合并为一行。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：rowspan用来设置单元格竖跨的行数（用于合并竖直方向的单元格）。
+71、 在HTML中，<form></form>标记用于定义表单域，即创建一个表单，以实现用户信息的收集和传递。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<form></form>标记被用于定义表单域，即创建一个表单。
+72、 在HTML中使用注释标记时，注释内容不会显示在浏览器窗口中。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：注释内容不会显示在浏览器窗口中，但是作为HTML文档内容的一部分，也会被下载到用户的计算机上，查看源代码时就可以看到。
+73、 在表格中，可以对<tr>标记应用align属性，用于设置一行内容的垂直对齐方式。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：可以对<tr>标记应用valign属性，用于设置一行内容的垂直对齐方式。
+74、 无序列表、有序列表和项目列表之间不能相互嵌套。(  )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<li>与</li>以及<dd>与</dd>之间相当于一个容器，可以嵌套无序列表、有序列表、定义列表等所有的网页元素。
+75、 action的属性值可以是相对路径或绝对路径，还可以为接收数据的E-mail邮箱地址。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：表单域相当于一个容器，用来容纳所有的表单控件和提示信息，可以通过他定义处理表单数据所用程序的url地址，以及数据提交到服务器的方法。如果不定义表单域，表单中的数据就无法传送到后台服务器。
+76、 <font>标记可以用来控制网页中文本的字体、字号、对齐方式和颜色。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<font>标记可以用来控制网页中文本的字体、字号和颜色，但是不可以控制对齐方式。
+77、 在表格中，一对<tr></tr>中包含几对<td></td>，就表示该行中有多少个单元格。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：一对<tr></tr>中包含几对<td></td>，就表示该行中有多少列（或多少个单元格）。
+78、 在表格中，<tr>标记无宽度属性width，其宽度取决于表格标记<table>。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<tr>标记无宽度属性width，其宽度取决于表格标记<table>。
+79、 一个HTML文档只能含有一对<body>标记，且<body>标记必须在<html>标记内。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：暂无解析
+80、 设置访问前超链接的样式，需要为<a>标签添加链接伪类样式：a:visited。(     )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：CSS中，通过链接伪类可以实现不同的链接状态，主要有四种：
+a:link{ CSS样式规则;}表示：未访问时超链接的状态
+a:visited{ CSS样式规则;}表示：访问后超链接的状态
+a:hover{ CSS样式规则;}表示：鼠标经过、悬停时超链接的状态
+a: active{ CSS样式规则;}表示：鼠标点击不动时超链接的状态
+81、 无序列表的列表项<li></li>中只能嵌套无序列表。(   )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<li>与</li>之间相当于一个容器，可以嵌套无序列表、有序列表、定义列表以及其他的HTML标记，例如段落标记p，图像标记img等。
+82、 在表格中，<td>标记用于定义单元格，且必须嵌套在<tr></tr>标记中。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<td></td>用于定义表格中的单元格，必须嵌套在<tr></tr>标记中。
+83、 超链接是指从一个网页指向一个目标的连接关系。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：所谓的超链接是指从一个网页指向一个目标的连接关系，这个目标可以是另一个网页，也可以是相同网页上的不同位置，还可以是一个图片，一个电子邮件地址，一个文件，甚至是一个应用程序。
+84、 <div> 是一个块级元素。（    ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+85、 在表格标记中，<tr>用于定义表格中的一行，可以脱离<table></table>标记而存在。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<tr></tr>标记用于定义表格中的一行，必须嵌套在<table></table>标记中。
+86、 <div>标记是一个区块容器标记，可以将网页分割为独立的、不同的部分，以实现网页的规划和布局。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+87、 将列表进行嵌套的方法是在其子列表项中插入要嵌套的列表。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：将列表进行嵌套的方法是在其子列表项中插入要嵌套的列表。
+88、 在超链接中，当target取值为“_self”，意为在原窗口中打开链接页面。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：target用于指定链接页面的打开方式，其取值有_self和_blank两种，其中_self为默认值，意为在原窗口中打开，_blank为在新窗口中打开。
+89、 在超链接中“href”属性用于指定链接页面的打开方式。（   ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：在超链接中“target”用于指定链接页面的打开方式，其取值有_self和_blank两种，其中_self为默认值，意为在原窗口中打开，_blank为在新窗口中打开。
+90、 <div>中还可以嵌套多层<div>。（    ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+91、 在HTML语言中，常用的列表有三种，分别为无序列表、有序列表和定义列表。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：为了满足网页排版的需求，HTML语言提供了3种常用的列表，分别为无序列表、有序列表和定义列表。
+92、 在超链接中，如果暂时没有确定链接目标，通常将<a>标记的href属性值定义为“*”。（   ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：在超链接中，如果暂时没有确定链接目标时，通常将<a>标记的href属性值定义为“#”(即href="#")，表示该链接暂时为一个空链接。
+93、 在表格中，valign属性用来设置一行内容的水平对齐方式。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：valign属性用来设置一行内容的垂直对齐方式。
+94、 在定义单选按钮时，必须为同一组中的选项指定相同的name值，这样“单选”才会生效。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：单选按钮用于单项选择，如选择性别、是否操作等。需要注意的是，在定义单选按钮时，必须为同一组中的选项指定相同的name值，这样“单选”才会生效。此外，可以对单选按钮应用checked属性，指定默认选中项。
+95、 在无序列表中，不定义type属性时，就不会显示列表项目符号。（   ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：在无序列表中，不定义type属性时，列表项目符号显示为默认的“●”，为<ul>或<li>定义type属性时，列表项目符号则按相应的样式显示。
+96、 <p>标记中，可以插入<h1>~<h6>系列标记。(  )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<p>标记属于文本级标记，里面只能放置文本级的元素，比如文字、图片、表单元素、超级链接、<span>标记、<b>标记、<u>标记、<i>标记等。不能放置<h1>~<h6>系列标记。
+97、 在input控件中，当type值为text时，表示的是单行文本输入框。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：单行文本输入框的语法格式为<input type="text" />。
+98、 在表单控件中，对复选框应用checked属性，指定默认选中项。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：复选框常用于多项选择，如选择兴趣、爱好等，可对其应用checked属性，指定默认选中项。
+99、 一个HTML文档中，可以有多个<h1>标记。(  )
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：<h1>标记是“主标题”标记，一个HTML文档中只能出现一次。值得一提的是，搜索引擎对<h1>标记的权重很高，所以为页面添加合适、准确的<h1>标记是非常利于SEO的。一些有经验的工程师，还会将网页的logo使用<h1>标记进行制作。
+100、 在<textarea>表单控件中，rows用来定义多行文本输入框显示的行数。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：cols用来定义多行文本输入框每行中的字符数，rows用来定义多行文本输入框显示的行数，它们的取值均为正整数。
+101、 页面中的信息，必须放在相应的单标记与双标记中，才能被浏览器正确解析。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：不同标记描述的内容在浏览器中的显示效果是不一样的。页面中的信息，必须放在相应的单标记与双标记中，才能被浏览器正确解析。
+102、 在表单中，name属性用于指定表单的名称，以区分同一个页面中的多个表单。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：name属性用于指定表单的名称，以区分同一个页面中的多个表单。
+103、 目前最新的HTML版本是HTML5，但是由于各个浏览器对其支持不统一，所以还没有得到广泛应用。 (     )
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：目前最新的HTML版本是HTML5，但是由于各个浏览器对其支持不统一，所以还没有得到广泛应用。
+104、 无序列表的各个列表项之间，虽然没有顺序级别之分，但是存在主从关系。（   ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：无序列表是网页中最常用的列表，之所以称为“无序列表”，是因为其各个列表项之间没有顺序级别之分，通常是并列的，并不存在主导从属的关系。
+105、 列表的嵌套通常是指有序列表和无序列表的嵌套，因此定义列表不能用在列表的嵌套中。（   ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：列表的嵌套通常是指有序列表和无序列表的嵌套，但定义列表也可以用于列表的嵌套，并且复合W3C的标准。
+106、 可以通过表单域定义处理表单数据所用程序的url地址，以及数据提交到服务器的方法。(     )
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：表单域可以定义处理表单数据所用程序的url地址，以及数据提交到服务器的方法。
+107、 h1标记属于双标记。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：双标记也称体标记，是指由开始和结束两个标记符组成的标记。<h1>表示一个标题标记的开始，而</h1>表示一个标题标记的结束，所以<h1>是双标记。
+108、 在<font>标记中，size可以取到的值为1~8。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：在<font>标记中，size可以取到的值为1~7，且为整数值。
+109、 在<textarea>表单控件中，rows用来定义多行文本输入框每行中的字符数。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：cols用来定义多行文本输入框每行中的字符数，rows用来定义多行文本输入框显示的行数，它们的取值均为正整数。
+110、 在无序列表中，子列表项<li>与</li>之间相当于一个容器，可以容纳所有的元素。（   ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<li>与</li>之间相当于一个容器，可以容纳所有的元素。但是<ul></ul>中只能嵌套<li></li>，直接在<ul></ul>标记中输入文字的做法是不被允许的。
+111、 HTML中注释标记的基本语法是<!-- 注释语句 -->。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：注释标记的基本语法是<!-- 注释语句 -->。注释内容不会显示在浏览器窗口中，但是作为HTML文档内容的一部分，也会被下载到用户的计算机上，查看源代码时就可以看到。
+112、 使用回车键换行的段落可以实现强制换行的效果。
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：使用回车键换行的段落在浏览器实际显示效果中并没有换行，只是多出了一个字符的空白，而使用换行标记<br />的段落却实现了强制换行的效果。
+113、 在进行列表嵌套时，无序列表中只能嵌套无序列表。（   ）
+(1分)
+    √
+    ×
+参考答案：错
+答案说明：不同种类的列表之间可以相互嵌套。
+114、 在HTML页面中，带有“< >”符号的元素被称为单标记与双标记。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：
+115、 如果不给<img />标记设置宽和高，图片就会按照他的原始尺寸显示。（  ）
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：通常情况下，如果不给<img />标记设置宽和高，图片就会按照他的原始尺寸显示，当然也可以手动更改图片的大小。
+116、 <p>是HTML文档中最常见的标记，文本在一个段落中会根据浏览器窗口的大小自动换行。
+(1分)
+    √
+    ×
+参考答案：对
+答案说明：<p>是HTML文档中最常见的标记，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。
+117、 通过对<tr>标记应用属性，可以对表格中的某一个单元格进行控制。
+(1分)
+    √
+    ×
+参考答案：错

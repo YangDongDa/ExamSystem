@@ -1,0 +1,97 @@
+1、下面选项中，用于设置当前HttpSession对象可空闲的以秒为单位的最长时间的方法是（）
+
+    A、request. setMaxInactiveInterval ();
+    B、request. getCreationTime();
+    C、response. setMaxInactiveInterval ();
+    D、session. setMaxInactiveInterval ();
+参考答案：D
+2、下面 pageContext对象的作用范围值中，表示Web应用程序范围的是（）
+
+    A、PAGE_SCOPE
+    B、REQUEST_SCOPE
+    C、SESSION_SCOPE
+    D、APPLICATION_SCOPE
+参考答案：D
+3、下列选项中，用来设置单元格背景颜色的是（ ）。
+
+    A、width
+    B、bgcolor
+    C、rowspan
+    D、colspan
+参考答案：B
+4、下面选项中，哪个方法用于设置Cookie的有效路径（）
+
+    A、String setPath(String uri)
+    B、void setPath(String uri)
+    C、void setDomain(String uri)
+    D、String setDomain(String uri)
+参考答案：B
+5、下面选项中关于请求包含include()方法的参数，正确的是（  ）
+
+    A、依次为ServletRequest和ServletResponse两个
+    B、依次为ServletResponse和ServletRequest两个
+    C、只有ServletRequest
+    D、只有ServletResponse
+参考答案：A
+6、在DTD文档中，声明如下语句
+
+        <!ELEMENT 学生信息 (地址,成绩)>
+    它所代表的含义是（  ）
+    A、任意子元素组成
+    B、学生信息标签由“地址”和“成绩”组成，且必须按照顺序使用
+    C、学生信息标签由“地址”或“成绩”组成
+    D、由文本组成
+参考答案：B
+7、当Servlet发送响应消息时，需要在响应消息中设置（  ）
+
+    A、验证码
+    B、状态码
+    C、错误码
+    D、MD5密码
+参考答案：B
+8、下面选项中，关于Cookie的说法正确的是（）
+
+    A、Cookie一旦创建，名称和对应的值都不能更改
+    B、Cookie一旦创建，名称和对应的值都可以更改
+    C、Cookie一旦创建，名称不能更改，但值可以更改
+    D、Cookie一旦创建，名称可以更改，但值不能更改
+参考答案：C
+9、下列关于JavaWeb应用的目录结构，说法正确的有（  ）（多选）
+
+    A、JavaWeb应用中的.class文件存放在WEB-INF\classes目录或其子目录下
+    B、web.xml文件存放在WEB-INF目录下
+    C、JavaWeb应用的目录结构完全有开发人员自行决定
+    D、JavaWeb应用中的JSP文件只能存放在Web应用的根目录下
+参考答案：A,B
+10、关于CSS的描述，下列说法正确的是（    ）。
+
+    A、当CSS作为独立的文件时，必须以.html为后缀名
+    B、CSS用于设置HTML页面中的文本内容、图片的外形以及版面的布局等外观显示样式。
+    C、只有独立的CSS文件才符合结构与表现分离的特点
+    D、目前流行的CSS版本为CSS3
+参考答案：B
+11、在传智书城注册页面提交注册信息时会触发checkForm()方法，对整个表单中的数据进行校验，提交到后台不需要再次验证。（）
+
+    √
+    ×
+参考答案：错
+12、一个<servlet-mapping>元素下配置多个<url-pattern>子元素能实现Servlet的多重映射。
+
+    √
+    ×
+参考答案：对
+13、getIntHeader(String name) 方法，如果获取到的头字段的值不能转为int类型，将发生NumberFormatException异常。
+
+    √
+    ×
+参考答案：对
+14、HttpServletResponse接口的getDateHeader(String name)方法，返回结果是自1970年1月1日0点0分0秒算起的以毫秒为单位的时间值。
+
+    √
+    ×
+参考答案：对
+15、<font>标记可以用来控制网页中文本的字体、字号、对齐方式和颜色。
+
+    √
+    ×
+参考答案：错

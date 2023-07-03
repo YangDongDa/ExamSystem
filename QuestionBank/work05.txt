@@ -1,0 +1,104 @@
+1、下列关于请求与包含，说法正确的是（  ）（多选）
+
+    A、请求转发和请求包含都是服务器端技术，与浏览器没有任何关系
+    B、请求包含可以实现将多个资源的数据合并后输出
+    C、利用好请求包含，可以将多个输出内容中相同的部分提取出来，方便开发
+    D、请求包含只能包含动态web资源，不能包含HTML文件
+参考答案：A,B,C
+2、下列有关CSS样式，说法正确的是（    ）。
+
+    A、CSS样式必须写在一对<style></style>标签内部
+    B、CSS用于设置HTML页面中的文本内容、图片的外形以及版面的布局等外观显示样式
+    C、只有外部的CSS文件才是符合结构与表现分离的特点
+    D、目前流行的CSS版本为CSS3
+参考答案：B
+3、下列选项中，属于URL重写的方法是（）  （多选）
+
+    A、encodeURL(String url)
+    B、encodeRedirectURL(String url)
+    C、encodeForwardURL(String url)
+    D、encodeRedirect (String url)
+参考答案：A,B
+4、下列选项中，属于<td>标记属性的是（  ）。
+
+    A、width
+    B、height
+    C、colspan
+    D、rowspan
+参考答案：A,B,C,D
+5、RequestDispatcher接口中，用于将请求从一个Servlet传递给另外的一个Web资源的方法是（  ）
+
+    A、forward(ServletResponse response，ServletRequest request)
+    B、include(ServletRequest request，ServletResponse response)
+    C、forward(ServletRequest request，ServletResponse response)
+    D、include(ServletResponse response，ServletRequest request)
+参考答案：C
+6、下面=关于request. setCharacterEncoding()方法的描述中，正确的是（  ） 
+
+    A、设置request对象的解码方式只对get请求方式有效
+    B、设置request对象的解码方式只对post请求方式有效
+    C、设置request对象的解码方式对get与post请求方式有效
+    D、设置request对象的解码方式只对get请求方式有效
+参考答案：B
+7、下面关于配置Web应用的缺省Servlet的说法中，正确的是（）
+
+    A、可以将Servlet的映射路径配置为\
+    B、可以将Servlet的映射路径配置为/
+    C、可以将Servlet的映射路径配置为\
+    D、可以将Servlet的映射路径配置为//
+参考答案：B
+8、给定一个Servlet的代码片段如下所示：
+
+    public void doGet(HttpServletRequest request,
+     HttpServletResponse response) throws ServletException, IOException{
+             String str = "world";
+             HttpSession session = request.getSession();
+             session.setAttribute("str", str);
+             ___________________
+    }       
+    要取出session中的值，下划线处的代码可以是（） （多选）
+    A、String s = session.getParameter("str");
+    B、String s = (String)session.getAttribute("str");
+    C、Object o = session.getAttribute("str");
+    D、Object o = (Object)session.getParameter("str");
+参考答案：B,C
+9、HttpServletResponse接口中用于设置编码的方法的优先权最高的是（）
+
+    A、addHeader()
+    B、setContetType()
+    C、setLoacale()
+    D、setCharacterEncoding()
+参考答案：D
+10、下列选项中，属于<td>标记属性的是（） 。
+
+    A、cospan
+    B、width
+    C、float
+    D、rowspan
+参考答案：A,B,D
+11、如果请求消息中没有包含指定名称的参数，则getParameter()方法返回null。
+
+    √
+    ×
+参考答案：对
+12、设置访问前超链接的样式，需要为<a>标签添加链接伪类样式：a:visited。(     )
+
+    √
+    ×
+参考答案：错
+13、在HTTP响应消息中，第一行为响应状态行，紧接着的是若干响应消息头，服务器端通过响应消息头向客户端传递附加信息。
+
+    √
+    ×
+参考答案：对
+14、Sun公司制定了一套JSTL标准标签库，它的英文全称是JavaServer Pages Standard Tag Library。
+
+    A、对   B、错
+    √
+    ×
+参考答案：对
+15、服务器向客户端发送Cookie时，会在HTTP响应头字段中增加Set-Cookie响应头字段。
+
+    √
+    ×
+参考答案：对
